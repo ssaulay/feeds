@@ -39,13 +39,55 @@ Pipeline proposé (1× par jour suffit vu le volume) :
    committé dans le repo.
 2. **Résolution des liens** — suivre les `t.co`, télécharger le contenu des pages
    liées (readability → markdown). Prévoir un fallback (certains sites bloquent les bots).
-3. **Extraction de savoir** — un appel Claude API par bookmark : résumé, idées clés,
-   tags/thèmes, citations, liens vers notes existantes. Sortie structurée (JSON → markdown).
-4. **Stockage** — un fichier markdown par bookmark dans `knowledge/YYYY/`,
-   avec frontmatter (auteur, date, URL, tags). Un index par thème régénéré à chaque run.
-   Le repo git **est** la bibliothèque : versionnée, greppable, lisible par Claude Code.
+3. **Extraction + consolidation** — un appel Claude API par bookmark : résumé,
+   idées clés, tags (vocabulaire contrôlé), citations. Puis mise à jour des notes
+   de synthèse concernées (voir structure ci-dessous).
+4. **Stockage** — voir « Structure de stockage » ci-dessous.
 5. **Planification** — GitHub Action cron quotidienne (ou une Routine Claude Code
    si tu veux que l'extraction soit agentique plutôt qu'un simple appel API).
+
+### Structure de stockage (révisée après challenge)
+
+La première version (`knowledge/YYYY/` + un fichier par bookmark + index par thème)
+était une structure d'**archive**, pas de **bibliothèque** : des résumés isolés et
+figés qui s'empilent sans jamais se consolider. Version retenue — deux couches,
+inspirée d'un Zettelkasten simplifié :
+
+```
+sources/2026/1943012345-titre-court.md   # IMMUABLE : 1 note par bookmark
+notes/prompt-engineering.md              # VIVANTE : synthèse par thème, mise à jour
+taxonomy.yaml                            # vocabulaire de tags contrôlé
+indexes/                                 # dérivés, régénérés (tri déterministe)
+state/seen_ids.json                      # état du pipeline (déduplication)
+```
+
+Principes, avec la justification long terme :
+
+- **Deux couches sources/notes.** `sources/` capture le fait brut (post, auteur,
+  date, extraction) et n'est plus jamais modifié. `notes/` contient des notes de
+  synthèse par thème que le pipeline *met à jour* à chaque nouvel apport (intégrer,
+  dédupliquer, signaler les contradictions), avec liens vers les sources. C'est la
+  couche qui capitalise : dix bookmarks sur un sujet → une compréhension consolidée,
+  pas dix fiches redondantes.
+- **Répertoire plat, date en métadonnée.** On cherche « ce que je sais sur X »,
+  jamais « ce que j'ai bookmarké en 2026 ». La date vit dans le frontmatter ; les
+  regroupements (par tag, par période) sont des index dérivés. Pas de dossiers par
+  thème non plus : un contenu chevauche toujours deux thèmes et la taxonomie évolue.
+- **Vocabulaire de tags contrôlé.** Tags libres générés par LLM = divergence garantie
+  (`ia`/`AI`/`llm`/`genai` en six mois). L'extracteur choisit dans `taxonomy.yaml` ;
+  les nouveaux tags sont *proposés* dans un champ séparé et validés manuellement.
+- **Archivage anti link rot.** Les posts se suppriment, les articles liés
+  disparaissent. Le texte extrait des liens (readability → markdown) est archivé
+  dans la note source. À long terme c'est la partie la plus précieuse du repo.
+- **Noms de fichiers stables** basés sur l'ID du tweet — jamais de renommage, les
+  liens internes survivent. Index régénérés avec tri déterministe pour éviter le
+  bruit de diff à chaque run.
+- **Pas de base vectorielle pour l'instant.** À quelques posts/jour, grep + tags
+  suffisent pendant des années. Un index sémantique pourra être ajouté plus tard
+  comme artefact *dérivé* — jamais comme source de vérité.
+
+Markdown + git restent la source de vérité : format le plus durable (portable,
+diffable, lisible par un humain, Obsidian ou n'importe quel agent).
 
 ### Où le MCP officiel a sa place
 
@@ -73,6 +115,12 @@ Si tu préfères consulter la bibliothèque hors du repo, l'étape 4 peut écrir
 une base Notion (une page par bookmark, propriétés = tags/date/source) via l'API ou
 le MCP Notion. Reco : garder le markdown dans git comme source de vérité et pousser
 vers Notion en miroir — ça évite de dépendre d'un seul outil.
+
+## Historique des décisions
+
+- **2026-07-10** — Structure de stockage révisée : abandon de `knowledge/YYYY/`
+  (archive chronologique) au profit du modèle deux couches `sources/` + `notes/`
+  avec taxonomie contrôlée et archivage du contenu lié (voir section dédiée).
 
 ## Coûts estimés (5 bookmarks/jour)
 
