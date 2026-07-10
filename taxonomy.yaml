@@ -1,0 +1,19 @@
+# Vocabulaire de tags contrôlé.
+# L'extracteur DOIT choisir dans cette liste ; les nouveaux tags qu'il suggère
+# arrivent dans le frontmatter `proposed_tags` des notes sources — les valider
+# ici manuellement avant qu'ils deviennent utilisables.
+tags:
+  - ai-agents
+  - llm
+  - prompt-engineering
+  - dev-tools
+  - engineering
+  - product
+  - marketing
+  - growth
+  - data
+  - design
+  - startup
+  - management
+  - productivity
+  - misc

@@ -1,0 +1,48 @@
+name: Ingestion des bookmarks
+
+on:
+  schedule:
+    - cron: "17 6 * * *" # tous les jours à 06:17 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Fetch + extraction
+        env:
+          X_CLIENT_ID: ${{ secrets.X_CLIENT_ID }}
+          X_CLIENT_SECRET: ${{ secrets.X_CLIENT_SECRET }}
+          TOKEN_ENC_KEY: ${{ secrets.TOKEN_ENC_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -m pipeline.main
+
+      # Le token X tourne à chaque refresh : state/token.enc doit être
+      # recommitté même quand aucun bookmark n'est nouveau.
+      - name: Commit des nouvelles notes
+        run: |
+          git config user.name "feeds-bot"
+          git config user.email "feeds-bot@users.noreply.github.com"
+          git add sources notes indexes state
+          if git diff --cached --quiet; then
+            echo "Rien de nouveau."
+          else
+            git commit -m "Ingestion bookmarks $(date -u +%F)"
+            git push
+          fi
