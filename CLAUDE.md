@@ -32,7 +32,11 @@ Documents de référence :
 
 ## État du code
 
-Pipeline bootstrappé et testé hors réseau (`python -m unittest tests.test_smoke`) :
+**Pipeline en production depuis le 2026-07-13** : autorisé, testé en local, et
+validé en CI de bout en bout (run `workflow_dispatch` → 38 notes sources + 13
+notes de synthèse committées par la CI). Cron quotidienne active.
+
+Composants (testés hors réseau via `.venv/bin/python -m unittest tests.test_smoke`) :
 - `pipeline/x_client.py` — OAuth2 + refresh, fetch bookmarks (1 page de 50, dédup en aval)
 - `pipeline/resolve.py` — liens sortants (expanded_url, liens X internes filtrés),
   extraction de contenu via trafilatura, cap 20k chars
@@ -47,21 +51,19 @@ Pipeline bootstrappé et testé hors réseau (`python -m unittest tests.test_smo
 
 ## Où on en est / prochaines étapes
 
-1. ✅ App développeur X créée (confidential, callback `http://localhost:8484/callback`)
-2. ✅ Autorisation OAuth faite : `state/token.enc` écrit, `TOKEN_ENC_KEY` dans `.env`,
-   appel réel `/users/me` + bookmarks validé (`@ssaulay`). **Env : venv 3.12
-   obligatoire (`.venv/bin/python`), pas `python3` (=3.9, casse le code).**
-3. ✅ Premier run local (`--limit 2`) : 3 notes sources + synthèse `ai-agents.md`
-   produites et validées. A révélé et corrigé un bug : le modèle renvoie parfois
-   un bloc *thinking* avant le texte → on cherche le bloc `type=="text"`
-   (`extract.py` + `notes.py`) au lieu de `content[0].text`.
-   ⬜ Reste à committer le code + les notes + `state/`.
-4. ⬜ Secrets GitHub : `X_CLIENT_ID`, `X_CLIENT_SECRET` (client confidentiel),
-   `TOKEN_ENC_KEY`, `ANTHROPIC_API_KEY`
-5. ⬜ Merger la branche `claude/pinned-tweets-knowledge-tool-0bv44t` sur la
-   branche par défaut (les crons GitHub ne tournent que dessus)
-6. ⬜ Itérer sur la qualité : prompts d'extraction/consolidation, taxonomie de
-   départ à ajuster aux vrais bookmarks
+Bootstrap terminé (app X, OAuth, secrets GitHub, CI validée — la branche
+`claude/pinned-tweets-knowledge-tool-0bv44t` EST la branche par défaut). Reste :
+
+1. ⬜ **Surveiller le 1er refresh de token en prod** : la cron de demain 06:17 UTC
+   sera le premier run où l'access token a expiré → refresh + rotation +
+   recommit de `state/token.enc` par la CI. Chemin pas encore exercé en réel.
+   Après un run local, toujours `git pull` avant le suivant (token rotatif).
+2. ⬜ **Itérer sur la qualité** : prompts d'extraction/consolidation, taxonomie
+   à ajuster aux vrais bookmarks (beaucoup de contenus liés X internes non
+   résolus → notes « contenu non accessible » ; voir si on veut mieux gérer).
+3. ⬜ Nettoyer les notes de test si besoin (les 38 sources sont de vrais bookmarks).
+
+**Env local** : venv 3.12 obligatoire (`.venv/bin/python`), jamais `python3` (=3.9).
 
 ## Conventions
 
