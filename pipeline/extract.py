@@ -75,4 +75,9 @@ def extract_knowledge(cfg, tweet: dict, text: str, links: list[dict],
         max_tokens=2000,
         messages=[{"role": "user", "content": prompt}],
     )
-    return _sanitize(_parse_json(response.content[0].text), taxonomy)
+    # Le modèle peut émettre un bloc thinking avant le texte : on prend le bloc texte.
+    text_out = next(
+        (b.text for b in response.content if getattr(b, "type", None) == "text"), None)
+    if text_out is None:
+        raise ValueError("Pas de bloc texte dans la réponse du modèle")
+    return _sanitize(_parse_json(text_out), taxonomy)

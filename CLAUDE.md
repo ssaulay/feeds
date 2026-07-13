@@ -47,12 +47,16 @@ Pipeline bootstrappé et testé hors réseau (`python -m unittest tests.test_smo
 
 ## Où on en est / prochaines étapes
 
-1. ✅ App développeur X créée par Simon (callback `http://localhost:8484/callback`)
-2. ⬜ `python scripts/authorize.py` en local → committer `state/token.enc`,
-   garder `TOKEN_ENC_KEY`
-3. ⬜ Premier run local : `python -m pipeline.main --limit 2` → vérifier les
-   notes produites, committer
-4. ⬜ Secrets GitHub : `X_CLIENT_ID`, `X_CLIENT_SECRET` (si client confidentiel),
+1. ✅ App développeur X créée (confidential, callback `http://localhost:8484/callback`)
+2. ✅ Autorisation OAuth faite : `state/token.enc` écrit, `TOKEN_ENC_KEY` dans `.env`,
+   appel réel `/users/me` + bookmarks validé (`@ssaulay`). **Env : venv 3.12
+   obligatoire (`.venv/bin/python`), pas `python3` (=3.9, casse le code).**
+3. ✅ Premier run local (`--limit 2`) : 3 notes sources + synthèse `ai-agents.md`
+   produites et validées. A révélé et corrigé un bug : le modèle renvoie parfois
+   un bloc *thinking* avant le texte → on cherche le bloc `type=="text"`
+   (`extract.py` + `notes.py`) au lieu de `content[0].text`.
+   ⬜ Reste à committer le code + les notes + `state/`.
+4. ⬜ Secrets GitHub : `X_CLIENT_ID`, `X_CLIENT_SECRET` (client confidentiel),
    `TOKEN_ENC_KEY`, `ANTHROPIC_API_KEY`
 5. ⬜ Merger la branche `claude/pinned-tweets-knowledge-tool-0bv44t` sur la
    branche par défaut (les crons GitHub ne tournent que dessus)

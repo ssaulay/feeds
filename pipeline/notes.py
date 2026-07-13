@@ -151,7 +151,12 @@ def update_topic_note(cfg, extraction: dict, source_path: Path) -> Path:
         max_tokens=4000,
         messages=[{"role": "user", "content": prompt}],
     )
-    updated = response.content[0].text.strip()
+    # Le modèle peut émettre un bloc thinking avant le texte : on prend le bloc texte.
+    text_out = next(
+        (b.text for b in response.content if getattr(b, "type", None) == "text"), None)
+    if text_out is None:
+        raise ValueError("Pas de bloc texte dans la réponse du modèle")
+    updated = text_out.strip()
     if updated.startswith("```"):
         updated = updated.strip("`").removeprefix("markdown").strip()
     path.write_text(updated + "\n")
