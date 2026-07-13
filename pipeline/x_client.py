@@ -19,7 +19,9 @@ API_BASE = "https://api.x.com/2"
 BOOKMARK_PARAMS = {
     "max_results": "50",
     "tweet.fields": "created_at,entities,author_id,note_tweet,referenced_tweets",
-    "expansions": "author_id",
+    # referenced_tweets.id ramène le texte des tweets cités/répondus dans les
+    # includes de la même réponse (pas de read facturé en plus).
+    "expansions": "author_id,referenced_tweets.id,referenced_tweets.id.author_id",
     "user.fields": "username,name",
 }
 
@@ -77,7 +79,19 @@ class XClient:
         """
         payload = self._get(f"/users/{user_id}/bookmarks", BOOKMARK_PARAMS)
         tweets = payload.get("data", [])
-        users = {u["id"]: u for u in payload.get("includes", {}).get("users", [])}
+        includes = payload.get("includes", {})
+        users = {u["id"]: u for u in includes.get("users", [])}
+        inc_tweets = {t["id"]: t for t in includes.get("tweets", [])}
         for tweet in tweets:
             tweet["author"] = users.get(tweet.get("author_id"), {})
+            # Résout les tweets cités/répondus présents dans les includes.
+            referenced = []
+            for ref in tweet.get("referenced_tweets", []):
+                cited = inc_tweets.get(ref.get("id"))
+                if not cited:
+                    continue
+                cited = dict(cited)
+                cited["author"] = users.get(cited.get("author_id"), {})
+                referenced.append({"type": ref.get("type"), "tweet": cited})
+            tweet["referenced"] = referenced
         return tweets

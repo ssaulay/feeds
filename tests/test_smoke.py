@@ -10,7 +10,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from pipeline.config import Config
 from pipeline.extract import _parse_json, _sanitize
 from pipeline.notes import generate_indexes, parse_frontmatter, update_topic_note, write_source_note
-from pipeline.resolve import extract_links, tweet_text
+from pipeline.resolve import extract_links, resolve_referenced, tweet_text
 from pipeline.state import load_seen_ids, save_seen_ids
 
 TWEET = {
@@ -60,6 +60,30 @@ class SmokeTests(unittest.TestCase):
         self.assertEqual(tweet_text(TWEET), TWEET["text"])
         # Les liens internes X sont filtrés
         self.assertEqual(extract_links(TWEET), ["https://example.com/article"])
+
+    def test_resolve_referenced(self):
+        tweet = {
+            "id": "1943000000000000002",
+            "referenced": [
+                {"type": "quoted", "tweet": {
+                    "id": "1900000000000000000",
+                    "text": "Le contenu cité important",
+                    "author": {"username": "citee"}}},
+                {"type": "replied_to", "tweet": {
+                    "id": "1800000000000000000",
+                    "note_tweet": {"text": "Le long post parent"},
+                    "author": {"username": "parent"}}},
+            ],
+        }
+        refs = resolve_referenced(tweet)
+        self.assertEqual([r["url"] for r in refs], [
+            "https://x.com/citee/status/1900000000000000000",
+            "https://x.com/parent/status/1800000000000000000",
+        ])
+        self.assertIn("Tweet cité @citee : Le contenu cité important", refs[0]["content"])
+        self.assertIn("En réponse à @parent : Le long post parent", refs[1]["content"])
+        # Un tweet sans référence ne produit rien
+        self.assertEqual(resolve_referenced({"id": "x"}), [])
 
     def test_extract_parse_and_sanitize(self):
         parsed = _parse_json('bla {"slug": "A B!", "tags": ["llm", "hors-taxo"],'

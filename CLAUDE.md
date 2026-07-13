@@ -58,10 +58,14 @@ Bootstrap terminé (app X, OAuth, secrets GitHub, CI validée — la branche
    sera le premier run où l'access token a expiré → refresh + rotation +
    recommit de `state/token.enc` par la CI. Chemin pas encore exercé en réel.
    Après un run local, toujours `git pull` avant le suivant (token rotatif).
-2. ⬜ **Itérer sur la qualité** : prompts d'extraction/consolidation, taxonomie
-   à ajuster aux vrais bookmarks (beaucoup de contenus liés X internes non
-   résolus → notes « contenu non accessible » ; voir si on veut mieux gérer).
-3. ⬜ Nettoyer les notes de test si besoin (les 38 sources sont de vrais bookmarks).
+2. 🟡 **Qualité** : ✅ tweets cités/répondus désormais résolus (expansion
+   `referenced_tweets.id`, contenu inclus gratis dans la réponse bookmarks —
+   ~24/50 bookmarks concernés). Limite connue : un tweet cité qui n'est qu'une
+   **image** n'est pas capté (pas d'OCR/vision). Reste à itérer : prompts
+   d'extraction/consolidation, taxonomie à ajuster aux vrais bookmarks.
+3. ⬜ Régénérer les vieilles notes « contenu inaccessible » qui étaient en fait
+   des quote tweets (elles ont été produites avant le fix ; le bookmark est
+   marqué vu → il faudrait le dé-marquer dans `state/seen_ids.json` pour retraiter).
 
 **Env local** : venv 3.12 obligatoire (`.venv/bin/python`), jamais `python3` (=3.9).
 

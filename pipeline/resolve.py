@@ -41,6 +41,31 @@ def fetch_page_content(url: str) -> str | None:
     return content[:MAX_CONTENT_CHARS]
 
 
+REF_LABELS = {
+    "quoted": "Tweet cité",
+    "replied_to": "En réponse à",
+    "retweeted": "Retweet de",
+}
+
+
+def resolve_referenced(tweet: dict) -> list[dict]:
+    """Tweets cités/répondus résolus en entrées {url, content} (texte inclus dans
+    la réponse bookmarks, cf. x_client). Récupère le contenu que le filtrage des
+    liens x.com laissait de côté (quote tweets, fils de réponses)."""
+    out = []
+    for ref in tweet.get("referenced", []):
+        cited = ref.get("tweet") or {}
+        if not cited.get("id"):
+            continue
+        username = cited.get("author", {}).get("username", "inconnu")
+        label = REF_LABELS.get(ref.get("type"), "Tweet lié")
+        url = f"https://x.com/{username}/status/{cited['id']}"
+        out.append({"url": url, "content": f"{label} @{username} : {tweet_text(cited)}"})
+    return out
+
+
 def resolve_tweet(tweet: dict) -> list[dict]:
-    """Retourne [{url, content|None}] pour chaque lien sortant du tweet."""
-    return [{"url": url, "content": fetch_page_content(url)} for url in extract_links(tweet)]
+    """Retourne [{url, content|None}] : tweets cités puis liens sortants du tweet."""
+    referenced = resolve_referenced(tweet)
+    links = [{"url": url, "content": fetch_page_content(url)} for url in extract_links(tweet)]
+    return referenced + links
