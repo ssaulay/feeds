@@ -2,6 +2,8 @@
 
 ## ai-agents
 
+- [Un appel à voir l'IA sous un angle positif plutôt que sceptique](../sources/2026/2076854182833983732-optimisme-ia-perspective-positive.md) (@jessegenet)
+- [6 pratiques pour rendre un repo compatible avec les agents de code](../sources/2026/2076724129185866076-repos-friendly-coding-agents.md) (@mikeldking)
 - [Recommandation : Masterclass Hermes Agent par @tonbistudio](../sources/2026/2075673428171092404-masterclass-hermes-agent-tonbistudio.md) (@KSimback)
 - [Thinking Machines : pour une IA décentralisée, façonnée par ceux qu'elle sert](../sources/2026/2075621073308311701-avenir-ia-decentralisee-thinking-machines.md) (@miramurati)
 - [Comment Sierra a déployé un agent IA unique (Pinecone) dans toute l'entreprise](../sources/2026/2075571269526003788-sierra-ai-pilling-pinecone.md) (@btaylor)
@@ -10,6 +12,8 @@
 - [Agentic Pods : la méthode d'Uber pour déployer l'IA au-delà de l'ingénierie](../sources/2026/2074638976426848765-agentic-pods-uber-ai-adoption.md) (@jainarvind)
 - [Agentic Pods : la méthode d'Uber pour déployer l'IA agentique au-delà de l'ingénierie](../sources/2026/2074605343439810922-uber-agentic-pods-methode.md) (@praveenTweets)
 - [La stratégie AI qui marche : embaucher un 'Sasha' plutôt qu'un mandat top-down](../sources/2026/2072048527996604900-embaucher-son-sasha-ai-ops.md) (@aakashgupta)
+- [Lancement du X MCP hébergé : accès à l'API X pour les outils IA compatibles MCP](../sources/2026/2071753251360502131-x-mcp-hosted-api-access.md) (@taycaldwell)
+- [Outil d'agents IA qui construisent des workflows à partir d'objectifs](../sources/2026/2069088587451187654-agents-ia-autonomes-workflows.md) (@pierre_dlgr)
 - [/brag : générer automatiquement une vidéo de lancement depuis Claude Code](../sources/2026/2069039170451091878-brag-skill-claude-code-video.md) (@Arcane_Aii)
 - [Techniques avancées de RAG pour des systèmes de récupération fiables en production](../sources/2026/2065403846940147866-advanced-rag-techniques-guide.md) (@n8n_io)
 - [Des agents IA développent et publient des apps sans supervision humaine via Anything CLI](../sources/2026/2064799961380737389-agents-autonomes-anything-cli.md) (@anything)
@@ -21,19 +25,41 @@
 - [Spotify déploie 4 500 fois/jour grâce à l'adoption massive de Claude (Opus 4.5)](../sources/2026/2056753238494335077-spotify-4500-deploiements-jour-claude.md) (@0xMovez)
 - [Maintenir un fichier implementation-notes.html pour combler les ambiguïtés de spec avec un agent IA](../sources/2026/2056418157305454805-implementation-notes-file-spec.md) (@trq212)
 - [Agent IA local dans le navigateur avec Gemma et WebGPU](../sources/2026/2048805789788413984-agent-local-navigateur-gemma.md) (@googlegemma)
+- [Deep dive partagée par les fondateurs d'Arize AI sur l'observabilité des agents IA](../sources/2026/2048506166112596249-deep-dive-arize-ai-agents.md) (@amankhan)
 - [DESIGN.md : le standard de Google pour un langage de design partagé avec l'IA](../sources/2026/2047917199655149791-google-design-md-standard.md) (@MengTo)
 - [Donner à Claude l'accès à Exa comme upgrade instantané de capacités](../sources/2026/2047736429221224900-claude-exa-matrix-kungfu.md) (@jeffzwang)
 - [Exa lance un plugin MCP pour donner à Claude un accès web massif](../sources/2026/2047735503794094485-exa-plugin-claude-mcp.md) (@ExaAILabs)
 - [Comment l'équipe Claude Code d'Anthropic ship vite : leçons de Cat Wu](../sources/2026/2047669259380383955-claude-code-shipping-culture.md) (@lennysan)
+- [Oracle open-source des blueprints pour la mémoire persistante des agents IA](../sources/2026/2047661251027685694-oracle-open-source-memoire-ia.md) (@DataChaz)
 - [Google lance son dépôt officiel Agent Skills pour enrichir les agents IA](../sources/2026/2047377692488601949-google-agent-skills-repository.md) (@GoogleCloudTech)
+- [Comment l'équipe produit d'Anthropic (Claude Code) shippe à une vitesse inédite](../sources/2026/2047377335406694431-anthropic-product-team-shipping-pace.md) (@lennysan)
+- [Google Workspace Intelligence : une couche IA unifiée pour éliminer les silos de contexte](../sources/2026/2047004631058821412-workspace-intelligence-google.md) (@GoogleWorkspace)
+- [Interface générative : le GUI entier streamé par un modèle](../sources/2026/2046975783324004732-generative-computing-pixels-streamed.md) (@eddiejiao_obj)
+- [Bud : un agent IA présenté comme un émulateur humain complet](../sources/2026/2046605073741119800-bud-ai-human-emulator.md) (@budapp)
+- [Le responsable de Claude Code chez Anthropic code 100% avec l'IA](../sources/2026/2046415534523306303-head-claude-code-ai-only-workflow.md) (@codewithimanshu)
+- [Annonce d'un guide Anthropic de 33 pages sur les Skills de Claude](../sources/2026/2045500605989343291-guide-claude-skills-anthropic.md) (@maarcoofdezz)
+- [Playbook pour un agent interne qui multiplie par 10 la productivité employé](../sources/2026/2044894540612464717-playbook-agent-interne-10x.md) (@kylejeong)
+- [Construire un 'Team OS' dans Claude Code pour scaler une équipe entière](../sources/2026/2044520404094759185-team-os-claude-code.md) (@aakashgupta)
+- [Lancement d'Automations : workflows via drag-and-drop, IA ou code (Claude Code, Cursor, Codex)](../sources/2026/2043695848790589741-automations-drag-drop-ai-code.md) (@zenorocha)
+- [Le coût caché de ne pas automatiser ses tâches répétitives](../sources/2026/2043304725190414620-automatiser-taches-repetitives-claude.md) (@eng_khairallah1)
+- [Cours Stanford de 2h sur la construction de systèmes IA (référencé sans contenu accessible)](../sources/2026/2043014662883786812-stanford-lecture-building-ai-systems.md) (@RohOnChain)
+- [Playbook GTM pour Claude Code : structure d'un guide complet en 8 sections](../sources/2026/2042653637306949677-claude-code-gtm-playbook.md) (@AlfieJCarter)
+- [Connecter Claude Code à NotebookLM pour économiser des tokens et prolonger les sessions](../sources/2026/2042295647362019800-claude-code-notebooklm-tokens.md) (@hooeem)
+
+## data
+
+- [Gemini Embedding 2 : un seul espace vectoriel pour texte, image, audio, vidéo et PDF](../sources/2026/2047003304937332860-gemini-embedding-2-multimodal.md) (@brivael)
 
 ## design
 
 - [DESIGN.md : le standard de Google pour un langage de design partagé avec l'IA](../sources/2026/2047917199655149791-google-design-md-standard.md) (@MengTo)
+- [Interface générative : le GUI entier streamé par un modèle](../sources/2026/2046975783324004732-generative-computing-pixels-streamed.md) (@eddiejiao_obj)
 
 ## dev-tools
 
+- [6 pratiques pour rendre un repo compatible avec les agents de code](../sources/2026/2076724129185866076-repos-friendly-coding-agents.md) (@mikeldking)
 - [Générer un second cerveau personnalisé via Claude Code et un prompt dédié](../sources/2026/2075424322496455107-claude-code-second-brain-fable5.md) (@ojigineko_tips)
+- [Lancement du X MCP hébergé : accès à l'API X pour les outils IA compatibles MCP](../sources/2026/2071753251360502131-x-mcp-hosted-api-access.md) (@taycaldwell)
 - [/brag : générer automatiquement une vidéo de lancement depuis Claude Code](../sources/2026/2069039170451091878-brag-skill-claude-code-video.md) (@Arcane_Aii)
 - [Vercel Drop : déployer un site en glissant un dossier dans le navigateur](../sources/2026/2065492873555100098-vercel-drop-deploy-drag-drop.md) (@vercel_dev)
 - [Techniques avancées de RAG pour des systèmes de récupération fiables en production](../sources/2026/2065403846940147866-advanced-rag-techniques-guide.md) (@n8n_io)
@@ -46,17 +72,28 @@
 - [Donner à Claude l'accès à Exa comme upgrade instantané de capacités](../sources/2026/2047736429221224900-claude-exa-matrix-kungfu.md) (@jeffzwang)
 - [Exa lance un plugin MCP pour donner à Claude un accès web massif](../sources/2026/2047735503794094485-exa-plugin-claude-mcp.md) (@ExaAILabs)
 - [Comment l'équipe Claude Code d'Anthropic ship vite : leçons de Cat Wu](../sources/2026/2047669259380383955-claude-code-shipping-culture.md) (@lennysan)
+- [Oracle open-source des blueprints pour la mémoire persistante des agents IA](../sources/2026/2047661251027685694-oracle-open-source-memoire-ia.md) (@DataChaz)
 - [Google lance son dépôt officiel Agent Skills pour enrichir les agents IA](../sources/2026/2047377692488601949-google-agent-skills-repository.md) (@GoogleCloudTech)
+- [Gemini Embedding 2 : un seul espace vectoriel pour texte, image, audio, vidéo et PDF](../sources/2026/2047003304937332860-gemini-embedding-2-multimodal.md) (@brivael)
+- [Le responsable de Claude Code chez Anthropic code 100% avec l'IA](../sources/2026/2046415534523306303-head-claude-code-ai-only-workflow.md) (@codewithimanshu)
+- [Construire un 'Team OS' dans Claude Code pour scaler une équipe entière](../sources/2026/2044520404094759185-team-os-claude-code.md) (@aakashgupta)
+- [Lancement d'Automations : workflows via drag-and-drop, IA ou code (Claude Code, Cursor, Codex)](../sources/2026/2043695848790589741-automations-drag-drop-ai-code.md) (@zenorocha)
+- [Le coût caché de ne pas automatiser ses tâches répétitives](../sources/2026/2043304725190414620-automatiser-taches-repetitives-claude.md) (@eng_khairallah1)
+- [Playbook GTM pour Claude Code : structure d'un guide complet en 8 sections](../sources/2026/2042653637306949677-claude-code-gtm-playbook.md) (@AlfieJCarter)
+- [Connecter Claude Code à NotebookLM pour économiser des tokens et prolonger les sessions](../sources/2026/2042295647362019800-claude-code-notebooklm-tokens.md) (@hooeem)
 
 ## engineering
 
+- [6 pratiques pour rendre un repo compatible avec les agents de code](../sources/2026/2076724129185866076-repos-friendly-coding-agents.md) (@mikeldking)
 - [Comment Sierra a déployé un agent IA unique (Pinecone) dans toute l'entreprise](../sources/2026/2075571269526003788-sierra-ai-pilling-pinecone.md) (@btaylor)
 - [Recommandation : la meilleure explication des boucles (loops) en programmation](../sources/2026/2074415498125517236-clearest-explanation-loops.md) (@bookercodes)
 - [Vercel Drop : déployer un site en glissant un dossier dans le navigateur](../sources/2026/2065492873555100098-vercel-drop-deploy-drag-drop.md) (@vercel_dev)
 - [Techniques avancées de RAG pour des systèmes de récupération fiables en production](../sources/2026/2065403846940147866-advanced-rag-techniques-guide.md) (@n8n_io)
 - [Webwright : Microsoft transforme les sessions de navigateur en programmes réutilisables pour agents](../sources/2026/2059026191646945515-webwright-agents-navigateur-terminal.md) (@mr_r0b0t)
 - [Spotify déploie 4 500 fois/jour grâce à l'adoption massive de Claude (Opus 4.5)](../sources/2026/2056753238494335077-spotify-4500-deploiements-jour-claude.md) (@0xMovez)
+- [Deep dive partagée par les fondateurs d'Arize AI sur l'observabilité des agents IA](../sources/2026/2048506166112596249-deep-dive-arize-ai-agents.md) (@amankhan)
 - [Google lance son dépôt officiel Agent Skills pour enrichir les agents IA](../sources/2026/2047377692488601949-google-agent-skills-repository.md) (@GoogleCloudTech)
+- [Cours Stanford de 2h sur la construction de systèmes IA (référencé sans contenu accessible)](../sources/2026/2043014662883786812-stanford-lecture-building-ai-systems.md) (@RohOnChain)
 
 ## growth
 
@@ -66,6 +103,8 @@
 - [NanoCorpHQ : des entreprises entièrement gérées par une IA génèrent du revenu](../sources/2026/2060033351495581791-entreprises-gerees-par-ia.md) (@plbiojout)
 - [Guide sur les candidatures, cold emails et comment se rendre légible aux bonnes personnes](../sources/2026/2055133978869559310-guide-cold-emails-recherche-emploi.md) (@majamediaco)
 - [Rant satirique sur la dégradation de l'expérience utilisateur moderne](../sources/2026/2049844370203939149-rant-dystopie-tech-moderne.md) (@effthealgorithm)
+- [Bud : un agent IA présenté comme un émulateur humain complet](../sources/2026/2046605073741119800-bud-ai-human-emulator.md) (@budapp)
+- [Playbook GTM pour Claude Code : structure d'un guide complet en 8 sections](../sources/2026/2042653637306949677-claude-code-gtm-playbook.md) (@AlfieJCarter)
 
 ## llm
 
@@ -74,9 +113,16 @@
 - [Demander du HTML plutôt que du texte brut aux LLM améliore la lisibilité](../sources/2026/2053872850101285137-llm-output-html-vision.md) (@karpathy)
 - [Prompt personnalisé de pmarca pour obtenir des réponses IA expertes, directes et sans complaisance](../sources/2026/2051374498994364529-prompt-custom-expert-sans-filtre.md) (@pmarca)
 - [Agent IA local dans le navigateur avec Gemma et WebGPU](../sources/2026/2048805789788413984-agent-local-navigateur-gemma.md) (@googlegemma)
+- [Deep dive partagée par les fondateurs d'Arize AI sur l'observabilité des agents IA](../sources/2026/2048506166112596249-deep-dive-arize-ai-agents.md) (@amankhan)
 - [Annonce d'un atelier Anthropic sur le prompting de Claude (contenu non accessible)](../sources/2026/2048418646960288059-atelier-anthropic-prompt-claude.md) (@eng_khairallah1)
 - [Donner à Claude l'accès à Exa comme upgrade instantané de capacités](../sources/2026/2047736429221224900-claude-exa-matrix-kungfu.md) (@jeffzwang)
 - [Exa lance un plugin MCP pour donner à Claude un accès web massif](../sources/2026/2047735503794094485-exa-plugin-claude-mcp.md) (@ExaAILabs)
+- [Oracle open-source des blueprints pour la mémoire persistante des agents IA](../sources/2026/2047661251027685694-oracle-open-source-memoire-ia.md) (@DataChaz)
+- [Google Workspace Intelligence : une couche IA unifiée pour éliminer les silos de contexte](../sources/2026/2047004631058821412-workspace-intelligence-google.md) (@GoogleWorkspace)
+- [Gemini Embedding 2 : un seul espace vectoriel pour texte, image, audio, vidéo et PDF](../sources/2026/2047003304937332860-gemini-embedding-2-multimodal.md) (@brivael)
+- [Vidéo de 2h par Andrej Karpathy sur l'utilisation des LLMs](../sources/2026/2046612983007039794-karpathy-video-llm-usage.md) (@phosphenq)
+- [Annonce d'un guide Anthropic de 33 pages sur les Skills de Claude](../sources/2026/2045500605989343291-guide-claude-skills-anthropic.md) (@maarcoofdezz)
+- [Cours Stanford de 2h sur la construction de systèmes IA (référencé sans contenu accessible)](../sources/2026/2043014662883786812-stanford-lecture-building-ai-systems.md) (@RohOnChain)
 
 ## management
 
@@ -90,6 +136,8 @@
 - [Conseil viral pour prendre sa retraite à 50 ans : créer une LLC](../sources/2026/2066863918392254647-retraite-a-50-ans-llc.md) (@gedamtekle)
 - [Ce que révèle vraiment l'adoption de l'IA dans les grandes entreprises US](../sources/2026/2059400201211924961-verite-adoption-ia-entreprises.md) (@vasuman)
 - [Comment l'équipe Claude Code d'Anthropic ship vite : leçons de Cat Wu](../sources/2026/2047669259380383955-claude-code-shipping-culture.md) (@lennysan)
+- [Comment l'équipe produit d'Anthropic (Claude Code) shippe à une vitesse inédite](../sources/2026/2047377335406694431-anthropic-product-team-shipping-pace.md) (@lennysan)
+- [Construire un 'Team OS' dans Claude Code pour scaler une équipe entière](../sources/2026/2044520404094759185-team-os-claude-code.md) (@aakashgupta)
 
 ## marketing
 
@@ -98,19 +146,30 @@
 - [/brag : générer automatiquement une vidéo de lancement depuis Claude Code](../sources/2026/2069039170451091878-brag-skill-claude-code-video.md) (@Arcane_Aii)
 - [Stratégie de départ pour remplacer un salaire via Instagram (étape 1)](../sources/2026/2066855927571968356-remplacer-salaire-nouveau-compte-instagram.md) (@erichustls)
 - [Annonce d'un atelier Anthropic sur le prompting de Claude (contenu non accessible)](../sources/2026/2048418646960288059-atelier-anthropic-prompt-claude.md) (@eng_khairallah1)
+- [Lancement d'Automations : workflows via drag-and-drop, IA ou code (Claude Code, Cursor, Codex)](../sources/2026/2043695848790589741-automations-drag-drop-ai-code.md) (@zenorocha)
 
 ## misc
 
+- [Un appel à voir l'IA sous un angle positif plutôt que sceptique](../sources/2026/2076854182833983732-optimisme-ia-perspective-positive.md) (@jessegenet)
+- [Article X non accessible (contenu bloqué par JavaScript)](../sources/2026/2075361336381555096-contenu-inaccessible-article-x.md) (@piersonmarks)
+- [Article X non accessible (contenu non chargé)](../sources/2026/2075290325757608148-post-x-contenu-inaccessible.md) (@neilrahilly)
+- [Post X non accessible - contenu non récupérable](../sources/2026/2074501620235465089-contenu-inaccessible-x.md) (@EXM7777)
+- [Article X non accessible (contenu bloqué par JavaScript)](../sources/2026/2062647149582750101-contenu-inaccessible-x-article.md) (@hnshah)
 - [Une techno/IA qui rappelle un épisode de Black Mirror](../sources/2026/2062566824437588312-black-mirror-episode-irl.md) (@gminoprio)
 - [Anticipation d'un changement majeur et rapide (contenu média non accessible)](../sources/2026/2062269826177868211-things-getting-weird-soon.md) (@ian_dot_so)
 - [Meme humoristique sur la réaction des employés Meta en début d'appel](../sources/2026/2057748313311428900-meta-employees-call-meme.md) (@folaoftech)
+- [Post X non accessible - contenu non récupéré](../sources/2026/2056783455472554008-post-x-contenu-inaccessible.md) (@Mnilax)
 - [Utiliser Reddit pour trouver un emploi remote](../sources/2026/2051275760703574313-reddit-remote-job-search.md) (@heysajib)
 - [70millimètres.fr : moteur de recherche des films disponibles sur les plateformes de streaming légal françaises](../sources/2026/2051228453995745335-70mm-catalogue-streaming-legal.md) (@heyzineb)
 - [Rant satirique sur la dégradation de l'expérience utilisateur moderne](../sources/2026/2049844370203939149-rant-dystopie-tech-moderne.md) (@effthealgorithm)
+- [Article X non accessible (contenu non chargé)](../sources/2026/2049659161005470071-contenu-inaccessible-article-x.md) (@vasuman)
+- [Première étape pour préparer sa retraite en 10 ans : créer une LLC](../sources/2026/2046932581149544673-retraite-en-10-ans-llc.md) (@gedamtekle)
+- [Article X non accessible (contenu non chargé)](../sources/2026/2043545596699750791-contenu-inaccessible-article-x.md) (@intuitiveml)
 
 ## product
 
 - [Annonce d'un an chez Higgsfield et lancement d'un produit majeur](../sources/2026/2074564269207916984-higgsfield-un-an-lancement.md) (@adilinthewild)
+- [Lancement du X MCP hébergé : accès à l'API X pour les outils IA compatibles MCP](../sources/2026/2071753251360502131-x-mcp-hosted-api-access.md) (@taycaldwell)
 - [Vercel Drop : déployer un site en glissant un dossier dans le navigateur](../sources/2026/2065492873555100098-vercel-drop-deploy-drag-drop.md) (@vercel_dev)
 - [/teach : un skill Claude qui crée un tuteur personnel adaptatif](../sources/2026/2064315451631681634-teach-skill-tuteur-personnalise.md) (@itsolelehmann)
 - [Ce que révèle vraiment l'adoption de l'IA dans les grandes entreprises US](../sources/2026/2059400201211924961-verite-adoption-ia-entreprises.md) (@vasuman)
@@ -118,6 +177,12 @@
 - [70millimètres.fr : moteur de recherche des films disponibles sur les plateformes de streaming légal françaises](../sources/2026/2051228453995745335-70mm-catalogue-streaming-legal.md) (@heyzineb)
 - [Rant satirique sur la dégradation de l'expérience utilisateur moderne](../sources/2026/2049844370203939149-rant-dystopie-tech-moderne.md) (@effthealgorithm)
 - [Comment l'équipe Claude Code d'Anthropic ship vite : leçons de Cat Wu](../sources/2026/2047669259380383955-claude-code-shipping-culture.md) (@lennysan)
+- [Comment l'équipe produit d'Anthropic (Claude Code) shippe à une vitesse inédite](../sources/2026/2047377335406694431-anthropic-product-team-shipping-pace.md) (@lennysan)
+- [Google Workspace Intelligence : une couche IA unifiée pour éliminer les silos de contexte](../sources/2026/2047004631058821412-workspace-intelligence-google.md) (@GoogleWorkspace)
+- [Interface générative : le GUI entier streamé par un modèle](../sources/2026/2046975783324004732-generative-computing-pixels-streamed.md) (@eddiejiao_obj)
+- [Bud : un agent IA présenté comme un émulateur humain complet](../sources/2026/2046605073741119800-bud-ai-human-emulator.md) (@budapp)
+- [Construire un 'Team OS' dans Claude Code pour scaler une équipe entière](../sources/2026/2044520404094759185-team-os-claude-code.md) (@aakashgupta)
+- [Lancement d'Automations : workflows via drag-and-drop, IA ou code (Claude Code, Cursor, Codex)](../sources/2026/2043695848790589741-automations-drag-drop-ai-code.md) (@zenorocha)
 
 ## productivity
 
@@ -130,11 +195,21 @@
 - [Recommandation : la meilleure explication des boucles (loops) en programmation](../sources/2026/2074415498125517236-clearest-explanation-loops.md) (@bookercodes)
 - [La stratégie AI qui marche : embaucher un 'Sasha' plutôt qu'un mandat top-down](../sources/2026/2072048527996604900-embaucher-son-sasha-ai-ops.md) (@aakashgupta)
 - [Les 5 niveaux de travail pour former des employés à haute agentivité](../sources/2026/2070194343034360004-5-niveaux-de-travail-agency.md) (@businessbarista)
+- [Outil d'agents IA qui construisent des workflows à partir d'objectifs](../sources/2026/2069088587451187654-agents-ia-autonomes-workflows.md) (@pierre_dlgr)
 - [Conseil viral pour prendre sa retraite à 50 ans : créer une LLC](../sources/2026/2066863918392254647-retraite-a-50-ans-llc.md) (@gedamtekle)
 - [/teach : un skill Claude qui crée un tuteur personnel adaptatif](../sources/2026/2064315451631681634-teach-skill-tuteur-personnalise.md) (@itsolelehmann)
 - [Guide sur les candidatures, cold emails et comment se rendre légible aux bonnes personnes](../sources/2026/2055133978869559310-guide-cold-emails-recherche-emploi.md) (@majamediaco)
 - [Prompt personnalisé de pmarca pour obtenir des réponses IA expertes, directes et sans complaisance](../sources/2026/2051374498994364529-prompt-custom-expert-sans-filtre.md) (@pmarca)
 - [Utiliser Reddit pour trouver un emploi remote](../sources/2026/2051275760703574313-reddit-remote-job-search.md) (@heysajib)
+- [Google Workspace Intelligence : une couche IA unifiée pour éliminer les silos de contexte](../sources/2026/2047004631058821412-workspace-intelligence-google.md) (@GoogleWorkspace)
+- [Première étape pour préparer sa retraite en 10 ans : créer une LLC](../sources/2026/2046932581149544673-retraite-en-10-ans-llc.md) (@gedamtekle)
+- [Vidéo de 2h par Andrej Karpathy sur l'utilisation des LLMs](../sources/2026/2046612983007039794-karpathy-video-llm-usage.md) (@phosphenq)
+- [Le responsable de Claude Code chez Anthropic code 100% avec l'IA](../sources/2026/2046415534523306303-head-claude-code-ai-only-workflow.md) (@codewithimanshu)
+- [Annonce d'un guide Anthropic de 33 pages sur les Skills de Claude](../sources/2026/2045500605989343291-guide-claude-skills-anthropic.md) (@maarcoofdezz)
+- [Playbook pour un agent interne qui multiplie par 10 la productivité employé](../sources/2026/2044894540612464717-playbook-agent-interne-10x.md) (@kylejeong)
+- [Le coût caché de ne pas automatiser ses tâches répétitives](../sources/2026/2043304725190414620-automatiser-taches-repetitives-claude.md) (@eng_khairallah1)
+- [Playbook GTM pour Claude Code : structure d'un guide complet en 8 sections](../sources/2026/2042653637306949677-claude-code-gtm-playbook.md) (@AlfieJCarter)
+- [Connecter Claude Code à NotebookLM pour économiser des tokens et prolonger les sessions](../sources/2026/2042295647362019800-claude-code-notebooklm-tokens.md) (@hooeem)
 
 ## prompt-engineering
 
@@ -142,6 +217,7 @@
 - [Demander du HTML plutôt que du texte brut aux LLM améliore la lisibilité](../sources/2026/2053872850101285137-llm-output-html-vision.md) (@karpathy)
 - [Prompt personnalisé de pmarca pour obtenir des réponses IA expertes, directes et sans complaisance](../sources/2026/2051374498994364529-prompt-custom-expert-sans-filtre.md) (@pmarca)
 - [Annonce d'un atelier Anthropic sur le prompting de Claude (contenu non accessible)](../sources/2026/2048418646960288059-atelier-anthropic-prompt-claude.md) (@eng_khairallah1)
+- [Vidéo de 2h par Andrej Karpathy sur l'utilisation des LLMs](../sources/2026/2046612983007039794-karpathy-video-llm-usage.md) (@phosphenq)
 
 ## startup
 
@@ -150,8 +226,11 @@
 - [La stratégie AI qui marche : embaucher un 'Sasha' plutôt qu'un mandat top-down](../sources/2026/2072048527996604900-embaucher-son-sasha-ai-ops.md) (@aakashgupta)
 - [Vendre un SaaS : le contenu et la vente comptent plus que le produit](../sources/2026/2071861350268047571-vendre-saas-contenu-avant-code.md) (@Tech_babby)
 - [Les 5 niveaux de travail pour former des employés à haute agentivité](../sources/2026/2070194343034360004-5-niveaux-de-travail-agency.md) (@businessbarista)
+- [Outil d'agents IA qui construisent des workflows à partir d'objectifs](../sources/2026/2069088587451187654-agents-ia-autonomes-workflows.md) (@pierre_dlgr)
 - [Conseil viral pour prendre sa retraite à 50 ans : créer une LLC](../sources/2026/2066863918392254647-retraite-a-50-ans-llc.md) (@gedamtekle)
 - [Stratégie de départ pour remplacer un salaire via Instagram (étape 1)](../sources/2026/2066855927571968356-remplacer-salaire-nouveau-compte-instagram.md) (@erichustls)
 - [Des agents IA développent et publient des apps sans supervision humaine via Anything CLI](../sources/2026/2064799961380737389-agents-autonomes-anything-cli.md) (@anything)
 - [NanoCorpHQ : des entreprises entièrement gérées par une IA génèrent du revenu](../sources/2026/2060033351495581791-entreprises-gerees-par-ia.md) (@plbiojout)
 - [Guide sur les candidatures, cold emails et comment se rendre légible aux bonnes personnes](../sources/2026/2055133978869559310-guide-cold-emails-recherche-emploi.md) (@majamediaco)
+- [Première étape pour préparer sa retraite en 10 ans : créer une LLC](../sources/2026/2046932581149544673-retraite-en-10-ans-llc.md) (@gedamtekle)
+- [Playbook pour un agent interne qui multiplie par 10 la productivité employé](../sources/2026/2044894540612464717-playbook-agent-interne-10x.md) (@kylejeong)
