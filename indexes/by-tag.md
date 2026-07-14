@@ -7,6 +7,7 @@
 - [Comment Sierra a déployé un agent IA unique (Pinecone) dans toute l'entreprise](../sources/2026/2075571269526003788-sierra-ai-pilling-pinecone.md) (@btaylor)
 - [Générer un second cerveau personnalisé via Claude Code et un prompt dédié](../sources/2026/2075424322496455107-claude-code-second-brain-fable5.md) (@ojigineko_tips)
 - [Une méthode efficace pour accélérer l'adoption de l'IA dans les équipes non-techniques](../sources/2026/2074666373402464442-methode-adoption-ia-non-tech.md) (@hnshah)
+- [Agentic Pods : la méthode d'Uber pour déployer l'IA au-delà de l'ingénierie](../sources/2026/2074638976426848765-agentic-pods-uber-ai-adoption.md) (@jainarvind)
 - [Agentic Pods : la méthode d'Uber pour déployer l'IA agentique au-delà de l'ingénierie](../sources/2026/2074605343439810922-uber-agentic-pods-methode.md) (@praveenTweets)
 - [La stratégie AI qui marche : embaucher un 'Sasha' plutôt qu'un mandat top-down](../sources/2026/2072048527996604900-embaucher-son-sasha-ai-ops.md) (@aakashgupta)
 - [/brag : générer automatiquement une vidéo de lancement depuis Claude Code](../sources/2026/2069039170451091878-brag-skill-claude-code-video.md) (@Arcane_Aii)
@@ -25,6 +26,7 @@
 - [Donner à Claude l'accès à Exa comme upgrade instantané de capacités](../sources/2026/2047736429221224900-claude-exa-matrix-kungfu.md) (@jeffzwang)
 - [Exa lance un plugin MCP pour donner à Claude un accès web massif](../sources/2026/2047735503794094485-exa-plugin-claude-mcp.md) (@ExaAILabs)
 - [Comment l'équipe Claude Code d'Anthropic ship vite : leçons de Cat Wu](../sources/2026/2047669259380383955-claude-code-shipping-culture.md) (@lennysan)
+- [Google lance son dépôt officiel Agent Skills pour enrichir les agents IA](../sources/2026/2047377692488601949-google-agent-skills-repository.md) (@GoogleCloudTech)
 
 ## design
 
@@ -45,6 +47,7 @@
 - [Donner à Claude l'accès à Exa comme upgrade instantané de capacités](../sources/2026/2047736429221224900-claude-exa-matrix-kungfu.md) (@jeffzwang)
 - [Exa lance un plugin MCP pour donner à Claude un accès web massif](../sources/2026/2047735503794094485-exa-plugin-claude-mcp.md) (@ExaAILabs)
 - [Comment l'équipe Claude Code d'Anthropic ship vite : leçons de Cat Wu](../sources/2026/2047669259380383955-claude-code-shipping-culture.md) (@lennysan)
+- [Google lance son dépôt officiel Agent Skills pour enrichir les agents IA](../sources/2026/2047377692488601949-google-agent-skills-repository.md) (@GoogleCloudTech)
 
 ## engineering
 
@@ -54,6 +57,7 @@
 - [Techniques avancées de RAG pour des systèmes de récupération fiables en production](../sources/2026/2065403846940147866-advanced-rag-techniques-guide.md) (@n8n_io)
 - [Webwright : Microsoft transforme les sessions de navigateur en programmes réutilisables pour agents](../sources/2026/2059026191646945515-webwright-agents-navigateur-terminal.md) (@mr_r0b0t)
 - [Spotify déploie 4 500 fois/jour grâce à l'adoption massive de Claude (Opus 4.5)](../sources/2026/2056753238494335077-spotify-4500-deploiements-jour-claude.md) (@0xMovez)
+- [Google lance son dépôt officiel Agent Skills pour enrichir les agents IA](../sources/2026/2047377692488601949-google-agent-skills-repository.md) (@GoogleCloudTech)
 
 ## growth
 
@@ -80,8 +84,10 @@
 - [Thinking Machines : pour une IA décentralisée, façonnée par ceux qu'elle sert](../sources/2026/2075621073308311701-avenir-ia-decentralisee-thinking-machines.md) (@miramurati)
 - [Comment Sierra a déployé un agent IA unique (Pinecone) dans toute l'entreprise](../sources/2026/2075571269526003788-sierra-ai-pilling-pinecone.md) (@btaylor)
 - [Une méthode efficace pour accélérer l'adoption de l'IA dans les équipes non-techniques](../sources/2026/2074666373402464442-methode-adoption-ia-non-tech.md) (@hnshah)
+- [Agentic Pods : la méthode d'Uber pour déployer l'IA au-delà de l'ingénierie](../sources/2026/2074638976426848765-agentic-pods-uber-ai-adoption.md) (@jainarvind)
 - [Agentic Pods : la méthode d'Uber pour déployer l'IA agentique au-delà de l'ingénierie](../sources/2026/2074605343439810922-uber-agentic-pods-methode.md) (@praveenTweets)
 - [La stratégie AI qui marche : embaucher un 'Sasha' plutôt qu'un mandat top-down](../sources/2026/2072048527996604900-embaucher-son-sasha-ai-ops.md) (@aakashgupta)
+- [Les 5 niveaux de travail pour former des employés à haute agentivité](../sources/2026/2070194343034360004-5-niveaux-de-travail-agency.md) (@businessbarista)
 - [Conseil viral pour prendre sa retraite à 50 ans : créer une LLC](../sources/2026/2066863918392254647-retraite-a-50-ans-llc.md) (@gedamtekle)
 - [Ce que révèle vraiment l'adoption de l'IA dans les grandes entreprises US](../sources/2026/2059400201211924961-verite-adoption-ia-entreprises.md) (@vasuman)
 - [Comment l'équipe Claude Code d'Anthropic ship vite : leçons de Cat Wu](../sources/2026/2047669259380383955-claude-code-shipping-culture.md) (@lennysan)
@@ -128,9 +134,11 @@
 - [Comment Sierra a déployé un agent IA unique (Pinecone) dans toute l'entreprise](../sources/2026/2075571269526003788-sierra-ai-pilling-pinecone.md) (@btaylor)
 - [Générer un second cerveau personnalisé via Claude Code et un prompt dédié](../sources/2026/2075424322496455107-claude-code-second-brain-fable5.md) (@ojigineko_tips)
 - [Une méthode efficace pour accélérer l'adoption de l'IA dans les équipes non-techniques](../sources/2026/2074666373402464442-methode-adoption-ia-non-tech.md) (@hnshah)
+- [Agentic Pods : la méthode d'Uber pour déployer l'IA au-delà de l'ingénierie](../sources/2026/2074638976426848765-agentic-pods-uber-ai-adoption.md) (@jainarvind)
 - [Agentic Pods : la méthode d'Uber pour déployer l'IA agentique au-delà de l'ingénierie](../sources/2026/2074605343439810922-uber-agentic-pods-methode.md) (@praveenTweets)
 - [Recommandation : la meilleure explication des boucles (loops) en programmation](../sources/2026/2074415498125517236-clearest-explanation-loops.md) (@bookercodes)
 - [La stratégie AI qui marche : embaucher un 'Sasha' plutôt qu'un mandat top-down](../sources/2026/2072048527996604900-embaucher-son-sasha-ai-ops.md) (@aakashgupta)
+- [Les 5 niveaux de travail pour former des employés à haute agentivité](../sources/2026/2070194343034360004-5-niveaux-de-travail-agency.md) (@businessbarista)
 - [Conseil viral pour prendre sa retraite à 50 ans : créer une LLC](../sources/2026/2066863918392254647-retraite-a-50-ans-llc.md) (@gedamtekle)
 - [/teach : un skill Claude qui crée un tuteur personnel adaptatif](../sources/2026/2064315451631681634-teach-skill-tuteur-personnalise.md) (@itsolelehmann)
 - [Guide sur les candidatures, cold emails et comment se rendre légible aux bonnes personnes](../sources/2026/2055133978869559310-guide-cold-emails-recherche-emploi.md) (@majamediaco)
@@ -150,6 +158,7 @@
 - [Annonce d'un an chez Higgsfield et lancement d'un produit majeur](../sources/2026/2074564269207916984-higgsfield-un-an-lancement.md) (@adilinthewild)
 - [La stratégie AI qui marche : embaucher un 'Sasha' plutôt qu'un mandat top-down](../sources/2026/2072048527996604900-embaucher-son-sasha-ai-ops.md) (@aakashgupta)
 - [Vendre un SaaS : le contenu et la vente comptent plus que le produit](../sources/2026/2071861350268047571-vendre-saas-contenu-avant-code.md) (@Tech_babby)
+- [Les 5 niveaux de travail pour former des employés à haute agentivité](../sources/2026/2070194343034360004-5-niveaux-de-travail-agency.md) (@businessbarista)
 - [Conseil viral pour prendre sa retraite à 50 ans : créer une LLC](../sources/2026/2066863918392254647-retraite-a-50-ans-llc.md) (@gedamtekle)
 - [Stratégie de départ pour remplacer un salaire via Instagram (étape 1)](../sources/2026/2066855927571968356-remplacer-salaire-nouveau-compte-instagram.md) (@erichustls)
 - [Des agents IA développent et publient des apps sans supervision humaine via Anything CLI](../sources/2026/2064799961380737389-agents-autonomes-anything-cli.md) (@anything)
