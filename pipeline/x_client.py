@@ -71,20 +71,15 @@ class XClient:
     def me(self) -> dict:
         return self._get("/users/me")["data"]
 
-    def fetch_bookmarks(self, user_id: str) -> list[dict]:
-        """Retourne la première page de bookmarks (les plus récents), auteur résolu.
-
-        À quelques bookmarks/jour, une page de 50 avec déduplication en aval
-        suffit largement ; on évite de payer des reads de pagination inutiles.
-        """
-        payload = self._get(f"/users/{user_id}/bookmarks", BOOKMARK_PARAMS)
+    @staticmethod
+    def _hydrate(payload: dict) -> list[dict]:
+        """Résout auteurs et tweets cités/répondus depuis les includes."""
         tweets = payload.get("data", [])
         includes = payload.get("includes", {})
         users = {u["id"]: u for u in includes.get("users", [])}
         inc_tweets = {t["id"]: t for t in includes.get("tweets", [])}
         for tweet in tweets:
             tweet["author"] = users.get(tweet.get("author_id"), {})
-            # Résout les tweets cités/répondus présents dans les includes.
             referenced = []
             for ref in tweet.get("referenced_tweets", []):
                 cited = inc_tweets.get(ref.get("id"))
@@ -95,3 +90,25 @@ class XClient:
                 referenced.append({"type": ref.get("type"), "tweet": cited})
             tweet["referenced"] = referenced
         return tweets
+
+    def iter_bookmark_pages(self, user_id: str):
+        """Itère sur les pages de bookmarks, des plus récents aux plus anciens
+        (X conserve ~800 bookmarks). Chaque page est facturée en owned reads."""
+        next_token = None
+        while True:
+            params = dict(BOOKMARK_PARAMS)
+            if next_token:
+                params["pagination_token"] = next_token
+            payload = self._get(f"/users/{user_id}/bookmarks", params)
+            yield self._hydrate(payload)
+            next_token = payload.get("meta", {}).get("next_token")
+            if not next_token:
+                return
+
+    def fetch_bookmarks(self, user_id: str) -> list[dict]:
+        """Retourne la première page de bookmarks (les plus récents), auteur résolu.
+
+        À quelques bookmarks/jour, une page de 50 avec déduplication en aval
+        suffit largement ; on évite de payer des reads de pagination inutiles.
+        """
+        return next(self.iter_bookmark_pages(user_id))
