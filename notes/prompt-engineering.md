@@ -16,7 +16,7 @@ Un quatrième apport annonce un atelier vidéo de 24 minutes par l'équipe Anthr
 
 ## Sources
 
+- [Maintenir un fichier implementation-notes.html pour combler les ambiguïtés de spec avec un agent IA](../sources/2026/2056418157305454805-implementation-notes-file-spec.md)
 - [Demander du HTML plutôt que du texte brut aux LLM améliore la lisibilité](../sources/2026/2053872850101285137-llm-output-html-vision.md)
 - [Prompt personnalisé de pmarca pour obtenir des réponses IA expertes, directes et sans complaisance](../sources/2026/2051374498994364529-prompt-custom-expert-sans-filtre.md)
-- [Maintenir un fichier implementation-notes.html pour combler les ambiguïtés de spec avec un agent IA](../sources/2026/2056418157305454805-implementation-notes-file-spec.md)
 - [Annonce d'un atelier Anthropic sur le prompting de Claude (contenu non accessible)](../sources/2026/2048418646960288059-atelier-anthropic-prompt-claude.md)

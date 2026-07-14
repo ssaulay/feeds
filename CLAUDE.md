@@ -43,7 +43,9 @@ Composants (testés hors réseau via `.venv/bin/python -m unittest tests.test_sm
 - `pipeline/extract.py` — appel Claude (JSON : slug, résumé, idées clés, citations,
   tags, primary_topic), sanitization contre la taxonomie
 - `pipeline/notes.py` — notes sources, notes de synthèse (création directe la
-  1ère fois, mise à jour via Claude ensuite), index by-tag/by-date
+  1ère fois, mise à jour via Claude ensuite ; la section « Sources » est
+  reconstruite par code depuis le frontmatter `primary_topic` — le LLM en
+  perdait des lignes), index by-tag/by-date
 - `pipeline/main.py` — orchestration (`--limit N`) ; un bookmark en échec n'est
   pas marqué vu → retenté au run suivant
 - `scripts/authorize.py` — autorisation initiale OAuth 2.0 PKCE (interactif, local)

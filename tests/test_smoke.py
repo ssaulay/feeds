@@ -9,7 +9,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from pipeline.config import Config
 from pipeline.extract import _parse_json, _sanitize
-from pipeline.notes import generate_indexes, parse_frontmatter, update_topic_note, write_source_note
+from pipeline.notes import (generate_indexes, parse_frontmatter, rebuild_sources_section,
+                            update_topic_note, write_source_note)
 from pipeline.resolve import extract_links, resolve_referenced, tweet_text
 from pipeline.state import load_seen_ids, save_seen_ids
 
@@ -110,6 +111,15 @@ class SmokeTests(unittest.TestCase):
         note = note_path.read_text()
         self.assertIn("# prompt-engineering", note)
         self.assertIn("../sources/2026/1943000000000000001-prompt-caching-basics.md", note)
+
+        # La section Sources est reconstruite par code : une liste tronquée
+        # (ou réécrite par le LLM) est restaurée depuis le frontmatter des sources.
+        note_path.write_text(note.split("## Sources")[0] + "## Sources\n\n(vidé)\n")
+        rebuild_sources_section(self.cfg, "prompt-engineering")
+        restored = note_path.read_text()
+        self.assertNotIn("(vidé)", restored)
+        self.assertIn("../sources/2026/1943000000000000001-prompt-caching-basics.md", restored)
+        self.assertEqual(restored.count("## Sources"), 1)
 
         generate_indexes(self.cfg)
         by_tag = (self.cfg.indexes_dir / "by-tag.md").read_text()

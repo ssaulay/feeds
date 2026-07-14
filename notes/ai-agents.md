@@ -20,5 +20,19 @@ Google Cloud introduit un contrepoint architectural direct au modèle MCP : son 
 
 ## Sources
 
+- [Recommandation : Masterclass Hermes Agent par @tonbistudio](../sources/2026/2075673428171092404-masterclass-hermes-agent-tonbistudio.md)
+- [Thinking Machines : pour une IA décentralisée, façonnée par ceux qu'elle sert](../sources/2026/2075621073308311701-avenir-ia-decentralisee-thinking-machines.md)
+- [Comment Sierra a déployé un agent IA unique (Pinecone) dans toute l'entreprise](../sources/2026/2075571269526003788-sierra-ai-pilling-pinecone.md)
+- [Générer un second cerveau personnalisé via Claude Code et un prompt dédié](../sources/2026/2075424322496455107-claude-code-second-brain-fable5.md)
 - [Agentic Pods : la méthode d'Uber pour déployer l'IA au-delà de l'ingénierie](../sources/2026/2074638976426848765-agentic-pods-uber-ai-adoption.md)
+- [Agentic Pods : la méthode d'Uber pour déployer l'IA agentique au-delà de l'ingénierie](../sources/2026/2074605343439810922-uber-agentic-pods-methode.md)
+- [Des agents IA développent et publient des apps sans supervision humaine via Anything CLI](../sources/2026/2064799961380737389-agents-autonomes-anything-cli.md)
+- [/teach : un skill Claude qui crée un tuteur personnel adaptatif](../sources/2026/2064315451631681634-teach-skill-tuteur-personnalise.md)
+- [Une techno/IA qui rappelle un épisode de Black Mirror](../sources/2026/2062566824437588312-black-mirror-episode-irl.md)
+- [NanoCorpHQ : des entreprises entièrement gérées par une IA génèrent du revenu](../sources/2026/2060033351495581791-entreprises-gerees-par-ia.md)
+- [Ce que révèle vraiment l'adoption de l'IA dans les grandes entreprises US](../sources/2026/2059400201211924961-verite-adoption-ia-entreprises.md)
+- [Webwright : Microsoft transforme les sessions de navigateur en programmes réutilisables pour agents](../sources/2026/2059026191646945515-webwright-agents-navigateur-terminal.md)
+- [Agent IA local dans le navigateur avec Gemma et WebGPU](../sources/2026/2048805789788413984-agent-local-navigateur-gemma.md)
+- [Donner à Claude l'accès à Exa comme upgrade instantané de capacités](../sources/2026/2047736429221224900-claude-exa-matrix-kungfu.md)
+- [Exa lance un plugin MCP pour donner à Claude un accès web massif](../sources/2026/2047735503794094485-exa-plugin-claude-mcp.md)
 - [Google lance son dépôt officiel Agent Skills pour enrichir les agents IA](../sources/2026/2047377692488601949-google-agent-skills-repository.md)

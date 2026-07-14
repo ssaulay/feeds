@@ -55,12 +55,12 @@ Idées clés :
 {key_ideas}
 </apport>
 
-Réécris la note complète en intégrant cet apport : fusionne avec l'existant,
+Réécris la note en intégrant cet apport : fusionne avec l'existant,
 déduplique, signale explicitement les contradictions ("⚠️ Contradiction : ...").
-Garde la structure (titre, ## Synthèse, ## Sources), ajoute la ligne
-"- [{title}]({source_rel_path})" à la section Sources (conserve les lignes
-existantes). Reste concis : la note doit tenir sous ~150 lignes en priorisant
-les idées les plus fortes. Réponds avec le markdown complet de la note, rien d'autre.
+Garde la structure (titre, ## Synthèse) mais N'INCLUS PAS de section
+"## Sources" : elle est maintenue automatiquement en dehors de toi.
+Reste concis : la note doit tenir sous ~150 lignes en priorisant les idées
+les plus fortes. Réponds avec le markdown complet de la note, rien d'autre.
 """
 
 
@@ -120,6 +120,32 @@ def write_source_note(cfg, tweet: dict, text: str, links: list[dict],
     return path
 
 
+def _strip_sources_section(markdown: str) -> str:
+    """Retire une éventuelle section '## Sources' (fin de note par convention)."""
+    idx = markdown.find("\n## Sources")
+    return markdown[:idx].rstrip() if idx != -1 else markdown.rstrip()
+
+
+def topic_sources_section(cfg, topic: str) -> str:
+    """Section Sources reconstruite par code depuis le frontmatter des notes
+    sources (primary_topic) — le LLM en perdait des lignes au fil des mises à jour."""
+    entries = []
+    for path in sorted(cfg.sources_dir.rglob("*.md")):
+        fm = parse_frontmatter(path)
+        if fm and fm.get("primary_topic") == topic:
+            fm["_rel"] = f"../{path.relative_to(cfg.repo_root)}"
+            entries.append(fm)
+    entries.sort(key=lambda e: (e.get("date", ""), e["tweet_id"]), reverse=True)
+    lines = [f"- [{e['title']}]({e['_rel']})" for e in entries]
+    return "## Sources\n\n" + "\n".join(lines) + "\n"
+
+
+def rebuild_sources_section(cfg, topic: str) -> None:
+    path = cfg.notes_dir / f"{topic}.md"
+    body = _strip_sources_section(path.read_text())
+    path.write_text(f"{body}\n\n{topic_sources_section(cfg, topic)}")
+
+
 def update_topic_note(cfg, extraction: dict, source_path: Path) -> Path:
     topic = extraction["primary_topic"]
     path = cfg.notes_dir / f"{topic}.md"
@@ -130,20 +156,20 @@ def update_topic_note(cfg, extraction: dict, source_path: Path) -> Path:
         path.write_text(TOPIC_NOTE_TEMPLATE.format(
             topic=topic,
             summary=extraction["summary"],
-            sources=f"- [{extraction['title']}]({source_rel})",
+            sources="",
         ))
+        rebuild_sources_section(cfg, topic)
         return path
 
     import anthropic
 
     prompt = UPDATE_NOTE_PROMPT.format(
         topic=topic,
-        existing=path.read_text(),
+        existing=_strip_sources_section(path.read_text()),
         source_ref=source_rel,
         title=extraction["title"],
         summary=extraction["summary"],
         key_ideas="\n".join(f"- {i}" for i in extraction.get("key_ideas", [])),
-        source_rel_path=source_rel,
     )
     client = anthropic.Anthropic(api_key=cfg.anthropic_api_key)
     response = client.messages.create(
@@ -159,7 +185,9 @@ def update_topic_note(cfg, extraction: dict, source_path: Path) -> Path:
     updated = text_out.strip()
     if updated.startswith("```"):
         updated = updated.strip("`").removeprefix("markdown").strip()
-    path.write_text(updated + "\n")
+    # La section Sources est reconstruite par code, jamais reprise du LLM.
+    path.write_text(_strip_sources_section(updated) + "\n")
+    rebuild_sources_section(cfg, topic)
     return path
 
 

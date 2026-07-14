@@ -12,5 +12,5 @@ Cette note couvre des outils facilitant différentes étapes du cycle de vie d'u
 
 ## Sources
 
-- [Vercel Drop : déployer un site en glissant un dossier dans le navigateur](../sources/2026/2065492873555100098-vercel-drop-deploy-drag-drop.md)
 - [/brag : générer automatiquement une vidéo de lancement depuis Claude Code](../sources/2026/2069039170451091878-brag-skill-claude-code-video.md)
+- [Vercel Drop : déployer un site en glissant un dossier dans le navigateur](../sources/2026/2065492873555100098-vercel-drop-deploy-drag-drop.md)

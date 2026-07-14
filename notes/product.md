@@ -35,5 +35,5 @@ Un rant satirique dresse un portrait cynique de la dégradation de la tech grand
 
 - [Annonce d'un an chez Higgsfield et lancement d'un produit majeur](../sources/2026/2074564269207916984-higgsfield-un-an-lancement.md)
 - [70millimètres.fr : moteur de recherche des films disponibles sur les plateformes de streaming légal françaises](../sources/2026/2051228453995745335-70mm-catalogue-streaming-legal.md)
-- [Comment l'équipe Claude Code d'Anthropic ship vite : leçons de Cat Wu](../sources/2026/2047669259380383955-claude-code-shipping-culture.md)
 - [Rant satirique sur la dégradation de l'expérience utilisateur moderne](../sources/2026/2049844370203939149-rant-dystopie-tech-moderne.md)
+- [Comment l'équipe Claude Code d'Anthropic ship vite : leçons de Cat Wu](../sources/2026/2047669259380383955-claude-code-shipping-culture.md)
