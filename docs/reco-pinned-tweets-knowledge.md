@@ -118,6 +118,16 @@ vers Notion en miroir — ça évite de dépendre d'un seul outil.
 
 ## Historique des décisions
 
+- **2026-07-14** — Articles X (`x.com/i/article/…`, ~9 % du corpus) : la piste
+  API officielle est fermée. Les endpoints Articles de l'API v2 sont en
+  **écriture seule** (`POST /2/articles/draft`, `POST /2/articles/{id}/publish`) ;
+  aucun GET, et le tweet porteur ne contient qu'un lien t.co (pas de body).
+  Le MCP hébergé expose les mêmes endpoints → même limite. Alternatives
+  possibles, non retenues pour l'instant : rendu headless authentifié (fragile,
+  session web à maintenir), API tierces de scraping (coût, ToS). Décision :
+  marquer ces sources comme non récupérables et re-vérifier périodiquement si
+  X ouvre la lecture (demande communautaire active — thread « CRUD Articles »).
+
 - **2026-07-10** — Structure de stockage révisée : abandon de `knowledge/YYYY/`
   (archive chronologique) au profit du modèle deux couches `sources/` + `notes/`
   avec taxonomie contrôlée et archivage du contenu lié (voir section dédiée).
