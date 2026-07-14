@@ -63,9 +63,12 @@ Bootstrap terminé (app X, OAuth, secrets GitHub, CI validée — la branche
    ~24/50 bookmarks concernés). Limite connue : un tweet cité qui n'est qu'une
    **image** n'est pas capté (pas d'OCR/vision). Reste à itérer : prompts
    d'extraction/consolidation, taxonomie à ajuster aux vrais bookmarks.
-3. ⬜ Régénérer les vieilles notes « contenu inaccessible » qui étaient en fait
-   des quote tweets (elles ont été produites avant le fix ; le bookmark est
-   marqué vu → il faudrait le dé-marquer dans `state/seen_ids.json` pour retraiter).
+3. ✅ Notes « contenu inaccessible » d'avant le fix retraitées (2026-07-14) :
+   8 notes supprimées + IDs dé-marqués de `state/seen_ids.json` → elles seront
+   régénérées (avec les tweets cités résolus) au prochain run cron. `notes/misc.md`
+   réécrite (ne garde que les 2 posts média-only). La note « atelier Anthropic »
+   (2048418646960288059) est postérieure au fix : son quote tweet ne contient
+   qu'une vidéo → non retraitée (limite média, pas de vision/OCR).
 
 **Env local** : venv 3.12 obligatoire (`.venv/bin/python`), jamais `python3` (=3.9).
 

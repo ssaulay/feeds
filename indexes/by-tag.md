@@ -21,7 +21,6 @@
 - [Spotify déploie 4 500 fois/jour grâce à l'adoption massive de Claude (Opus 4.5)](../sources/2026/2056753238494335077-spotify-4500-deploiements-jour-claude.md) (@0xMovez)
 - [Maintenir un fichier implementation-notes.html pour combler les ambiguïtés de spec avec un agent IA](../sources/2026/2056418157305454805-implementation-notes-file-spec.md) (@trq212)
 - [Agent IA local dans le navigateur avec Gemma et WebGPU](../sources/2026/2048805789788413984-agent-local-navigateur-gemma.md) (@googlegemma)
-- [Mention d'un deep dive par Aparna Dhinakaran et Jason Lopatecki (contenu non accessible)](../sources/2026/2048506166112596249-deep-dive-mention-sans-contenu.md) (@amankhan)
 - [DESIGN.md : le standard de Google pour un langage de design partagé avec l'IA](../sources/2026/2047917199655149791-google-design-md-standard.md) (@MengTo)
 - [Donner à Claude l'accès à Exa comme upgrade instantané de capacités](../sources/2026/2047736429221224900-claude-exa-matrix-kungfu.md) (@jeffzwang)
 - [Exa lance un plugin MCP pour donner à Claude un accès web massif](../sources/2026/2047735503794094485-exa-plugin-claude-mcp.md) (@ExaAILabs)
@@ -102,20 +101,12 @@
 
 ## misc
 
-- [Article X non accessible (contenu JavaScript requis)](../sources/2026/2075361336381555096-article-x-non-accessible.md) (@piersonmarks)
-- [Article X non accessible (contenu bloqué par JavaScript)](../sources/2026/2075290325757608148-contenu-inaccessible-article-x.md) (@neilrahilly)
-- [Contenu X non accessible (JavaScript requis)](../sources/2026/2074501620235465089-post-x-non-accessible.md) (@EXM7777)
-- [Post avec lien non exploitable](../sources/2026/2069088587451187654-post-lien-sans-contexte.md) (@pierre_dlgr)
-- [Article X non accessible (JavaScript requis)](../sources/2026/2062647149582750101-contenu-non-accessible.md) (@hnshah)
 - [Une techno/IA qui rappelle un épisode de Black Mirror](../sources/2026/2062566824437588312-black-mirror-episode-irl.md) (@gminoprio)
 - [Anticipation d'un changement majeur et rapide (contenu média non accessible)](../sources/2026/2062269826177868211-things-getting-weird-soon.md) (@ian_dot_so)
 - [Meme humoristique sur la réaction des employés Meta en début d'appel](../sources/2026/2057748313311428900-meta-employees-call-meme.md) (@folaoftech)
-- [Post X non accessible (contenu bloqué par JavaScript)](../sources/2026/2056783455472554008-contenu-inaccessible-mnilax.md) (@Mnilax)
 - [Utiliser Reddit pour trouver un emploi remote](../sources/2026/2051275760703574313-reddit-remote-job-search.md) (@heysajib)
 - [70millimètres.fr : moteur de recherche des films disponibles sur les plateformes de streaming légal françaises](../sources/2026/2051228453995745335-70mm-catalogue-streaming-legal.md) (@heyzineb)
 - [Rant satirique sur la dégradation de l'expérience utilisateur moderne](../sources/2026/2049844370203939149-rant-dystopie-tech-moderne.md) (@effthealgorithm)
-- [Article X référencé mais contenu non accessible](../sources/2026/2049659161005470071-article-x-non-accessible.md) (@vasuman)
-- [Mention d'un deep dive par Aparna Dhinakaran et Jason Lopatecki (contenu non accessible)](../sources/2026/2048506166112596249-deep-dive-mention-sans-contenu.md) (@amankhan)
 
 ## product
 
