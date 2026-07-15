@@ -2,6 +2,7 @@
 
 ## ai-agents
 
+- [Jack partage avec enthousiasme un post de Demis Hassabis](../sources/2026/2077043492065325458-jack-approuve-post-hassabis.md) (@jack)
 - [Un appel à voir l'IA sous un angle positif plutôt que sceptique](../sources/2026/2076854182833983732-optimisme-ia-perspective-positive.md) (@jessegenet)
 - [6 pratiques pour rendre un repo compatible avec les agents de code](../sources/2026/2076724129185866076-repos-friendly-coding-agents.md) (@mikeldking)
 - [Recommandation : Masterclass Hermes Agent par @tonbistudio](../sources/2026/2075673428171092404-masterclass-hermes-agent-tonbistudio.md) (@KSimback)
@@ -150,6 +151,7 @@
 
 ## misc
 
+- [Jack partage avec enthousiasme un post de Demis Hassabis](../sources/2026/2077043492065325458-jack-approuve-post-hassabis.md) (@jack)
 - [Un appel à voir l'IA sous un angle positif plutôt que sceptique](../sources/2026/2076854182833983732-optimisme-ia-perspective-positive.md) (@jessegenet)
 - [Article X non accessible (contenu bloqué par JavaScript)](../sources/2026/2075361336381555096-contenu-inaccessible-article-x.md) (@piersonmarks)
 - [Article X non accessible (contenu non chargé)](../sources/2026/2075290325757608148-post-x-contenu-inaccessible.md) (@neilrahilly)
