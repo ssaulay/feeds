@@ -2,6 +2,8 @@
 
 ## ai-agents
 
+- [Cerebras Knowledge : système de context engineering pour agents en entreprise](../sources/2026/2077829577322426879-cerebras-knowledge-context-engineering.md) (@LinghuaJ)
+- [Wayfinder comme orchestrateur de skills IA + prototypage frontend multi-variantes](../sources/2026/2077743625639714850-wayfinder-orchestrateur-skills-frontend.md) (@mattpocockuk)
 - [Jack partage avec enthousiasme un post de Demis Hassabis](../sources/2026/2077043492065325458-jack-approuve-post-hassabis.md) (@jack)
 - [Un appel à voir l'IA sous un angle positif plutôt que sceptique](../sources/2026/2076854182833983732-optimisme-ia-perspective-positive.md) (@jessegenet)
 - [6 pratiques pour rendre un repo compatible avec les agents de code](../sources/2026/2076724129185866076-repos-friendly-coding-agents.md) (@mikeldking)
@@ -49,15 +51,18 @@
 
 ## data
 
+- [Cerebras Knowledge : système de context engineering pour agents en entreprise](../sources/2026/2077829577322426879-cerebras-knowledge-context-engineering.md) (@LinghuaJ)
 - [Gemini Embedding 2 : un seul espace vectoriel pour texte, image, audio, vidéo et PDF](../sources/2026/2047003304937332860-gemini-embedding-2-multimodal.md) (@brivael)
 
 ## design
 
+- [Wayfinder comme orchestrateur de skills IA + prototypage frontend multi-variantes](../sources/2026/2077743625639714850-wayfinder-orchestrateur-skills-frontend.md) (@mattpocockuk)
 - [DESIGN.md : le standard de Google pour un langage de design partagé avec l'IA](../sources/2026/2047917199655149791-google-design-md-standard.md) (@MengTo)
 - [Interface générative : le GUI entier streamé par un modèle](../sources/2026/2046975783324004732-generative-computing-pixels-streamed.md) (@eddiejiao_obj)
 
 ## dev-tools
 
+- [Wayfinder comme orchestrateur de skills IA + prototypage frontend multi-variantes](../sources/2026/2077743625639714850-wayfinder-orchestrateur-skills-frontend.md) (@mattpocockuk)
 - [6 pratiques pour rendre un repo compatible avec les agents de code](../sources/2026/2076724129185866076-repos-friendly-coding-agents.md) (@mikeldking)
 - [Générer un second cerveau personnalisé via Claude Code et un prompt dédié](../sources/2026/2075424322496455107-claude-code-second-brain-fable5.md) (@ojigineko_tips)
 - [Lancement du X MCP hébergé : accès à l'API X pour les outils IA compatibles MCP](../sources/2026/2071753251360502131-x-mcp-hosted-api-access.md) (@taycaldwell)
@@ -85,6 +90,7 @@
 
 ## engineering
 
+- [Cerebras Knowledge : système de context engineering pour agents en entreprise](../sources/2026/2077829577322426879-cerebras-knowledge-context-engineering.md) (@LinghuaJ)
 - [6 pratiques pour rendre un repo compatible avec les agents de code](../sources/2026/2076724129185866076-repos-friendly-coding-agents.md) (@mikeldking)
 - [Comment Sierra a déployé un agent IA unique (Pinecone) dans toute l'entreprise](../sources/2026/2075571269526003788-sierra-ai-pilling-pinecone.md) (@btaylor)
 - [Recommandation : la meilleure explication des boucles (loops) en programmation](../sources/2026/2074415498125517236-clearest-explanation-loops.md) (@bookercodes)
@@ -151,6 +157,7 @@
 
 ## misc
 
+- [Article X non accessible (contenu non récupéré)](../sources/2026/2077650169265590727-article-x-non-accessible.md) (@viks_rum)
 - [Jack partage avec enthousiasme un post de Demis Hassabis](../sources/2026/2077043492065325458-jack-approuve-post-hassabis.md) (@jack)
 - [Un appel à voir l'IA sous un angle positif plutôt que sceptique](../sources/2026/2076854182833983732-optimisme-ia-perspective-positive.md) (@jessegenet)
 - [Article X non accessible (contenu bloqué par JavaScript)](../sources/2026/2075361336381555096-contenu-inaccessible-article-x.md) (@piersonmarks)
@@ -215,6 +222,7 @@
 
 ## prompt-engineering
 
+- [Wayfinder comme orchestrateur de skills IA + prototypage frontend multi-variantes](../sources/2026/2077743625639714850-wayfinder-orchestrateur-skills-frontend.md) (@mattpocockuk)
 - [Maintenir un fichier implementation-notes.html pour combler les ambiguïtés de spec avec un agent IA](../sources/2026/2056418157305454805-implementation-notes-file-spec.md) (@trq212)
 - [Demander du HTML plutôt que du texte brut aux LLM améliore la lisibilité](../sources/2026/2053872850101285137-llm-output-html-vision.md) (@karpathy)
 - [Prompt personnalisé de pmarca pour obtenir des réponses IA expertes, directes et sans complaisance](../sources/2026/2051374498994364529-prompt-custom-expert-sans-filtre.md) (@pmarca)
