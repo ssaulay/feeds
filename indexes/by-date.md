@@ -3,6 +3,7 @@
 - 2026-07-16 — [Cerebras Knowledge : système de context engineering pour agents en entreprise](../sources/2026/2077829577322426879-cerebras-knowledge-context-engineering.md) (@LinghuaJ)
 - 2026-07-16 — [Wayfinder comme orchestrateur de skills IA + prototypage frontend multi-variantes](../sources/2026/2077743625639714850-wayfinder-orchestrateur-skills-frontend.md) (@mattpocockuk)
 - 2026-07-16 — [Article X non accessible (contenu non récupéré)](../sources/2026/2077650169265590727-article-x-non-accessible.md) (@viks_rum)
+- 2026-07-16 — [Lien X sans contenu récupérable](../sources/2026/2077650169265590727-post-sans-contenu-accessible.md) (@viks_rum)
 - 2026-07-14 — [Jack partage avec enthousiasme un post de Demis Hassabis](../sources/2026/2077043492065325458-jack-approuve-post-hassabis.md) (@jack)
 - 2026-07-14 — [Un appel à voir l'IA sous un angle positif plutôt que sceptique](../sources/2026/2076854182833983732-optimisme-ia-perspective-positive.md) (@jessegenet)
 - 2026-07-13 — [6 pratiques pour rendre un repo compatible avec les agents de code](../sources/2026/2076724129185866076-repos-friendly-coding-agents.md) (@mikeldking)

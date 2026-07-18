@@ -158,6 +158,7 @@
 ## misc
 
 - [Article X non accessible (contenu non récupéré)](../sources/2026/2077650169265590727-article-x-non-accessible.md) (@viks_rum)
+- [Lien X sans contenu récupérable](../sources/2026/2077650169265590727-post-sans-contenu-accessible.md) (@viks_rum)
 - [Jack partage avec enthousiasme un post de Demis Hassabis](../sources/2026/2077043492065325458-jack-approuve-post-hassabis.md) (@jack)
 - [Un appel à voir l'IA sous un angle positif plutôt que sceptique](../sources/2026/2076854182833983732-optimisme-ia-perspective-positive.md) (@jessegenet)
 - [Article X non accessible (contenu bloqué par JavaScript)](../sources/2026/2075361336381555096-contenu-inaccessible-article-x.md) (@piersonmarks)
