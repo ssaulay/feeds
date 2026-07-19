@@ -19,10 +19,11 @@ Un apport plus concret instancie ce principe à l'échelle d'un praticien indivi
 Plusieurs apports plus récents partagent un profil proche : ce sont des posts d'annonce/growth marketing, de recommandation de contenu ou d'approbation implicite, souvent sans preuve vérifiable ni lien exploitable vers la source primaire, ce qui invite à une prudence évaluative systématique.
 
 - **Fable 5** : un post recommande de copier-coller un article dans Claude Code pour qu'un système nommé "Fable 5" génère automatiquement une architecture de second cerveau adaptée à l'utilisateur — une délégation à l'IA de la conception même du système de connaissances, à l'opposé de la démarche curatoriale d'Hermes Atlas. Le contenu réel de l'article source restant inconnu, la fiabilité de la méthode ne peut être évaluée.
-- **Bud** se présente com
+- **Démocratisation façon Cerebras (Dan Jeffries)** : commentaire d'un tiers prédisant que les capacités IA de pointe illustrées par Cerebras seront bientôt accessibles à tous, sans détailler ce qui a été concrètement démontré ni sur quel horizon. Contrairement au cas Cerebras Knowledge documenté plus haut (architecture précise, volumétrie, retours d'usage), ce post relève de la prédiction générique et non d'une preuve technique — il n'ajoute donc rien au diagnostic opérationnel, mais illustre le même profil de contenu peu vérifiable que Fable 5. ⚠️ Tension implicite : la thèse de Thinking Machines (savoir local non centralisable, diversité nécessaire) et les cas Sierra/Uber/Cerebras (l'avantage vient du contexte métier local, difficile à répliquer) suggèrent que la "démocratisation" des capacités brutes du modèle ne suffit pas à démocratiser la valeur réelle — contredisant l'optimisme diffus du post de Jeffries selon lequel l'accès aux capacités seules suffirait à égaliser les positions.
 
 ## Sources
 
+- [Anticipation d'une démocratisation rapide des capacités IA type Cerebras](../sources/2026/2078370303323820039-cerebras-ia-pour-tous.md)
 - [Cerebras Knowledge : système de context engineering pour agents en entreprise](../sources/2026/2077829577322426879-cerebras-knowledge-context-engineering.md)
 - [Wayfinder comme orchestrateur de skills IA + prototypage frontend multi-variantes](../sources/2026/2077743625639714850-wayfinder-orchestrateur-skills-frontend.md)
 - [Jack partage avec enthousiasme un post de Demis Hassabis](../sources/2026/2077043492065325458-jack-approuve-post-hassabis.md)
