@@ -39,9 +39,11 @@ notes de synthèse committées par la CI). Cron quotidienne active.
 Composants (testés hors réseau via `.venv/bin/python -m unittest tests.test_smoke`) :
 - `pipeline/x_client.py` — OAuth2 + refresh, fetch bookmarks (1 page de 50, dédup en aval)
 - `pipeline/resolve.py` — liens sortants (expanded_url, liens X internes filtrés),
-  extraction de contenu via trafilatura, cap 20k chars
+  extraction de contenu via trafilatura (cap 20k chars) ; `collect_images` +
+  `fetch_image` : images du post et des tweets cités (photos + vignettes vidéo)
 - `pipeline/extract.py` — appel Claude (JSON : slug, résumé, idées clés, citations,
-  tags, primary_topic), sanitization contre la taxonomie
+  tags, primary_topic), sanitization contre la taxonomie ; **vision** : images
+  jointes en blocs base64 (plafond 4/tweet) → Claude lit le contenu des images
 - `pipeline/notes.py` — notes sources, notes de synthèse (création directe la
   1ère fois, mise à jour via Claude ensuite ; la section « Sources » est
   reconstruite par code depuis le frontmatter `primary_topic` — le LLM en
@@ -56,15 +58,14 @@ Composants (testés hors réseau via `.venv/bin/python -m unittest tests.test_sm
 Bootstrap terminé (app X, OAuth, secrets GitHub, CI validée — la branche
 `claude/pinned-tweets-knowledge-tool-0bv44t` EST la branche par défaut). Reste :
 
-1. ⬜ **Surveiller le 1er refresh de token en prod** : la cron de demain 06:17 UTC
-   sera le premier run où l'access token a expiré → refresh + rotation +
-   recommit de `state/token.enc` par la CI. Chemin pas encore exercé en réel.
-   Après un run local, toujours `git pull` avant le suivant (token rotatif).
-2. 🟡 **Qualité** : ✅ tweets cités/répondus désormais résolus (expansion
-   `referenced_tweets.id`, contenu inclus gratis dans la réponse bookmarks —
-   ~24/50 bookmarks concernés). Limite connue : un tweet cité qui n'est qu'une
-   **image** n'est pas capté (pas d'OCR/vision). Reste à itérer : prompts
-   d'extraction/consolidation, taxonomie à ajuster aux vrais bookmarks.
+1. ✅ **Refresh de token en prod validé** : cron en succès chaque jour depuis le
+   14/07, la rotation du refresh token + recommit de `state/token.enc` par la CI
+   fonctionne. Réflexe : après un run local, `git pull` avant le suivant (token rotatif).
+2. 🟡 **Qualité** : ✅ tweets cités/répondus résolus (expansion
+   `referenced_tweets.id`). ✅ **Vision** (2026-07-19) : les images du post et des
+   tweets cités sont lues par Claude → les posts image-only (infographies, quote
+   tweets image/vidéo) produisent maintenant de vraies notes. Reste à itérer :
+   prompts d'extraction/consolidation, taxonomie à ajuster aux vrais bookmarks.
 3. ✅ Notes « contenu inaccessible » d'avant le fix retraitées (2026-07-14) :
    8 notes supprimées + IDs dé-marqués de `state/seen_ids.json` → elles seront
    régénérées (avec les tweets cités résolus) au prochain run cron. `notes/misc.md`

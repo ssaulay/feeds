@@ -11,7 +11,7 @@ from pipeline.config import Config
 from pipeline.extract import _parse_json, _sanitize
 from pipeline.notes import (generate_indexes, parse_frontmatter, rebuild_sources_section,
                             update_topic_note, write_source_note)
-from pipeline.resolve import extract_links, resolve_referenced, tweet_text
+from pipeline.resolve import collect_images, extract_links, resolve_referenced, tweet_text
 from pipeline.state import load_seen_ids, save_seen_ids
 
 TWEET = {
@@ -85,6 +85,34 @@ class SmokeTests(unittest.TestCase):
         self.assertIn("En réponse à @parent : Le long post parent", refs[1]["content"])
         # Un tweet sans référence ne produit rien
         self.assertEqual(resolve_referenced({"id": "x"}), [])
+
+    def test_collect_images(self):
+        tweet = {
+            "id": "1",
+            "media": [
+                {"type": "photo", "url": "https://pbs.twimg.com/a.jpg", "alt_text": "un schéma"},
+                {"type": "video", "preview_image_url": "https://pbs.twimg.com/v.jpg"},
+                {"type": "photo", "url": "https://pbs.twimg.com/a.jpg"},  # doublon
+            ],
+            "referenced": [
+                {"type": "quoted", "tweet": {
+                    "id": "2", "media": [{"type": "photo", "url": "https://pbs.twimg.com/c.jpg"}]}},
+            ],
+        }
+        imgs = collect_images(tweet)
+        # dédup de a.jpg, photo du post + vignette vidéo + image du tweet cité
+        self.assertEqual([i["url"] for i in imgs], [
+            "https://pbs.twimg.com/a.jpg",
+            "https://pbs.twimg.com/v.jpg",
+            "https://pbs.twimg.com/c.jpg",
+        ])
+        self.assertEqual(imgs[0]["origin"], "post")
+        self.assertEqual(imgs[0]["alt"], "un schéma")
+        self.assertEqual(imgs[2]["origin"], "Tweet cité")
+        # plafond respecté
+        self.assertEqual(len(collect_images(tweet, max_images=2)), 2)
+        # tweet sans média
+        self.assertEqual(collect_images({"id": "x"}), [])
 
     def test_extract_parse_and_sanitize(self):
         parsed = _parse_json('bla {"slug": "A B!", "tags": ["llm", "hors-taxo"],'

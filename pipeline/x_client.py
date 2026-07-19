@@ -18,11 +18,14 @@ API_BASE = "https://api.x.com/2"
 
 BOOKMARK_PARAMS = {
     "max_results": "50",
-    "tweet.fields": "created_at,entities,author_id,note_tweet,referenced_tweets",
-    # referenced_tweets.id ramène le texte des tweets cités/répondus dans les
-    # includes de la même réponse (pas de read facturé en plus).
-    "expansions": "author_id,referenced_tweets.id,referenced_tweets.id.author_id",
+    "tweet.fields": "created_at,entities,author_id,note_tweet,referenced_tweets,attachments",
+    # referenced_tweets.id ramène le texte des tweets cités/répondus, et
+    # attachments.media_keys les images (du post et des tweets cités) — tout dans
+    # les includes de la même réponse (pas de read facturé en plus).
+    "expansions": ("author_id,referenced_tweets.id,referenced_tweets.id.author_id,"
+                   "attachments.media_keys,referenced_tweets.id.attachments.media_keys"),
     "user.fields": "username,name",
+    "media.fields": "type,url,preview_image_url,alt_text",
 }
 
 
@@ -78,8 +81,15 @@ class XClient:
         includes = payload.get("includes", {})
         users = {u["id"]: u for u in includes.get("users", [])}
         inc_tweets = {t["id"]: t for t in includes.get("tweets", [])}
+        media = {m["media_key"]: m for m in includes.get("media", [])}
+
+        def attach_media(t: dict) -> None:
+            keys = (t.get("attachments") or {}).get("media_keys", [])
+            t["media"] = [media[k] for k in keys if k in media]
+
         for tweet in tweets:
             tweet["author"] = users.get(tweet.get("author_id"), {})
+            attach_media(tweet)
             referenced = []
             for ref in tweet.get("referenced_tweets", []):
                 cited = inc_tweets.get(ref.get("id"))
@@ -87,6 +97,7 @@ class XClient:
                     continue
                 cited = dict(cited)
                 cited["author"] = users.get(cited.get("author_id"), {})
+                attach_media(cited)
                 referenced.append({"type": ref.get("type"), "tweet": cited})
             tweet["referenced"] = referenced
         return tweets

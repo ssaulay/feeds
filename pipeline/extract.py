@@ -1,7 +1,10 @@
 """Extraction de savoir d'un bookmark via l'API Claude (sortie structurée)."""
 
+import base64
 import json
 import re
+
+from .resolve import collect_images, fetch_image
 
 EXTRACTION_PROMPT = """\
 Tu enrichis une bibliothèque de savoir personnelle à partir de posts X bookmarkés.
@@ -13,7 +16,7 @@ Voici un post bookmarké et, le cas échéant, le contenu des pages qu'il réfé
 </post>
 
 {linked_section}
-
+{images_section}
 Tags autorisés (vocabulaire contrôlé, choisis UNIQUEMENT dedans) :
 {taxonomy}
 
@@ -41,6 +44,38 @@ def _linked_section(links: list[dict]) -> str:
     return "\n\n".join(parts) if parts else "(pas de lien sortant exploitable)"
 
 
+def _images_section(images: list[dict]) -> str:
+    """Décrit les images jointes (elles suivent en blocs image dans le message)."""
+    if not images:
+        return ""
+    lines = []
+    for img in images:
+        desc = f"- image ({img['origin']}, {img['type']})"
+        if img.get("alt"):
+            desc += f" — texte alternatif : {img['alt']}"
+        lines.append(desc)
+    return ("Des images sont jointes à ce message (post et/ou tweets cités). "
+            "Lis-les : exploite tout texte, schéma, graphique ou donnée qu'elles "
+            "contiennent, notamment quand le post lui-même est court.\n"
+            + "\n".join(lines) + "\n")
+
+
+def _image_blocks(tweet: dict) -> tuple[list[dict], list[dict]]:
+    """Télécharge les images du tweet ; retourne (blocs image API, métadonnées)
+    pour les seules images effectivement récupérées."""
+    blocks, attached = [], []
+    for img in collect_images(tweet):
+        fetched = fetch_image(img["url"])
+        if not fetched:
+            continue
+        media_type, data = fetched
+        blocks.append({"type": "image", "source": {
+            "type": "base64", "media_type": media_type,
+            "data": base64.standard_b64encode(data).decode()}})
+        attached.append(img)
+    return blocks, attached
+
+
 def _parse_json(text: str) -> dict:
     match = re.search(r"\{.*\}", text, re.DOTALL)
     if not match:
@@ -63,17 +98,20 @@ def extract_knowledge(cfg, tweet: dict, text: str, links: list[dict],
     import anthropic
 
     client = anthropic.Anthropic(api_key=cfg.anthropic_api_key)
+    image_blocks, attached = _image_blocks(tweet)
     prompt = EXTRACTION_PROMPT.format(
         username=tweet.get("author", {}).get("username", "inconnu"),
         created_at=tweet.get("created_at", ""),
         text=text,
         linked_section=_linked_section(links),
+        images_section=_images_section(attached),
         taxonomy="\n".join(f"- {t}" for t in taxonomy),
     )
+    content = image_blocks + [{"type": "text", "text": prompt}]
     response = client.messages.create(
         model=cfg.claude_model,
         max_tokens=2000,
-        messages=[{"role": "user", "content": prompt}],
+        messages=[{"role": "user", "content": content}],
     )
     # Le modèle peut émettre un bloc thinking avant le texte : on prend le bloc texte.
     text_out = next(

@@ -69,3 +69,43 @@ def resolve_tweet(tweet: dict) -> list[dict]:
     referenced = resolve_referenced(tweet)
     links = [{"url": url, "content": fetch_page_content(url)} for url in extract_links(tweet)]
     return referenced + links
+
+
+MAX_IMAGES = 4
+IMAGE_MEDIA_TYPES = {"image/jpeg", "image/png", "image/gif", "image/webp"}
+
+
+def collect_images(tweet: dict, max_images: int = MAX_IMAGES) -> list[dict]:
+    """Images du post et de ses tweets cités : photos (`url`) et vignettes de
+    vidéos/gifs (`preview_image_url`). Dédupliqué et plafonné (coût vision)."""
+    seen: set[str] = set()
+    out: list[dict] = []
+
+    def collect(t: dict, origin: str) -> None:
+        for m in t.get("media", []):
+            url = m.get("url") or m.get("preview_image_url")
+            if not url or url in seen:
+                continue
+            seen.add(url)
+            out.append({"url": url, "alt": m.get("alt_text") or "",
+                        "type": m.get("type", "photo"), "origin": origin})
+
+    collect(tweet, "post")
+    for ref in tweet.get("referenced", []):
+        collect(ref.get("tweet") or {}, REF_LABELS.get(ref.get("type"), "tweet lié"))
+    return out[:max_images]
+
+
+def fetch_image(url: str) -> tuple[str, bytes] | None:
+    """Télécharge une image ; retourne (media_type, bytes) ou None si échec/type
+    non image."""
+    try:
+        resp = httpx.get(url, follow_redirects=True, timeout=30,
+                         headers={"User-Agent": USER_AGENT})
+        resp.raise_for_status()
+    except httpx.HTTPError:
+        return None
+    media_type = resp.headers.get("content-type", "").split(";")[0].strip().lower()
+    if media_type not in IMAGE_MEDIA_TYPES:
+        return None
+    return media_type, resp.content
