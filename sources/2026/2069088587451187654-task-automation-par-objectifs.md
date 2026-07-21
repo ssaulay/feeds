@@ -9,25 +9,25 @@ proposed_tags: []
 tags:
 - ai-agents
 - productivity
-- startup
-title: Outil d'agents IA qui construisent des workflows à partir d'objectifs
+- dev-tools
+title: Un outil qui construit des workflows automatisés à partir d'objectifs définis
 tweet_id: '2069088587451187654'
 url: https://x.com/pierre_dlgr/status/2069088587451187654
 ---
 
-# Outil d'agents IA qui construisent des workflows à partir d'objectifs
+# Un outil qui construit des workflows automatisés à partir d'objectifs définis
 
 > Post de **@pierre_dlgr** — [voir sur X](https://x.com/pierre_dlgr/status/2069088587451187654)
 
 ## Résumé
 
-Ce post promeut un produit permettant de définir un objectif et laisser des agents IA construire eux-mêmes le workflow nécessaire, sans prompts ni flowcharts à créer manuellement. Les exemples cités incluent la génération de rapports quotidiens, le suivi hebdomadaire et la mise à jour automatique du CRM. Le service est proposé gratuitement à l'essai.
+Le post présente un outil d'automatisation de tâches accessible gratuitement, où l'utilisateur définit simplement un objectif et le système construit le workflow correspondant. L'approche évite les organigrammes complexes et les prompts, se concentrant uniquement sur les résultats. Des exemples cités incluent les rapports quotidiens, les relances hebdomadaires et les mises à jour CRM automatiques.
 
 ## Idées clés
 
-- L'utilisateur définit uniquement le résultat souhaité, l'IA se charge de construire le workflow correspondant.
-- Le positionnement marketing met l'accent sur la simplicité : pas besoin de créer des flowcharts ou des prompts.
-- Les cas d'usage cités sont orientés automatisation de tâches récurrentes en entreprise (reporting, follow-up, CRM).
+- L'utilisateur fixe le but, l'IA construit elle-même le workflow nécessaire pour l'atteindre.
+- Pas besoin de créer des flowcharts ou d'écrire des prompts détaillés, l'accent est mis sur les résultats.
+- Des cas d'usage concrets sont proposés : rapports automatisés, suivis récurrents, mise à jour de CRM.
 
 ## Citations
 

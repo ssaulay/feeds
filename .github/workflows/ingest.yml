@@ -39,9 +39,11 @@ jobs:
           BACKFILL: ${{ inputs.backfill }}
         run: python -m pipeline.main ${BACKFILL:+--backfill "$BACKFILL"}
 
-      # Le token X tourne à chaque refresh : state/token.enc doit être
-      # recommitté même quand aucun bookmark n'est nouveau.
+      # Le token X tourne à chaque refresh : state/token.enc DOIT être recommitté
+      # même quand l'extraction échoue (crédits, réseau…), sinon le refresh
+      # token consommé n'est jamais persisté et tous les runs suivants échouent.
       - name: Commit des nouvelles notes
+        if: always()
         run: |
           git config user.name "feeds-bot"
           git config user.email "feeds-bot@users.noreply.github.com"

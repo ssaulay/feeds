@@ -20,9 +20,15 @@ Un framework (crédité à @stephsmithio) décrit 5 niveaux de contribution face
 
 Ce framework résonne avec les approches "Sasha" et "Team OS" décrites ci-dessus : dans les trois cas, l'enjeu est de responsabiliser un individu, une fonction ou une infrastructure pour qu'ils agissent et permettent l'auto-service, plutôt que d'attendre une impulsion ou un mandat descendant — que ce soit pour piloter l'adoption de l'IA ou pour traiter un problème métier.
 
+**Climat social et vagues de licenciements dans la tech**
+
+Un mème humoristique montre un employé de Meta se préparant de façon exagérée (vodka, t-shirt "LAID OFF") au moment de recevoir un appel de licenciement. Le contenu illustre, sur le ton de l'ironie, un climat d'anxiété anticipatoire et de fatalisme face aux vagues de layoffs dans la tech, l'humour servant d'exutoire collectif sur les réseaux sociaux.
+
+⚠️ Contradiction implicite : cet apport contraste avec le reste de la note, centrée sur des démarches managériales visant à responsabiliser et outiller les employés (autonomie, adoption organique de l'IA). Il rappelle que ces dynamiques d'agentivité et de leverage IA se déploient dans un contexte plus large d'insécurité de l'emploi, où l'IA et les réorganisations peuvent aussi être vécues comme une menace plutôt qu'une opportunité de montée en compétence.
+
 ## Sources
 
-- [Une méthode efficace pour accélérer l'adoption de l'IA dans les équipes non-techniques](../sources/2026/2074666373402464442-methode-adoption-ia-non-tech.md)
 - [La stratégie AI qui marche : embaucher un 'Sasha' plutôt qu'un mandat top-down](../sources/2026/2072048527996604900-embaucher-son-sasha-ai-ops.md)
 - [Les 5 niveaux de travail pour former des employés à haute agentivité](../sources/2026/2070194343034360004-5-niveaux-de-travail-agency.md)
+- [Meme humoristique : réaction d'un employé Meta à un appel de licenciement](../sources/2026/2057748313311428900-meta-employe-appel-licenciement.md)
 - [Construire un 'Team OS' dans Claude Code pour scaler une équipe entière](../sources/2026/2044520404094759185-team-os-claude-code.md)

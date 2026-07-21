@@ -33,8 +33,6 @@ non résolus ne sont captés.
 - [Article X non accessible (contenu non chargé)](../sources/2026/2075290325757608148-post-x-contenu-inaccessible.md)
 - [Post X non accessible - contenu non récupérable](../sources/2026/2074501620235465089-contenu-inaccessible-x.md)
 - [Article X non accessible (contenu bloqué par JavaScript)](../sources/2026/2062647149582750101-contenu-inaccessible-x-article.md)
-- [Anticipation d'un changement majeur et rapide (contenu média non accessible)](../sources/2026/2062269826177868211-things-getting-weird-soon.md)
-- [Meme humoristique sur la réaction des employés Meta en début d'appel](../sources/2026/2057748313311428900-meta-employees-call-meme.md)
 - [Post X non accessible - contenu non récupéré](../sources/2026/2056783455472554008-post-x-contenu-inaccessible.md)
 - [Article X non accessible (contenu non chargé)](../sources/2026/2049659161005470071-contenu-inaccessible-article-x.md)
 - [Article X non accessible (contenu non chargé)](../sources/2026/2043545596699750791-contenu-inaccessible-article-x.md)

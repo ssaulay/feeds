@@ -58,20 +58,22 @@ Composants (testés hors réseau via `.venv/bin/python -m unittest tests.test_sm
 Bootstrap terminé (app X, OAuth, secrets GitHub, CI validée — la branche
 `claude/pinned-tweets-knowledge-tool-0bv44t` EST la branche par défaut). Reste :
 
-1. ✅ **Refresh de token en prod validé** : cron en succès chaque jour depuis le
-   14/07, la rotation du refresh token + recommit de `state/token.enc` par la CI
-   fonctionne. Réflexe : après un run local, `git pull` avant le suivant (token rotatif).
-2. 🟡 **Qualité** : ✅ tweets cités/répondus résolus (expansion
-   `referenced_tweets.id`). ✅ **Vision** (2026-07-19) : les images du post et des
-   tweets cités sont lues par Claude → les posts image-only (infographies, quote
-   tweets image/vidéo) produisent maintenant de vraies notes. Reste à itérer :
-   prompts d'extraction/consolidation, taxonomie à ajuster aux vrais bookmarks.
-3. ✅ Notes « contenu inaccessible » d'avant le fix retraitées (2026-07-14) :
-   8 notes supprimées + IDs dé-marqués de `state/seen_ids.json` → elles seront
-   régénérées (avec les tweets cités résolus) au prochain run cron. `notes/misc.md`
-   réécrite (ne garde que les 2 posts média-only). La note « atelier Anthropic »
-   (2048418646960288059) est postérieure au fix : son quote tweet ne contient
-   qu'une vidéo → non retraitée (limite média, pas de vision/OCR).
+1. 🔴 **BLOQUANT — crédits Anthropic épuisés** (2026-07-21) : « credit balance is
+   too low ». La CI échouera à l'extraction tant que Simon n'a pas rechargé le
+   solde (Plans & Billing). Rien à coder de notre côté.
+2. ⚠️ **Piège token rotatif** : un run local qui refresh le token **invalide**
+   celui committé sur origin → la CI a échoué le 20 et 21/07 (400 sur refresh).
+   Réparé en committant le `token.enc` local (le seul valide). + fix CI : le step
+   de commit passe en `if: always()` pour que `token.enc` soit recommitté même
+   si l'extraction échoue (sinon un refresh non persisté casse tous les runs
+   suivants). Règle : ne pas lancer le pipeline en local sans committer/pousser
+   le `token.enc` juste après (et `git pull` avant).
+3. 🟡 **Qualité** : ✅ tweets cités/répondus résolus. ✅ **Vision** (2026-07-19) :
+   images du post et des tweets cités lues par Claude. ✅ **Régénération vision**
+   (2026-07-21) : 8/12 notes image+texte-court régénérées ; **4 restantes bloquées
+   par les crédits** (IDs 2065492873555100098, 2042295647362019800,
+   2064799961380737389, 2071861350268047571 → relancer `scratchpad/regen_vision.py`
+   une fois les crédits rechargés). Reste à itérer prompts/taxonomie.
 
 **Env local** : venv 3.12 obligatoire (`.venv/bin/python`), jamais `python3` (=3.9).
 

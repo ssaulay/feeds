@@ -15,10 +15,13 @@ Sur le volet multimodal, Google concrétise cette tendance avec **Gemini Embeddi
 - **Prix compétitif** : 0.20$/M tokens (0.10$ en batch), rendant l'indexation à grande échelle abordable.
 - Lecture stratégique : Google construit des briques d'infrastructure qui rendent obsolètes plusieurs produits concurrents à la fois (CLIP, Whisper, embedders spécialisés), pendant que la concurrence communique surtout via des démos.
 
+Toujours sur le multimodal, mais côté génération (et non plus embedding) : **Miso One** est un modèle text-to-speech open source de 8 milliards de paramètres, atteignant 110ms de latence — plus rapide qu'un temps de réponse humain typique — pour une parole décrite comme la plus expressive/émotive au monde en synthèse vocale. Les poids sont déjà disponibles, l'API arrivant prochainement. Ce cas illustre qu'une miniaturisation relative (8B) suffit à obtenir une expressivité élevée, et complète la tendance audio native déjà notée avec Gemini Embedding 2 : d'un côté l'indexation/compréhension de l'audio (embedding), de l'autre sa génération quasi indiscernable d'une voix humaine — deux briques qui, combinées, rapprochent les agents vocaux temps réel de l'interaction humaine naturelle.
+
 Sur le volet pédagogique, une vidéo de 2h d'**Andrej Karpathy** (co-fondateur d'OpenAI) sur l'utilisation pratique des LLMs circule comme référence, présentée comme plus formatrice que les tutoriels IA habituels. Ce bookmark reste toutefois un pointeur incomplet : ni transcript ni description détaillée du contenu ne sont disponibles pour l'instant. À compléter/vérifier dès qu'une source donne accès au contenu réel (thèmes abordés, recommandations concrètes) pour l'intégrer utilement à la synthèse — actuellement, la seule information exploitable est le signal de recommandation (autorité de l'auteur + format long conseillé pour un visionnage approfondi plutôt qu'un survol).
 
 ## Sources
 
 - [Techniques avancées de RAG pour des systèmes de récupération fiables en production](../sources/2026/2065403846940147866-advanced-rag-techniques-guide.md)
+- [Miso One : un modèle text-to-speech ultra-expressif en open source](../sources/2026/2062269826177868211-miso-one-voice-model.md)
 - [Gemini Embedding 2 : un seul espace vectoriel pour texte, image, audio, vidéo et PDF](../sources/2026/2047003304937332860-gemini-embedding-2-multimodal.md)
 - [Vidéo de 2h par Andrej Karpathy sur l'utilisation des LLMs](../sources/2026/2046612983007039794-karpathy-video-llm-usage.md)

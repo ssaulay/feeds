@@ -80,7 +80,9 @@ def _parse_json(text: str) -> dict:
     match = re.search(r"\{.*\}", text, re.DOTALL)
     if not match:
         raise ValueError(f"Pas de JSON dans la réponse du modèle : {text[:200]}")
-    return json.loads(match.group(0))
+    # strict=False : tolère les caractères de contrôle bruts (ex. retour à la
+    # ligne littéral dans une chaîne) que le modèle insère parfois.
+    return json.loads(match.group(0), strict=False)
 
 
 def _sanitize(extraction: dict, taxonomy: list[str]) -> dict:
