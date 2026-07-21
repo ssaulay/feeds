@@ -95,29 +95,39 @@ def _sanitize(extraction: dict, taxonomy: list[str]) -> dict:
     return extraction
 
 
+def _call_claude(client, model: str, content: list) -> str | None:
+    """Renvoie le texte de la réponse, ou None si le modèle n'a émis aucun bloc
+    texte (refus de sécurité `stop_reason=refusal`, ou réponse vide)."""
+    response = client.messages.create(
+        model=model, max_tokens=2000, messages=[{"role": "user", "content": content}])
+    # Le modèle peut émettre un bloc thinking avant le texte : on prend le bloc texte.
+    return next(
+        (b.text for b in response.content if getattr(b, "type", None) == "text"), None)
+
+
 def extract_knowledge(cfg, tweet: dict, text: str, links: list[dict],
                       taxonomy: list[str]) -> dict:
     import anthropic
 
     client = anthropic.Anthropic(api_key=cfg.anthropic_api_key)
     image_blocks, attached = _image_blocks(tweet)
-    prompt = EXTRACTION_PROMPT.format(
-        username=tweet.get("author", {}).get("username", "inconnu"),
-        created_at=tweet.get("created_at", ""),
-        text=text,
-        linked_section=_linked_section(links),
-        images_section=_images_section(attached),
-        taxonomy="\n".join(f"- {t}" for t in taxonomy),
-    )
-    content = image_blocks + [{"type": "text", "text": prompt}]
-    response = client.messages.create(
-        model=cfg.claude_model,
-        max_tokens=2000,
-        messages=[{"role": "user", "content": content}],
-    )
-    # Le modèle peut émettre un bloc thinking avant le texte : on prend le bloc texte.
-    text_out = next(
-        (b.text for b in response.content if getattr(b, "type", None) == "text"), None)
+
+    def build(with_context: bool) -> list:
+        prompt = EXTRACTION_PROMPT.format(
+            username=tweet.get("author", {}).get("username", "inconnu"),
+            created_at=tweet.get("created_at", ""),
+            text=text,
+            linked_section=_linked_section(links if with_context else []),
+            images_section=_images_section(attached if with_context else []),
+            taxonomy="\n".join(f"- {t}" for t in taxonomy),
+        )
+        return (image_blocks if with_context else []) + [{"type": "text", "text": prompt}]
+
+    text_out = _call_claude(client, cfg.claude_model, build(with_context=True))
     if text_out is None:
-        raise ValueError("Pas de bloc texte dans la réponse du modèle")
+        # Refus/vide, souvent déclenché par un contenu lié ou une image : on
+        # réessaie avec le seul texte du post pour capturer quand même le bookmark.
+        text_out = _call_claude(client, cfg.claude_model, build(with_context=False))
+    if text_out is None:
+        raise ValueError("Pas de bloc texte dans la réponse du modèle (même sans contexte)")
     return _sanitize(_parse_json(text_out), taxonomy)
