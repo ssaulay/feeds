@@ -6,7 +6,7 @@
 
 Cette note couvre des outils facilitant différentes étapes du cycle de vie d'un projet dev, du déploiement à la communication, en passant par la génération d'applications et l'optimisation des workflows IA.
 
-**Déploiement** : Vercel Drop permet de déployer un fichier ou dossier en le glissant directement dans le navigateur, sans Git ni CLI. L'outil détecte automatiquement les frameworks (Next.js) ou déploie des sites statiques tels quels, générant une URL de production en quelques secondes.
+**Déploiement** : Vercel Drop permet de déployer un fichier ou dossier en le glissant directement dans le navigateur, sans Git, CLI ni configuration locale préalable. L'outil détecte automatiquement le framework utilisé — Next.js, mais aussi les exports d'outils comme Bolt.new, Claude Design ou Google Stitch — et lance le build correspondant ; les sites statiques sans framework sont déployés tels quels, sans étape de build. Si aucun `index.html` n'est présent à la racine, l'utilisateur choisit lui-même la page racine du site. Chaque drop crée un nouveau projet avec une URL de production live en quelques secondes ; un dépôt Git peut ensuite y être connecté pour passer à des déploiements automatiques.
 
 **Génération d'applications par IA** : Higgsfield Apps, présentée comme la plus grosse release de Higgsfield à ce jour, permet de générer des applications complètes intégrant nativement les modèles d'image et vidéo de la plateforme. Le moteur Fable 5 conçoit le code applicatif au niveau d'un ingénieur senior, couvrant un large spectre : sites web complexes, extensions navigateur, plugins, applications desktop et mobile, avec déploiement direct une fois l'app générée. La solution est accessible via Supercomputer et, surtout, directement depuis Claude grâce au MCP (Model Context Protocol) de Higgsfield — une intégration qui rejoint la tendance d'orchestration d'outils IA complémentaires autour de Claude Code déjà observée avec NotebookLM (voir plus bas).
 
@@ -18,5 +18,4 @@ Cette note couvre des outils facilitant différentes étapes du cycle de vie d'u
 
 - [Higgsfield Apps : génération d'applications complètes par IA](../sources/2026/2074564269207916984-higgsfield-apps-generation-ia.md)
 - [/brag : générer automatiquement une vidéo de lancement depuis Claude Code](../sources/2026/2069039170451091878-brag-skill-claude-code-video.md)
-- [Vercel Drop : déployer un site en glissant un dossier dans le navigateur](../sources/2026/2065492873555100098-vercel-drop-deploy-drag-drop.md)
-- [Connecter Claude Code à NotebookLM pour économiser des tokens et prolonger les sessions](../sources/2026/2042295647362019800-claude-code-notebooklm-tokens.md)
+- [Vercel Drop : déployer un site en glissant un fichier ou dossier](../sources/2026/2065492873555100098-vercel-drop-deploy-instantane.md)

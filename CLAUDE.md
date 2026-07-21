@@ -58,9 +58,9 @@ Composants (testés hors réseau via `.venv/bin/python -m unittest tests.test_sm
 Bootstrap terminé (app X, OAuth, secrets GitHub, CI validée — la branche
 `claude/pinned-tweets-knowledge-tool-0bv44t` EST la branche par défaut). Reste :
 
-1. 🔴 **BLOQUANT — crédits Anthropic épuisés** (2026-07-21) : « credit balance is
-   too low ». La CI échouera à l'extraction tant que Simon n'a pas rechargé le
-   solde (Plans & Billing). Rien à coder de notre côté.
+1. ✅ Crédits Anthropic rechargés (2026-07-21). Note : la CI affiche « success »
+   même si des bookmarks échouent à l'extraction (échec par bookmark toléré, non
+   marqué vu → retenté) — le check vert ne garantit pas que tout a été traité.
 2. ⚠️ **Piège token rotatif** : un run local qui refresh le token **invalide**
    celui committé sur origin → la CI a échoué le 20 et 21/07 (400 sur refresh).
    Réparé en committant le `token.enc` local (le seul valide). + fix CI : le step
@@ -70,10 +70,9 @@ Bootstrap terminé (app X, OAuth, secrets GitHub, CI validée — la branche
    le `token.enc` juste après (et `git pull` avant).
 3. 🟡 **Qualité** : ✅ tweets cités/répondus résolus. ✅ **Vision** (2026-07-19) :
    images du post et des tweets cités lues par Claude. ✅ **Régénération vision**
-   (2026-07-21) : 8/12 notes image+texte-court régénérées ; **4 restantes bloquées
-   par les crédits** (IDs 2065492873555100098, 2042295647362019800,
-   2064799961380737389, 2071861350268047571 → relancer `scratchpad/regen_vision.py`
-   une fois les crédits rechargés). Reste à itérer prompts/taxonomie.
+   (2026-07-21) : **12/12 notes image+texte-court régénérées**. Les cas vidéo
+   gagnent peu (vision ne lit que la vignette) ; les photos/infographies gagnent
+   beaucoup. Reste à itérer prompts/taxonomie.
 
 **Env local** : venv 3.12 obligatoire (`.venv/bin/python`), jamais `python3` (=3.9).
 

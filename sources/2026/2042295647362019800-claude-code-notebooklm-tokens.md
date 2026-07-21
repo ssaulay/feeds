@@ -3,31 +3,31 @@ author: '@hooeem'
 date: '2026-04-09T17:36:41.000Z'
 links:
 - https://x.com/hooeem/status/2042293751805329445
-primary_topic: dev-tools
+primary_topic: ai-agents
 proposed_tags: []
 tags:
-- dev-tools
 - ai-agents
+- dev-tools
 - productivity
 title: Connecter Claude Code à NotebookLM pour économiser des tokens et prolonger
-  les sessions
+  ses sessions
 tweet_id: '2042295647362019800'
 url: https://x.com/hooeem/status/2042295647362019800
 ---
 
-# Connecter Claude Code à NotebookLM pour économiser des tokens et prolonger les sessions
+# Connecter Claude Code à NotebookLM pour économiser des tokens et prolonger ses sessions
 
 > Post de **@hooeem** — [voir sur X](https://x.com/hooeem/status/2042295647362019800)
 
 ## Résumé
 
-L'auteur suggère de relier Claude Code à NotebookLM afin d'étendre la durée des sessions de travail en réduisant la consommation de tokens. L'astuce reposerait sur l'utilisation de NotebookLM comme couche de mémoire/contexte externe plutôt que de tout faire transiter par le contexte du LLM. Le post reste très synthétique, sans détail technique précis sur l'implémentation.
+Le post propose d'intégrer NotebookLM à Claude Code afin d'externaliser une partie du contexte et ainsi réduire la consommation de tokens. Cette astuce permettrait de maintenir des sessions de développement plus longues sans atteindre les limites de contexte du LLM.
 
 ## Idées clés
 
-- Utiliser NotebookLM comme mémoire externe permettrait de décharger le contexte de Claude Code et donc d'économiser des tokens.
-- Cette combinaison viserait à prolonger la durée effective des sessions de codage assisté par IA.
-- L'astuce s'inscrit dans une tendance plus large d'orchestration d'outils IA complémentaires pour contourner les limites de contexte des LLM.
+- Utiliser NotebookLM comme mémoire externe pour Claude Code afin de ne pas surcharger le contexte du modèle.
+- Cette combinaison permettrait d'étendre la durée effective des sessions de codage assisté par IA.
+- L'astuce vise à optimiser les coûts en tokens tout en gardant l'agent productif sur des tâches longues.
 
 ## Citations
 

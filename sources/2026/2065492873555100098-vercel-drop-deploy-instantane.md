@@ -9,29 +9,32 @@ tags:
 - dev-tools
 - product
 - engineering
-title: 'Vercel Drop : déployer un site en glissant un dossier dans le navigateur'
+title: 'Vercel Drop : déployer un site en glissant un fichier ou dossier'
 tweet_id: '2065492873555100098'
 url: https://x.com/vercel_dev/status/2065492873555100098
 ---
 
-# Vercel Drop : déployer un site en glissant un dossier dans le navigateur
+# Vercel Drop : déployer un site en glissant un fichier ou dossier
 
 > Post de **@vercel_dev** — [voir sur X](https://x.com/vercel_dev/status/2065492873555100098)
 
 ## Résumé
 
-Vercel Drop permet de déployer un fichier ou dossier en le glissant directement dans le navigateur, sans Git ni CLI. L'outil détecte automatiquement les frameworks (Next.js) ou déploie des sites statiques tels quels, générant une URL de production en quelques secondes.
+Vercel Drop permet de déployer un projet en glissant simplement un fichier ou dossier dans le navigateur, sans Git ni CLI. L'outil détecte automatiquement le framework (Next.js, exports Bolt.new, Claude Design, Google Stitch) ou déploie les fichiers statiques tels quels. Chaque drop crée un nouveau projet avec une URL de production live en quelques secondes.
 
 ## Idées clés
 
-- Le déploiement se fait sans installation locale : glisser-déposer un fichier ou dossier sur vercel.com/drop suffit.
-- Vercel détecte automatiquement le framework utilisé (ex: Next.js) et lance le build correspondant.
-- Les sites statiques (exports de Claude Design, Google Stitch, Bolt.new) sont déployés directement sans étape de build.
-- Chaque drop crée un nouveau projet ; connecter un repo Git ensuite permet d'automatiser les futurs déploiements.
+- Le déploiement ne nécessite ni Git, ni CLI, ni configuration locale préalable
+- Vercel détecte automatiquement le framework utilisé (ex: Next.js) et lance le build correspondant
+- Les sites statiques sans framework sont déployés directement sans étape de build
+- Si aucun index.html n'est présent à la racine, l'utilisateur choisit la page racine du site
+- Chaque drop génère un nouveau projet ; on peut ensuite y connecter un dépôt Git pour des déploiements automatiques
 
 ## Citations
 
-> Vercel Drop lets you deploy a file or folder by dragging it into your browser. You don't need Git, the Vercel CLI, or any local setup.
+> Drop It. It's Live.
+
+> You don't need Git, the Vercel CLI, or any local setup.
 
 ## Texte du post
 
