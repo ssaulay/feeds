@@ -117,6 +117,7 @@
 - [NanoCorpHQ : des entreprises entièrement gérées par une IA génèrent du revenu](../sources/2026/2060033351495581791-entreprises-gerees-par-ia.md) (@plbiojout)
 - [Guide sur les candidatures, cold emails et comment se rendre légible aux bonnes personnes](../sources/2026/2055133978869559310-guide-cold-emails-recherche-emploi.md) (@majamediaco)
 - [Rant satirique sur la dégradation de l'expérience utilisateur moderne](../sources/2026/2049844370203939149-rant-dystopie-tech-moderne.md) (@effthealgorithm)
+- [Liste Sifted des 16 startups françaises à suivre selon les VCs](../sources/2026/2049492902288437759-startups-francaises-a-suivre-sifted.md) (@patamiel)
 - [Bud : un agent IA présenté comme un émulateur humain complet](../sources/2026/2046605073741119800-bud-ai-human-emulator.md) (@budapp)
 - [Playbook GTM pour Claude Code : structure d'un guide complet en 8 sections](../sources/2026/2042653637306949677-claude-code-gtm-playbook.md) (@AlfieJCarter)
 
@@ -252,5 +253,6 @@
 - [NanoCorpHQ : des entreprises entièrement gérées par une IA génèrent du revenu](../sources/2026/2060033351495581791-entreprises-gerees-par-ia.md) (@plbiojout)
 - [Meme humoristique : réaction d'un employé Meta à un appel de licenciement](../sources/2026/2057748313311428900-meta-employe-appel-licenciement.md) (@folaoftech)
 - [Guide sur les candidatures, cold emails et comment se rendre légible aux bonnes personnes](../sources/2026/2055133978869559310-guide-cold-emails-recherche-emploi.md) (@majamediaco)
+- [Liste Sifted des 16 startups françaises à suivre selon les VCs](../sources/2026/2049492902288437759-startups-francaises-a-suivre-sifted.md) (@patamiel)
 - [Première étape pour préparer sa retraite en 10 ans : créer une LLC](../sources/2026/2046932581149544673-retraite-en-10-ans-llc.md) (@gedamtekle)
 - [Playbook pour un agent interne qui multiplie par 10 la productivité employé](../sources/2026/2044894540612464717-playbook-agent-interne-10x.md) (@kylejeong)

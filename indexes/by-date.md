@@ -49,6 +49,7 @@
 - 2026-05-04 — [70millimètres.fr : moteur de recherche des films disponibles sur les plateformes de streaming légal françaises](../sources/2026/2051228453995745335-70mm-catalogue-streaming-legal.md) (@heyzineb)
 - 2026-04-30 — [Rant satirique sur la dégradation de l'expérience utilisateur moderne](../sources/2026/2049844370203939149-rant-dystopie-tech-moderne.md) (@effthealgorithm)
 - 2026-04-30 — [Article X non accessible (contenu non chargé)](../sources/2026/2049659161005470071-contenu-inaccessible-article-x.md) (@vasuman)
+- 2026-04-29 — [Liste Sifted des 16 startups françaises à suivre selon les VCs](../sources/2026/2049492902288437759-startups-francaises-a-suivre-sifted.md) (@patamiel)
 - 2026-04-27 — [Agent IA local dans le navigateur avec Gemma et WebGPU](../sources/2026/2048805789788413984-agent-local-navigateur-gemma.md) (@googlegemma)
 - 2026-04-26 — [Deep dive partagée par les fondateurs d'Arize AI sur l'observabilité des agents IA](../sources/2026/2048506166112596249-deep-dive-arize-ai-agents.md) (@amankhan)
 - 2026-04-26 — [Annonce d'un atelier Anthropic sur le prompting de Claude (contenu non accessible)](../sources/2026/2048418646960288059-atelier-anthropic-prompt-claude.md) (@eng_khairallah1)
