@@ -19,8 +19,17 @@ Toujours sur le multimodal, mais côté génération (et non plus embedding) : *
 
 Sur le volet pédagogique, une vidéo de 2h d'**Andrej Karpathy** (co-fondateur d'OpenAI) sur l'utilisation pratique des LLMs circule comme référence, présentée comme plus formatrice que les tutoriels IA habituels. Ce bookmark reste toutefois un pointeur incomplet : ni transcript ni description détaillée du contenu ne sont disponibles pour l'instant. À compléter/vérifier dès qu'une source donne accès au contenu réel (thèmes abordés, recommandations concrètes) pour l'intégrer utilement à la synthèse — actuellement, la seule information exploitable est le signal de recommandation (autorité de l'auteur + format long conseillé pour un visionnage approfondi plutôt qu'un survol).
 
+Dans une veine pédagogique complémentaire mais plus pratique, **Felix Rieseberg** propose un manuel interactif pour construire soi-même un modèle de langage, accessible sans expérience de programmation ni de machine learning. Contrairement au format vidéo passif de Karpathy, l'outil mise sur des playgrounds intégrés permettant de manipuler directement tokenizer, embeddings, attention et courbes d'entraînement — deux approches (vidéo longue vs. textbook interactif manipulable) qui se complètent pour démystifier le fonctionnement interne des LLMs plutôt que leur seul usage. Points clés :
+
+- Le contenu vise explicitement les non-programmeurs, avec des approfondissements optionnels pour les curieux souhaitant aller plus loin.
+- L'exemple pratique reprend une recette type **nanoGPT** (25M paramètres) entraînée sur le dataset **TinyStories**, avec warmup linéaire puis décroissance cosinus du learning rate.
+- Détail technique notable : **AdamW** n'est appliqué qu'aux poids de multiplication matricielle, en excluant RMSNorm et les embeddings de la régularisation.
+- L'objectif est de rendre tangible l'évolution de la loss curve et de la qualité du texte généré au fil des checkpoints, plutôt que de rester sur une explication théorique abstraite.
+- Ce projet illustre une tendance plus large : démocratiser la compréhension du pré-entraînement (jusqu'ici perçu comme réservé aux experts) via des interfaces manipulables, en écho à la simplification architecturale déjà observée côté infrastructure (Gemini Embedding 2) et côté génération (Miso One).
+
 ## Sources
 
+- [Un manuel interactif pour construire son propre modèle de langage](../sources/2026/2079624265528475975-build-your-own-language-model.md)
 - [Techniques avancées de RAG pour des systèmes de récupération fiables en production](../sources/2026/2065403846940147866-advanced-rag-techniques-guide.md)
 - [Miso One : un modèle text-to-speech ultra-expressif en open source](../sources/2026/2062269826177868211-miso-one-voice-model.md)
 - [Gemini Embedding 2 : un seul espace vectoriel pour texte, image, audio, vidéo et PDF](../sources/2026/2047003304937332860-gemini-embedding-2-multimodal.md)

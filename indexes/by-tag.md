@@ -64,6 +64,7 @@
 
 ## dev-tools
 
+- [Un manuel interactif pour construire son propre modèle de langage](../sources/2026/2079624265528475975-build-your-own-language-model.md) (@felixrieseberg)
 - [Wayfinder comme orchestrateur de skills IA + prototypage frontend multi-variantes](../sources/2026/2077743625639714850-wayfinder-orchestrateur-skills-frontend.md) (@mattpocockuk)
 - [6 pratiques pour rendre un repo compatible avec les agents de code](../sources/2026/2076724129185866076-repos-friendly-coding-agents.md) (@mikeldking)
 - [Générer un second cerveau personnalisé via Claude Code et un prompt dédié](../sources/2026/2075424322496455107-claude-code-second-brain-fable5.md) (@ojigineko_tips)
@@ -94,6 +95,7 @@
 
 ## engineering
 
+- [Un manuel interactif pour construire son propre modèle de langage](../sources/2026/2079624265528475975-build-your-own-language-model.md) (@felixrieseberg)
 - [Cerebras Knowledge : système de context engineering pour agents en entreprise](../sources/2026/2077829577322426879-cerebras-knowledge-context-engineering.md) (@LinghuaJ)
 - [6 pratiques pour rendre un repo compatible avec les agents de code](../sources/2026/2076724129185866076-repos-friendly-coding-agents.md) (@mikeldking)
 - [Comment Sierra a déployé un agent IA unique (Pinecone) dans toute l'entreprise](../sources/2026/2075571269526003788-sierra-ai-pilling-pinecone.md) (@btaylor)
@@ -123,6 +125,7 @@
 
 ## llm
 
+- [Un manuel interactif pour construire son propre modèle de langage](../sources/2026/2079624265528475975-build-your-own-language-model.md) (@felixrieseberg)
 - [Anticipation d'une démocratisation rapide des capacités IA type Cerebras](../sources/2026/2078370303323820039-cerebras-ia-pour-tous.md) (@Dan_Jeffries1)
 - [Thinking Machines : pour une IA décentralisée, façonnée par ceux qu'elle sert](../sources/2026/2075621073308311701-avenir-ia-decentralisee-thinking-machines.md) (@miramurati)
 - [Techniques avancées de RAG pour des systèmes de récupération fiables en production](../sources/2026/2065403846940147866-advanced-rag-techniques-guide.md) (@n8n_io)
