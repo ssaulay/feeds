@@ -1,5 +1,6 @@
 # Index par date
 
+- 2026-08-01 — [QM : le harness multi-agent open source de YC pour Slack et le web](../sources/2026/2083353760701833546-qm-harness-multi-agent-open-source.md) (@garrytan)
 - 2026-07-22 — [Comment Sierra a conçu le service MCP derrière Pinecone, son agent interne](../sources/2026/2080017672125771801-pinecone-mcp-design-sierra.md) (@btaylor)
 - 2026-07-21 — [Un manuel interactif pour construire son propre modèle de langage](../sources/2026/2079624265528475975-build-your-own-language-model.md) (@felixrieseberg)
 - 2026-07-18 — [Anticipation d'une démocratisation rapide des capacités IA type Cerebras](../sources/2026/2078370303323820039-cerebras-ia-pour-tous.md) (@Dan_Jeffries1)

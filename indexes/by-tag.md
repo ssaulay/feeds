@@ -2,6 +2,7 @@
 
 ## ai-agents
 
+- [QM : le harness multi-agent open source de YC pour Slack et le web](../sources/2026/2083353760701833546-qm-harness-multi-agent-open-source.md) (@garrytan)
 - [Comment Sierra a conçu le service MCP derrière Pinecone, son agent interne](../sources/2026/2080017672125771801-pinecone-mcp-design-sierra.md) (@btaylor)
 - [Anticipation d'une démocratisation rapide des capacités IA type Cerebras](../sources/2026/2078370303323820039-cerebras-ia-pour-tous.md) (@Dan_Jeffries1)
 - [Cerebras Knowledge : système de context engineering pour agents en entreprise](../sources/2026/2077829577322426879-cerebras-knowledge-context-engineering.md) (@LinghuaJ)
@@ -65,6 +66,7 @@
 
 ## dev-tools
 
+- [QM : le harness multi-agent open source de YC pour Slack et le web](../sources/2026/2083353760701833546-qm-harness-multi-agent-open-source.md) (@garrytan)
 - [Comment Sierra a conçu le service MCP derrière Pinecone, son agent interne](../sources/2026/2080017672125771801-pinecone-mcp-design-sierra.md) (@btaylor)
 - [Un manuel interactif pour construire son propre modèle de langage](../sources/2026/2079624265528475975-build-your-own-language-model.md) (@felixrieseberg)
 - [Wayfinder comme orchestrateur de skills IA + prototypage frontend multi-variantes](../sources/2026/2077743625639714850-wayfinder-orchestrateur-skills-frontend.md) (@mattpocockuk)
@@ -248,6 +250,7 @@
 
 ## startup
 
+- [QM : le harness multi-agent open source de YC pour Slack et le web](../sources/2026/2083353760701833546-qm-harness-multi-agent-open-source.md) (@garrytan)
 - [Thinking Machines : pour une IA décentralisée, façonnée par ceux qu'elle sert](../sources/2026/2075621073308311701-avenir-ia-decentralisee-thinking-machines.md) (@miramurati)
 - [La stratégie AI qui marche : embaucher un 'Sasha' plutôt qu'un mandat top-down](../sources/2026/2072048527996604900-embaucher-son-sasha-ai-ops.md) (@aakashgupta)
 - [Construire un SaaS est facile, vendre est ce qui compte vraiment](../sources/2026/2071861350268047571-vendre-saas-contenu-vente.md) (@Tech_babby)
