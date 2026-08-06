@@ -175,6 +175,8 @@
 
 ## misc
 
+- [Moments de solidarité franco-britannique lors des matchs France-Angleterre](../sources/2026/2084943394359382301-france-angleterre-solidarite-bataclan-manchester.md) (@Valen10Francois)
+- [Le stade de Wembley chante la Marseillaise après les attentats du Bataclan](../sources/2026/2078514371966152895-wembley-marseillaise-2015-hommage.md) (@Valen10Francois)
 - [Article X non accessible (contenu non récupéré)](../sources/2026/2077650169265590727-article-x-non-accessible.md) (@viks_rum)
 - [Lien X sans contenu récupérable](../sources/2026/2077650169265590727-post-sans-contenu-accessible.md) (@viks_rum)
 - [Jack partage avec enthousiasme un post de Demis Hassabis](../sources/2026/2077043492065325458-jack-approuve-post-hassabis.md) (@jack)
