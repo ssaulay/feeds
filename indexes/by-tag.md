@@ -2,6 +2,7 @@
 
 ## ai-agents
 
+- [Annonce d'un ingénieur : partage à venir sur les agents IA](../sources/2026/2086283651281814005-annonce-partage-agents-ia.md) (@jalalash)
 - [QM : le harness multi-agent open source de YC pour Slack et le web](../sources/2026/2083353760701833546-qm-harness-multi-agent-open-source.md) (@garrytan)
 - [Comment Sierra a conçu le service MCP derrière Pinecone, son agent interne](../sources/2026/2080017672125771801-pinecone-mcp-design-sierra.md) (@btaylor)
 - [Anticipation d'une démocratisation rapide des capacités IA type Cerebras](../sources/2026/2078370303323820039-cerebras-ia-pour-tous.md) (@Dan_Jeffries1)
@@ -99,6 +100,7 @@
 
 ## engineering
 
+- [Annonce d'un ingénieur : partage à venir sur les agents IA](../sources/2026/2086283651281814005-annonce-partage-agents-ia.md) (@jalalash)
 - [Comment Sierra a conçu le service MCP derrière Pinecone, son agent interne](../sources/2026/2080017672125771801-pinecone-mcp-design-sierra.md) (@btaylor)
 - [Un manuel interactif pour construire son propre modèle de langage](../sources/2026/2079624265528475975-build-your-own-language-model.md) (@felixrieseberg)
 - [Cerebras Knowledge : système de context engineering pour agents en entreprise](../sources/2026/2077829577322426879-cerebras-knowledge-context-engineering.md) (@LinghuaJ)
