@@ -2,6 +2,8 @@
 
 ## ai-agents
 
+- [Recommandation d'un outil ayant transformé une entreprise (détails non accessibles)](../sources/2026/2086844678486274106-outil-transforme-entreprise-vibemarketer.md) (@jacob_posel)
+- [Cours vidéo sur la progression Agents → Loops → Graphs → Systèmes auto-améliorants](../sources/2026/2086794133855703183-cours-graph-engineering-agents.md) (@LunarResearcher)
 - [Annonce d'un ingénieur : partage à venir sur les agents IA](../sources/2026/2086283651281814005-annonce-partage-agents-ia.md) (@jalalash)
 - [QM : le harness multi-agent open source de YC pour Slack et le web](../sources/2026/2083353760701833546-qm-harness-multi-agent-open-source.md) (@garrytan)
 - [Comment Sierra a conçu le service MCP derrière Pinecone, son agent interne](../sources/2026/2080017672125771801-pinecone-mcp-design-sierra.md) (@btaylor)
@@ -100,6 +102,7 @@
 
 ## engineering
 
+- [Cours vidéo sur la progression Agents → Loops → Graphs → Systèmes auto-améliorants](../sources/2026/2086794133855703183-cours-graph-engineering-agents.md) (@LunarResearcher)
 - [Annonce d'un ingénieur : partage à venir sur les agents IA](../sources/2026/2086283651281814005-annonce-partage-agents-ia.md) (@jalalash)
 - [Comment Sierra a conçu le service MCP derrière Pinecone, son agent interne](../sources/2026/2080017672125771801-pinecone-mcp-design-sierra.md) (@btaylor)
 - [Un manuel interactif pour construire son propre modèle de langage](../sources/2026/2079624265528475975-build-your-own-language-model.md) (@felixrieseberg)
@@ -118,6 +121,8 @@
 
 ## growth
 
+- [Recommandation d'un outil ayant transformé une entreprise (détails non accessibles)](../sources/2026/2086844678486274106-outil-transforme-entreprise-vibemarketer.md) (@jacob_posel)
+- [Cours vidéo sur la progression Agents → Loops → Graphs → Systèmes auto-améliorants](../sources/2026/2086794133855703183-cours-graph-engineering-agents.md) (@LunarResearcher)
 - [Agentic Pods : la méthode d'Uber pour diffuser l'IA agentique hors de l'ingénierie](../sources/2026/2074666373402464442-uber-agentic-pods-methode.md) (@hnshah)
 - [Construire un SaaS est facile, vendre est ce qui compte vraiment](../sources/2026/2071861350268047571-vendre-saas-contenu-vente.md) (@Tech_babby)
 - [/brag : générer automatiquement une vidéo de lancement depuis Claude Code](../sources/2026/2069039170451091878-brag-skill-claude-code-video.md) (@Arcane_Aii)
@@ -169,6 +174,7 @@
 
 ## marketing
 
+- [Recommandation d'un outil ayant transformé une entreprise (détails non accessibles)](../sources/2026/2086844678486274106-outil-transforme-entreprise-vibemarketer.md) (@jacob_posel)
 - [Construire un SaaS est facile, vendre est ce qui compte vraiment](../sources/2026/2071861350268047571-vendre-saas-contenu-vente.md) (@Tech_babby)
 - [/brag : générer automatiquement une vidéo de lancement depuis Claude Code](../sources/2026/2069039170451091878-brag-skill-claude-code-video.md) (@Arcane_Aii)
 - [Stratégie de départ pour remplacer un salaire via Instagram (étape 1)](../sources/2026/2066855927571968356-remplacer-salaire-nouveau-compte-instagram.md) (@erichustls)

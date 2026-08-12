@@ -1,5 +1,7 @@
 # Index par date
 
+- 2026-08-10 — [Recommandation d'un outil ayant transformé une entreprise (détails non accessibles)](../sources/2026/2086844678486274106-outil-transforme-entreprise-vibemarketer.md) (@jacob_posel)
+- 2026-08-10 — [Cours vidéo sur la progression Agents → Loops → Graphs → Systèmes auto-améliorants](../sources/2026/2086794133855703183-cours-graph-engineering-agents.md) (@LunarResearcher)
 - 2026-08-09 — [Annonce d'un ingénieur : partage à venir sur les agents IA](../sources/2026/2086283651281814005-annonce-partage-agents-ia.md) (@jalalash)
 - 2026-08-05 — [Moments de solidarité franco-britannique lors des matchs France-Angleterre](../sources/2026/2084943394359382301-france-angleterre-solidarite-bataclan-manchester.md) (@Valen10Francois)
 - 2026-08-01 — [QM : le harness multi-agent open source de YC pour Slack et le web](../sources/2026/2083353760701833546-qm-harness-multi-agent-open-source.md) (@garrytan)
