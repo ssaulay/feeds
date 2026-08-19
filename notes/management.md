@@ -26,8 +26,15 @@ Un mème humoristique montre un employé de Meta se préparant de façon exagér
 
 ⚠️ Contradiction implicite : cet apport contraste avec le reste de la note, centrée sur des démarches managériales visant à responsabiliser et outiller les employés (autonomie, adoption organique de l'IA). Il rappelle que ces dynamiques d'agentivité et de leverage IA se déploient dans un contexte plus large d'insécurité de l'emploi, où l'IA et les réorganisations peuvent aussi être vécues comme une menace plutôt qu'une opportunité de montée en compétence.
 
+**Mesurer le succès : métriques immédiates vs impact de long terme**
+
+Clayton Christensen, en appliquant à la vie personnelle sa théorie sur l'effondrement des entreprises performantes, observe que le travail offre un feedback immédiat et mesurable (vente, promotion, salaire) alors que l'investissement dans les proches ne porte ses fruits que des décennies plus tard. Des décisions individuellement rationnelles — privilégier ce qui se mesure tout de suite — peuvent ainsi, cumulées sur des années, construire une vie qu'on n'a jamais voulue : ses anciens camarades de MBA à Harvard, "réussis" à 5 ans, se révélaient souvent malheureux, divorcés ou éloignés de leurs enfants à 10-25 ans. Il propose de mesurer une vie non par l'argent, les titres ou la taille de l'équipe managée, mais par les personnes devenues meilleures grâce à notre présence — et invite à se demander ce que la répartition réelle de son temps et de son énergie révélerait de ses valeurs.
+
+⚠️ Contradiction : cette perspective interroge en creux les logiques valorisées ailleurs dans la note — leverage IA, automatisation cumulative, agentivité de niveau 5, productivité d'équipe — qui reposent précisément sur des métriques immédiates et visibles (temps gagné, tâches automatisées, dashboards, promotions). Christensen suggère que ces récompenses court-termistes, aussi légitimes soient-elles au travail, peuvent masquer un déséquilibre de fond si elles deviennent le seul système de mesure d'une vie réussie, y compris pour ceux qui pilotent ces transformations organisationnelles.
+
 ## Sources
 
+- [La leçon de Clayton Christensen : comment mesurer sa vie](../sources/2026/2089025532826710106-christensen-comment-mesurer-sa-vie.md)
 - [La stratégie AI qui marche : embaucher un 'Sasha' plutôt qu'un mandat top-down](../sources/2026/2072048527996604900-embaucher-son-sasha-ai-ops.md)
 - [Les 5 niveaux de travail pour former des employés à haute agentivité](../sources/2026/2070194343034360004-5-niveaux-de-travail-agency.md)
 - [Meme humoristique : réaction d'un employé Meta à un appel de licenciement](../sources/2026/2057748313311428900-meta-employe-appel-licenciement.md)
