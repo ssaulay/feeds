@@ -2,6 +2,7 @@
 
 ## ai-agents
 
+- [Guide pratique pour construire des sites et outils avec Claude Code sans coder](../sources/2026/2090378403056881935-claude-code-guide-non-codeurs.md) (@claudeskills101)
 - [Recommandation d'un outil ayant transformé une entreprise (détails non accessibles)](../sources/2026/2086844678486274106-outil-transforme-entreprise-vibemarketer.md) (@jacob_posel)
 - [Cours vidéo sur la progression Agents → Loops → Graphs → Systèmes auto-améliorants](../sources/2026/2086794133855703183-cours-graph-engineering-agents.md) (@LunarResearcher)
 - [Annonce d'un ingénieur : partage à venir sur les agents IA](../sources/2026/2086283651281814005-annonce-partage-agents-ia.md) (@jalalash)
@@ -69,6 +70,7 @@
 
 ## dev-tools
 
+- [Guide pratique pour construire des sites et outils avec Claude Code sans coder](../sources/2026/2090378403056881935-claude-code-guide-non-codeurs.md) (@claudeskills101)
 - [QM : le harness multi-agent open source de YC pour Slack et le web](../sources/2026/2083353760701833546-qm-harness-multi-agent-open-source.md) (@garrytan)
 - [Comment Sierra a conçu le service MCP derrière Pinecone, son agent interne](../sources/2026/2080017672125771801-pinecone-mcp-design-sierra.md) (@btaylor)
 - [Un manuel interactif pour construire son propre modèle de langage](../sources/2026/2079624265528475975-build-your-own-language-model.md) (@felixrieseberg)
@@ -226,6 +228,7 @@
 
 ## productivity
 
+- [Guide pratique pour construire des sites et outils avec Claude Code sans coder](../sources/2026/2090378403056881935-claude-code-guide-non-codeurs.md) (@claudeskills101)
 - [La leçon de Clayton Christensen : comment mesurer sa vie](../sources/2026/2089025532826710106-christensen-comment-mesurer-sa-vie.md) (@DanielMiessler)
 - [Recommandation : Masterclass Hermes Agent par @tonbistudio](../sources/2026/2075673428171092404-masterclass-hermes-agent-tonbistudio.md) (@KSimback)
 - [Comment Sierra a déployé un agent IA unique (Pinecone) dans toute l'entreprise](../sources/2026/2075571269526003788-sierra-ai-pilling-pinecone.md) (@btaylor)
@@ -254,6 +257,7 @@
 
 ## prompt-engineering
 
+- [Guide pratique pour construire des sites et outils avec Claude Code sans coder](../sources/2026/2090378403056881935-claude-code-guide-non-codeurs.md) (@claudeskills101)
 - [Wayfinder comme orchestrateur de skills IA + prototypage frontend multi-variantes](../sources/2026/2077743625639714850-wayfinder-orchestrateur-skills-frontend.md) (@mattpocockuk)
 - [Maintenir un fichier implementation-notes.html pour combler les ambiguïtés de spec avec un agent IA](../sources/2026/2056418157305454805-implementation-notes-file-spec.md) (@trq212)
 - [Demander du HTML plutôt que du texte brut aux LLM améliore la lisibilité](../sources/2026/2053872850101285137-llm-output-html-vision.md) (@karpathy)
