@@ -2,6 +2,7 @@
 
 ## ai-agents
 
+- [Anydoc de Firecrawl : conversion universelle de documents vers Markdown, ultra-rapide et locale](../sources/2026/2091120709325996181-anydoc-conversion-documents-markdown.md) (@sidequestforevr)
 - [Guide pratique pour construire des sites et outils avec Claude Code sans coder](../sources/2026/2090378403056881935-claude-code-guide-non-codeurs.md) (@claudeskills101)
 - [Recommandation d'un outil ayant transformé une entreprise (détails non accessibles)](../sources/2026/2086844678486274106-outil-transforme-entreprise-vibemarketer.md) (@jacob_posel)
 - [Cours vidéo sur la progression Agents → Loops → Graphs → Systèmes auto-améliorants](../sources/2026/2086794133855703183-cours-graph-engineering-agents.md) (@LunarResearcher)
@@ -70,6 +71,7 @@
 
 ## dev-tools
 
+- [Anydoc de Firecrawl : conversion universelle de documents vers Markdown, ultra-rapide et locale](../sources/2026/2091120709325996181-anydoc-conversion-documents-markdown.md) (@sidequestforevr)
 - [Guide pratique pour construire des sites et outils avec Claude Code sans coder](../sources/2026/2090378403056881935-claude-code-guide-non-codeurs.md) (@claudeskills101)
 - [QM : le harness multi-agent open source de YC pour Slack et le web](../sources/2026/2083353760701833546-qm-harness-multi-agent-open-source.md) (@garrytan)
 - [Comment Sierra a conçu le service MCP derrière Pinecone, son agent interne](../sources/2026/2080017672125771801-pinecone-mcp-design-sierra.md) (@btaylor)
@@ -104,6 +106,7 @@
 
 ## engineering
 
+- [Anydoc de Firecrawl : conversion universelle de documents vers Markdown, ultra-rapide et locale](../sources/2026/2091120709325996181-anydoc-conversion-documents-markdown.md) (@sidequestforevr)
 - [Cours vidéo sur la progression Agents → Loops → Graphs → Systèmes auto-améliorants](../sources/2026/2086794133855703183-cours-graph-engineering-agents.md) (@LunarResearcher)
 - [Annonce d'un ingénieur : partage à venir sur les agents IA](../sources/2026/2086283651281814005-annonce-partage-agents-ia.md) (@jalalash)
 - [Comment Sierra a conçu le service MCP derrière Pinecone, son agent interne](../sources/2026/2080017672125771801-pinecone-mcp-design-sierra.md) (@btaylor)
