@@ -1,5 +1,6 @@
 # Index par date
 
+- 2026-08-30 — [Astuce annoncée pour réduire de 90% l'usage de tokens sur Claude Code](../sources/2026/2094080200472494554-reduire-tokens-claude-code.md) (@chesny)
 - 2026-08-22 — [Anydoc de Firecrawl : conversion universelle de documents vers Markdown, ultra-rapide et locale](../sources/2026/2091120709325996181-anydoc-conversion-documents-markdown.md) (@sidequestforevr)
 - 2026-08-20 — [Guide pratique pour construire des sites et outils avec Claude Code sans coder](../sources/2026/2090378403056881935-claude-code-guide-non-codeurs.md) (@claudeskills101)
 - 2026-08-16 — [La leçon de Clayton Christensen : comment mesurer sa vie](../sources/2026/2089025532826710106-christensen-comment-mesurer-sa-vie.md) (@DanielMiessler)

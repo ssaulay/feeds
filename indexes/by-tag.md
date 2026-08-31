@@ -2,6 +2,7 @@
 
 ## ai-agents
 
+- [Astuce annoncée pour réduire de 90% l'usage de tokens sur Claude Code](../sources/2026/2094080200472494554-reduire-tokens-claude-code.md) (@chesny)
 - [Anydoc de Firecrawl : conversion universelle de documents vers Markdown, ultra-rapide et locale](../sources/2026/2091120709325996181-anydoc-conversion-documents-markdown.md) (@sidequestforevr)
 - [Guide pratique pour construire des sites et outils avec Claude Code sans coder](../sources/2026/2090378403056881935-claude-code-guide-non-codeurs.md) (@claudeskills101)
 - [Recommandation d'un outil ayant transformé une entreprise (détails non accessibles)](../sources/2026/2086844678486274106-outil-transforme-entreprise-vibemarketer.md) (@jacob_posel)
@@ -71,6 +72,7 @@
 
 ## dev-tools
 
+- [Astuce annoncée pour réduire de 90% l'usage de tokens sur Claude Code](../sources/2026/2094080200472494554-reduire-tokens-claude-code.md) (@chesny)
 - [Anydoc de Firecrawl : conversion universelle de documents vers Markdown, ultra-rapide et locale](../sources/2026/2091120709325996181-anydoc-conversion-documents-markdown.md) (@sidequestforevr)
 - [Guide pratique pour construire des sites et outils avec Claude Code sans coder](../sources/2026/2090378403056881935-claude-code-guide-non-codeurs.md) (@claudeskills101)
 - [QM : le harness multi-agent open source de YC pour Slack et le web](../sources/2026/2083353760701833546-qm-harness-multi-agent-open-source.md) (@garrytan)
@@ -231,6 +233,7 @@
 
 ## productivity
 
+- [Astuce annoncée pour réduire de 90% l'usage de tokens sur Claude Code](../sources/2026/2094080200472494554-reduire-tokens-claude-code.md) (@chesny)
 - [Guide pratique pour construire des sites et outils avec Claude Code sans coder](../sources/2026/2090378403056881935-claude-code-guide-non-codeurs.md) (@claudeskills101)
 - [La leçon de Clayton Christensen : comment mesurer sa vie](../sources/2026/2089025532826710106-christensen-comment-mesurer-sa-vie.md) (@DanielMiessler)
 - [Recommandation : Masterclass Hermes Agent par @tonbistudio](../sources/2026/2075673428171092404-masterclass-hermes-agent-tonbistudio.md) (@KSimback)
