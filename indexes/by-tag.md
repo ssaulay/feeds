@@ -2,6 +2,7 @@
 
 ## ai-agents
 
+- [Treg : recherche de personnes low-cost pour agents IA via Claude](../sources/2026/2094740336895840605-claude-people-search-treg.md) (@jasonzhou1993)
 - [Astuce annoncée pour réduire de 90% l'usage de tokens sur Claude Code](../sources/2026/2094080200472494554-reduire-tokens-claude-code.md) (@chesny)
 - [Anydoc de Firecrawl : conversion universelle de documents vers Markdown, ultra-rapide et locale](../sources/2026/2091120709325996181-anydoc-conversion-documents-markdown.md) (@sidequestforevr)
 - [Guide pratique pour construire des sites et outils avec Claude Code sans coder](../sources/2026/2090378403056881935-claude-code-guide-non-codeurs.md) (@claudeskills101)
@@ -61,17 +62,21 @@
 
 ## data
 
+- [Treg : recherche de personnes low-cost pour agents IA via Claude](../sources/2026/2094740336895840605-claude-people-search-treg.md) (@jasonzhou1993)
 - [Cerebras Knowledge : système de context engineering pour agents en entreprise](../sources/2026/2077829577322426879-cerebras-knowledge-context-engineering.md) (@LinghuaJ)
 - [Gemini Embedding 2 : un seul espace vectoriel pour texte, image, audio, vidéo et PDF](../sources/2026/2047003304937332860-gemini-embedding-2-multimodal.md) (@brivael)
 
 ## design
 
+- [CleanShot 5.0 lance le Studio Mode pour des captures vidéo pro](../sources/2026/2094803447920967862-cleanshot-5-studio-mode.md) (@CleanShot)
 - [Wayfinder comme orchestrateur de skills IA + prototypage frontend multi-variantes](../sources/2026/2077743625639714850-wayfinder-orchestrateur-skills-frontend.md) (@mattpocockuk)
 - [DESIGN.md : le standard de Google pour un langage de design partagé avec l'IA](../sources/2026/2047917199655149791-google-design-md-standard.md) (@MengTo)
 - [Interface générative : le GUI entier streamé par un modèle](../sources/2026/2046975783324004732-generative-computing-pixels-streamed.md) (@eddiejiao_obj)
 
 ## dev-tools
 
+- [CleanShot 5.0 lance le Studio Mode pour des captures vidéo pro](../sources/2026/2094803447920967862-cleanshot-5-studio-mode.md) (@CleanShot)
+- [Treg : recherche de personnes low-cost pour agents IA via Claude](../sources/2026/2094740336895840605-claude-people-search-treg.md) (@jasonzhou1993)
 - [Astuce annoncée pour réduire de 90% l'usage de tokens sur Claude Code](../sources/2026/2094080200472494554-reduire-tokens-claude-code.md) (@chesny)
 - [Anydoc de Firecrawl : conversion universelle de documents vers Markdown, ultra-rapide et locale](../sources/2026/2091120709325996181-anydoc-conversion-documents-markdown.md) (@sidequestforevr)
 - [Guide pratique pour construire des sites et outils avec Claude Code sans coder](../sources/2026/2090378403056881935-claude-code-guide-non-codeurs.md) (@claudeskills101)
@@ -128,6 +133,7 @@
 
 ## growth
 
+- [Treg : recherche de personnes low-cost pour agents IA via Claude](../sources/2026/2094740336895840605-claude-people-search-treg.md) (@jasonzhou1993)
 - [Recommandation d'un outil ayant transformé une entreprise (détails non accessibles)](../sources/2026/2086844678486274106-outil-transforme-entreprise-vibemarketer.md) (@jacob_posel)
 - [Cours vidéo sur la progression Agents → Loops → Graphs → Systèmes auto-améliorants](../sources/2026/2086794133855703183-cours-graph-engineering-agents.md) (@LunarResearcher)
 - [Agentic Pods : la méthode d'Uber pour diffuser l'IA agentique hors de l'ingénierie](../sources/2026/2074666373402464442-uber-agentic-pods-methode.md) (@hnshah)
@@ -233,6 +239,7 @@
 
 ## productivity
 
+- [CleanShot 5.0 lance le Studio Mode pour des captures vidéo pro](../sources/2026/2094803447920967862-cleanshot-5-studio-mode.md) (@CleanShot)
 - [Astuce annoncée pour réduire de 90% l'usage de tokens sur Claude Code](../sources/2026/2094080200472494554-reduire-tokens-claude-code.md) (@chesny)
 - [Guide pratique pour construire des sites et outils avec Claude Code sans coder](../sources/2026/2090378403056881935-claude-code-guide-non-codeurs.md) (@claudeskills101)
 - [La leçon de Clayton Christensen : comment mesurer sa vie](../sources/2026/2089025532826710106-christensen-comment-mesurer-sa-vie.md) (@DanielMiessler)

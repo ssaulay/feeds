@@ -1,5 +1,7 @@
 # Index par date
 
+- 2026-09-01 — [CleanShot 5.0 lance le Studio Mode pour des captures vidéo pro](../sources/2026/2094803447920967862-cleanshot-5-studio-mode.md) (@CleanShot)
+- 2026-09-01 — [Treg : recherche de personnes low-cost pour agents IA via Claude](../sources/2026/2094740336895840605-claude-people-search-treg.md) (@jasonzhou1993)
 - 2026-08-30 — [Astuce annoncée pour réduire de 90% l'usage de tokens sur Claude Code](../sources/2026/2094080200472494554-reduire-tokens-claude-code.md) (@chesny)
 - 2026-08-22 — [Anydoc de Firecrawl : conversion universelle de documents vers Markdown, ultra-rapide et locale](../sources/2026/2091120709325996181-anydoc-conversion-documents-markdown.md) (@sidequestforevr)
 - 2026-08-20 — [Guide pratique pour construire des sites et outils avec Claude Code sans coder](../sources/2026/2090378403056881935-claude-code-guide-non-codeurs.md) (@claudeskills101)
