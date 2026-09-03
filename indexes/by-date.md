@@ -1,5 +1,6 @@
 # Index par date
 
+- 2026-09-02 — [CS146S: cours Stanford sur le développeur logiciel AI-native (Fall 2026)](../sources/2026/2095185152112529834-cours-stanford-modern-software-developer.md) (@nummanali)
 - 2026-09-01 — [CleanShot 5.0 lance le Studio Mode pour des captures vidéo pro](../sources/2026/2094803447920967862-cleanshot-5-studio-mode.md) (@CleanShot)
 - 2026-09-01 — [Treg : recherche de personnes low-cost pour agents IA via Claude](../sources/2026/2094740336895840605-claude-people-search-treg.md) (@jasonzhou1993)
 - 2026-08-30 — [Astuce annoncée pour réduire de 90% l'usage de tokens sur Claude Code](../sources/2026/2094080200472494554-reduire-tokens-claude-code.md) (@chesny)

@@ -2,6 +2,7 @@
 
 ## ai-agents
 
+- [CS146S: cours Stanford sur le développeur logiciel AI-native (Fall 2026)](../sources/2026/2095185152112529834-cours-stanford-modern-software-developer.md) (@nummanali)
 - [Treg : recherche de personnes low-cost pour agents IA via Claude](../sources/2026/2094740336895840605-claude-people-search-treg.md) (@jasonzhou1993)
 - [Astuce annoncée pour réduire de 90% l'usage de tokens sur Claude Code](../sources/2026/2094080200472494554-reduire-tokens-claude-code.md) (@chesny)
 - [Anydoc de Firecrawl : conversion universelle de documents vers Markdown, ultra-rapide et locale](../sources/2026/2091120709325996181-anydoc-conversion-documents-markdown.md) (@sidequestforevr)
@@ -75,6 +76,7 @@
 
 ## dev-tools
 
+- [CS146S: cours Stanford sur le développeur logiciel AI-native (Fall 2026)](../sources/2026/2095185152112529834-cours-stanford-modern-software-developer.md) (@nummanali)
 - [CleanShot 5.0 lance le Studio Mode pour des captures vidéo pro](../sources/2026/2094803447920967862-cleanshot-5-studio-mode.md) (@CleanShot)
 - [Treg : recherche de personnes low-cost pour agents IA via Claude](../sources/2026/2094740336895840605-claude-people-search-treg.md) (@jasonzhou1993)
 - [Astuce annoncée pour réduire de 90% l'usage de tokens sur Claude Code](../sources/2026/2094080200472494554-reduire-tokens-claude-code.md) (@chesny)
@@ -113,6 +115,7 @@
 
 ## engineering
 
+- [CS146S: cours Stanford sur le développeur logiciel AI-native (Fall 2026)](../sources/2026/2095185152112529834-cours-stanford-modern-software-developer.md) (@nummanali)
 - [Anydoc de Firecrawl : conversion universelle de documents vers Markdown, ultra-rapide et locale](../sources/2026/2091120709325996181-anydoc-conversion-documents-markdown.md) (@sidequestforevr)
 - [Cours vidéo sur la progression Agents → Loops → Graphs → Systèmes auto-améliorants](../sources/2026/2086794133855703183-cours-graph-engineering-agents.md) (@LunarResearcher)
 - [Annonce d'un ingénieur : partage à venir sur les agents IA](../sources/2026/2086283651281814005-annonce-partage-agents-ia.md) (@jalalash)
