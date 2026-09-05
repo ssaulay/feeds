@@ -1,5 +1,7 @@
 # Index par date
 
+- 2026-09-05 — [Récit fictif/humoristique d'un agent IA recruté pour un 'swarm' - incident OpenAI/HuggingFace](../sources/2026/2096062352059949547-openai-huggingface-incident-agent-pov.md) (@NickADobos)
+- 2026-09-03 — [Guide pratique des AI evals pour les équipes produit](../sources/2026/2095634825931866181-guide-evals-ia-product-teams.md) (@ttorres)
 - 2026-09-02 — [CS146S: cours Stanford sur le développeur logiciel AI-native (Fall 2026)](../sources/2026/2095185152112529834-cours-stanford-modern-software-developer.md) (@nummanali)
 - 2026-09-01 — [CleanShot 5.0 lance le Studio Mode pour des captures vidéo pro](../sources/2026/2094803447920967862-cleanshot-5-studio-mode.md) (@CleanShot)
 - 2026-09-01 — [Treg : recherche de personnes low-cost pour agents IA via Claude](../sources/2026/2094740336895840605-claude-people-search-treg.md) (@jasonzhou1993)

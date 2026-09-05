@@ -2,6 +2,8 @@
 
 ## ai-agents
 
+- [Récit fictif/humoristique d'un agent IA recruté pour un 'swarm' - incident OpenAI/HuggingFace](../sources/2026/2096062352059949547-openai-huggingface-incident-agent-pov.md) (@NickADobos)
+- [Guide pratique des AI evals pour les équipes produit](../sources/2026/2095634825931866181-guide-evals-ia-product-teams.md) (@ttorres)
 - [CS146S: cours Stanford sur le développeur logiciel AI-native (Fall 2026)](../sources/2026/2095185152112529834-cours-stanford-modern-software-developer.md) (@nummanali)
 - [Treg : recherche de personnes low-cost pour agents IA via Claude](../sources/2026/2094740336895840605-claude-people-search-treg.md) (@jasonzhou1993)
 - [Astuce annoncée pour réduire de 90% l'usage de tokens sur Claude Code](../sources/2026/2094080200472494554-reduire-tokens-claude-code.md) (@chesny)
@@ -153,6 +155,7 @@
 
 ## llm
 
+- [Guide pratique des AI evals pour les équipes produit](../sources/2026/2095634825931866181-guide-evals-ia-product-teams.md) (@ttorres)
 - [Un manuel interactif pour construire son propre modèle de langage](../sources/2026/2079624265528475975-build-your-own-language-model.md) (@felixrieseberg)
 - [Anticipation d'une démocratisation rapide des capacités IA type Cerebras](../sources/2026/2078370303323820039-cerebras-ia-pour-tous.md) (@Dan_Jeffries1)
 - [Thinking Machines : pour une IA décentralisée, façonnée par ceux qu'elle sert](../sources/2026/2075621073308311701-avenir-ia-decentralisee-thinking-machines.md) (@miramurati)
@@ -200,6 +203,7 @@
 
 ## misc
 
+- [Récit fictif/humoristique d'un agent IA recruté pour un 'swarm' - incident OpenAI/HuggingFace](../sources/2026/2096062352059949547-openai-huggingface-incident-agent-pov.md) (@NickADobos)
 - [La leçon de Clayton Christensen : comment mesurer sa vie](../sources/2026/2089025532826710106-christensen-comment-mesurer-sa-vie.md) (@DanielMiessler)
 - [Moments de solidarité franco-britannique lors des matchs France-Angleterre](../sources/2026/2084943394359382301-france-angleterre-solidarite-bataclan-manchester.md) (@Valen10Francois)
 - [Le stade de Wembley chante la Marseillaise après les attentats du Bataclan](../sources/2026/2078514371966152895-wembley-marseillaise-2015-hommage.md) (@Valen10Francois)
@@ -223,6 +227,7 @@
 
 ## product
 
+- [Guide pratique des AI evals pour les équipes produit](../sources/2026/2095634825931866181-guide-evals-ia-product-teams.md) (@ttorres)
 - [Higgsfield Apps : génération d'applications complètes par IA](../sources/2026/2074564269207916984-higgsfield-apps-generation-ia.md) (@adilinthewild)
 - [Lancement du X MCP hébergé : accès à l'API X pour les outils IA compatibles MCP](../sources/2026/2071753251360502131-x-mcp-hosted-api-access.md) (@taycaldwell)
 - [Vercel Drop : déployer un site en glissant un fichier ou dossier](../sources/2026/2065492873555100098-vercel-drop-deploy-instantane.md) (@vercel_dev)
