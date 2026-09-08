@@ -1,5 +1,7 @@
 # Index par date
 
+- 2026-09-07 — [Retour d'expérience Uber sur l'optimisation des harness d'agents](../sources/2026/2096936920823861264-uber-engineering-harness-taches.md) (@seekjourney)
+- 2026-09-07 — [Prompt pour auto-optimiser sa configuration Codex selon son historique d'usage](../sources/2026/2096910944165146678-prompt-auto-config-codex.md) (@pocarles)
 - 2026-09-05 — [Récit fictif/humoristique d'un agent IA recruté pour un 'swarm' - incident OpenAI/HuggingFace](../sources/2026/2096062352059949547-openai-huggingface-incident-agent-pov.md) (@NickADobos)
 - 2026-09-03 — [Guide pratique des AI evals pour les équipes produit](../sources/2026/2095634825931866181-guide-evals-ia-product-teams.md) (@ttorres)
 - 2026-09-02 — [CS146S: cours Stanford sur le développeur logiciel AI-native (Fall 2026)](../sources/2026/2095185152112529834-cours-stanford-modern-software-developer.md) (@nummanali)

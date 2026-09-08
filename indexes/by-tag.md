@@ -2,6 +2,8 @@
 
 ## ai-agents
 
+- [Retour d'expérience Uber sur l'optimisation des harness d'agents](../sources/2026/2096936920823861264-uber-engineering-harness-taches.md) (@seekjourney)
+- [Prompt pour auto-optimiser sa configuration Codex selon son historique d'usage](../sources/2026/2096910944165146678-prompt-auto-config-codex.md) (@pocarles)
 - [Récit fictif/humoristique d'un agent IA recruté pour un 'swarm' - incident OpenAI/HuggingFace](../sources/2026/2096062352059949547-openai-huggingface-incident-agent-pov.md) (@NickADobos)
 - [Guide pratique des AI evals pour les équipes produit](../sources/2026/2095634825931866181-guide-evals-ia-product-teams.md) (@ttorres)
 - [CS146S: cours Stanford sur le développeur logiciel AI-native (Fall 2026)](../sources/2026/2095185152112529834-cours-stanford-modern-software-developer.md) (@nummanali)
@@ -78,6 +80,8 @@
 
 ## dev-tools
 
+- [Retour d'expérience Uber sur l'optimisation des harness d'agents](../sources/2026/2096936920823861264-uber-engineering-harness-taches.md) (@seekjourney)
+- [Prompt pour auto-optimiser sa configuration Codex selon son historique d'usage](../sources/2026/2096910944165146678-prompt-auto-config-codex.md) (@pocarles)
 - [CS146S: cours Stanford sur le développeur logiciel AI-native (Fall 2026)](../sources/2026/2095185152112529834-cours-stanford-modern-software-developer.md) (@nummanali)
 - [CleanShot 5.0 lance le Studio Mode pour des captures vidéo pro](../sources/2026/2094803447920967862-cleanshot-5-studio-mode.md) (@CleanShot)
 - [Treg : recherche de personnes low-cost pour agents IA via Claude](../sources/2026/2094740336895840605-claude-people-search-treg.md) (@jasonzhou1993)
@@ -117,6 +121,7 @@
 
 ## engineering
 
+- [Retour d'expérience Uber sur l'optimisation des harness d'agents](../sources/2026/2096936920823861264-uber-engineering-harness-taches.md) (@seekjourney)
 - [CS146S: cours Stanford sur le développeur logiciel AI-native (Fall 2026)](../sources/2026/2095185152112529834-cours-stanford-modern-software-developer.md) (@nummanali)
 - [Anydoc de Firecrawl : conversion universelle de documents vers Markdown, ultra-rapide et locale](../sources/2026/2091120709325996181-anydoc-conversion-documents-markdown.md) (@sidequestforevr)
 - [Cours vidéo sur la progression Agents → Loops → Graphs → Systèmes auto-améliorants](../sources/2026/2086794133855703183-cours-graph-engineering-agents.md) (@LunarResearcher)
@@ -247,6 +252,7 @@
 
 ## productivity
 
+- [Prompt pour auto-optimiser sa configuration Codex selon son historique d'usage](../sources/2026/2096910944165146678-prompt-auto-config-codex.md) (@pocarles)
 - [CleanShot 5.0 lance le Studio Mode pour des captures vidéo pro](../sources/2026/2094803447920967862-cleanshot-5-studio-mode.md) (@CleanShot)
 - [Astuce annoncée pour réduire de 90% l'usage de tokens sur Claude Code](../sources/2026/2094080200472494554-reduire-tokens-claude-code.md) (@chesny)
 - [Guide pratique pour construire des sites et outils avec Claude Code sans coder](../sources/2026/2090378403056881935-claude-code-guide-non-codeurs.md) (@claudeskills101)
@@ -278,6 +284,7 @@
 
 ## prompt-engineering
 
+- [Prompt pour auto-optimiser sa configuration Codex selon son historique d'usage](../sources/2026/2096910944165146678-prompt-auto-config-codex.md) (@pocarles)
 - [Guide pratique pour construire des sites et outils avec Claude Code sans coder](../sources/2026/2090378403056881935-claude-code-guide-non-codeurs.md) (@claudeskills101)
 - [Wayfinder comme orchestrateur de skills IA + prototypage frontend multi-variantes](../sources/2026/2077743625639714850-wayfinder-orchestrateur-skills-frontend.md) (@mattpocockuk)
 - [Maintenir un fichier implementation-notes.html pour combler les ambiguïtés de spec avec un agent IA](../sources/2026/2056418157305454805-implementation-notes-file-spec.md) (@trq212)
