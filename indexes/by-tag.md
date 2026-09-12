@@ -121,6 +121,7 @@
 
 ## engineering
 
+- [Les scores pass/fail des benchmarks LLM sont trompeurs](../sources/2026/2098490139798655427-limites-benchmarks-eval-llm.md) (@trq212)
 - [Retour d'expérience Uber sur l'optimisation des harness d'agents](../sources/2026/2096936920823861264-uber-engineering-harness-taches.md) (@seekjourney)
 - [CS146S: cours Stanford sur le développeur logiciel AI-native (Fall 2026)](../sources/2026/2095185152112529834-cours-stanford-modern-software-developer.md) (@nummanali)
 - [Anydoc de Firecrawl : conversion universelle de documents vers Markdown, ultra-rapide et locale](../sources/2026/2091120709325996181-anydoc-conversion-documents-markdown.md) (@sidequestforevr)
@@ -160,6 +161,7 @@
 
 ## llm
 
+- [Les scores pass/fail des benchmarks LLM sont trompeurs](../sources/2026/2098490139798655427-limites-benchmarks-eval-llm.md) (@trq212)
 - [Guide pratique des AI evals pour les équipes produit](../sources/2026/2095634825931866181-guide-evals-ia-product-teams.md) (@ttorres)
 - [Un manuel interactif pour construire son propre modèle de langage](../sources/2026/2079624265528475975-build-your-own-language-model.md) (@felixrieseberg)
 - [Anticipation d'une démocratisation rapide des capacités IA type Cerebras](../sources/2026/2078370303323820039-cerebras-ia-pour-tous.md) (@Dan_Jeffries1)

@@ -27,8 +27,11 @@ Dans une veine pédagogique complémentaire mais plus pratique, **Felix Rieseber
 - L'objectif est de rendre tangible l'évolution de la loss curve et de la qualité du texte généré au fil des checkpoints, plutôt que de rester sur une explication théorique abstraite.
 - Ce projet illustre une tendance plus large : démocratiser la compréhension du pré-entraînement (jusqu'ici perçu comme réservé aux experts) via des interfaces manipulables, en écho à la simplification architecturale déjà observée côté infrastructure (Gemini Embedding 2) et côté génération (Miso One).
 
+Enfin, un angle plus critique porte sur l'**évaluation des LLMs** : les scores pass/fail des benchmarks sont jugés trompeurs. De nombreux échecs proviennent en réalité de critères de test trop rigides ou de tests cachés mal calibrés, plutôt que de véritables erreurs du modèle — une réponse peut être plus pertinente que celle attendue par l'évaluation tout en étant comptée comme un échec. Ce constat invite à examiner les réponses individuelles derrière les chiffres agrégés plutôt qu'à se fier aux scores bruts pour juger de la qualité réelle d'un modèle. Ce point questionne indirectement la solidité des métriques mises en avant ailleurs dans cette note (par exemple le score MTEB de Gemini Embedding 2) : un score chiffré, même impressionnant, ne dispense pas d'un examen qualitatif des cas d'usage réels.
+
 ## Sources
 
+- [Les scores pass/fail des benchmarks LLM sont trompeurs](../sources/2026/2098490139798655427-limites-benchmarks-eval-llm.md)
 - [Un manuel interactif pour construire son propre modèle de langage](../sources/2026/2079624265528475975-build-your-own-language-model.md)
 - [Techniques avancées de RAG pour des systèmes de récupération fiables en production](../sources/2026/2065403846940147866-advanced-rag-techniques-guide.md)
 - [Miso One : un modèle text-to-speech ultra-expressif en open source](../sources/2026/2062269826177868211-miso-one-voice-model.md)
