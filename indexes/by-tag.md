@@ -2,6 +2,7 @@
 
 ## ai-agents
 
+- [Alexandr Wang (Meta) : des essaims d'agents IA battent des équipes de 100 ingénieurs seniors](../sources/2026/2098777470040183030-meta-agentic-loop-swarm.md) (@AYi_AInotes)
 - [Retour d'expérience Uber sur l'optimisation des harness d'agents](../sources/2026/2096936920823861264-uber-engineering-harness-taches.md) (@seekjourney)
 - [Prompt pour auto-optimiser sa configuration Codex selon son historique d'usage](../sources/2026/2096910944165146678-prompt-auto-config-codex.md) (@pocarles)
 - [Récit fictif/humoristique d'un agent IA recruté pour un 'swarm' - incident OpenAI/HuggingFace](../sources/2026/2096062352059949547-openai-huggingface-incident-agent-pov.md) (@NickADobos)
@@ -121,6 +122,7 @@
 
 ## engineering
 
+- [Alexandr Wang (Meta) : des essaims d'agents IA battent des équipes de 100 ingénieurs seniors](../sources/2026/2098777470040183030-meta-agentic-loop-swarm.md) (@AYi_AInotes)
 - [Les scores pass/fail des benchmarks LLM sont trompeurs](../sources/2026/2098490139798655427-limites-benchmarks-eval-llm.md) (@trq212)
 - [Retour d'expérience Uber sur l'optimisation des harness d'agents](../sources/2026/2096936920823861264-uber-engineering-harness-taches.md) (@seekjourney)
 - [CS146S: cours Stanford sur le développeur logiciel AI-native (Fall 2026)](../sources/2026/2095185152112529834-cours-stanford-modern-software-developer.md) (@nummanali)
@@ -184,6 +186,7 @@
 
 ## management
 
+- [Alexandr Wang (Meta) : des essaims d'agents IA battent des équipes de 100 ingénieurs seniors](../sources/2026/2098777470040183030-meta-agentic-loop-swarm.md) (@AYi_AInotes)
 - [La leçon de Clayton Christensen : comment mesurer sa vie](../sources/2026/2089025532826710106-christensen-comment-mesurer-sa-vie.md) (@DanielMiessler)
 - [Thinking Machines : pour une IA décentralisée, façonnée par ceux qu'elle sert](../sources/2026/2075621073308311701-avenir-ia-decentralisee-thinking-machines.md) (@miramurati)
 - [Comment Sierra a déployé un agent IA unique (Pinecone) dans toute l'entreprise](../sources/2026/2075571269526003788-sierra-ai-pilling-pinecone.md) (@btaylor)
@@ -254,6 +257,7 @@
 
 ## productivity
 
+- [Alexandr Wang (Meta) : des essaims d'agents IA battent des équipes de 100 ingénieurs seniors](../sources/2026/2098777470040183030-meta-agentic-loop-swarm.md) (@AYi_AInotes)
 - [Prompt pour auto-optimiser sa configuration Codex selon son historique d'usage](../sources/2026/2096910944165146678-prompt-auto-config-codex.md) (@pocarles)
 - [CleanShot 5.0 lance le Studio Mode pour des captures vidéo pro](../sources/2026/2094803447920967862-cleanshot-5-studio-mode.md) (@CleanShot)
 - [Astuce annoncée pour réduire de 90% l'usage de tokens sur Claude Code](../sources/2026/2094080200472494554-reduire-tokens-claude-code.md) (@chesny)
