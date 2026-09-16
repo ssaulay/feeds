@@ -2,6 +2,7 @@
 
 ## ai-agents
 
+- [Lancement de Jev : un modèle IA frontier optimisé pour les décisions via RLCD](../sources/2026/2099925682726002904-jev-nouveau-modele-ia-rlcd.md) (@CompleteSkeptic)
 - [Alexandr Wang (Meta) : des essaims d'agents IA battent des équipes de 100 ingénieurs seniors](../sources/2026/2098777470040183030-meta-agentic-loop-swarm.md) (@AYi_AInotes)
 - [Retour d'expérience Uber sur l'optimisation des harness d'agents](../sources/2026/2096936920823861264-uber-engineering-harness-taches.md) (@seekjourney)
 - [Prompt pour auto-optimiser sa configuration Codex selon son historique d'usage](../sources/2026/2096910944165146678-prompt-auto-config-codex.md) (@pocarles)
@@ -74,6 +75,7 @@
 
 ## design
 
+- [Aesty simplifie l'onboarding en construisant le dressing depuis la pellicule photo](../sources/2026/2099502353208791428-onboarding-camera-roll-digital-closet.md) (@nestymee)
 - [CleanShot 5.0 lance le Studio Mode pour des captures vidéo pro](../sources/2026/2094803447920967862-cleanshot-5-studio-mode.md) (@CleanShot)
 - [Wayfinder comme orchestrateur de skills IA + prototypage frontend multi-variantes](../sources/2026/2077743625639714850-wayfinder-orchestrateur-skills-frontend.md) (@mattpocockuk)
 - [DESIGN.md : le standard de Google pour un langage de design partagé avec l'IA](../sources/2026/2047917199655149791-google-design-md-standard.md) (@MengTo)
@@ -146,6 +148,7 @@
 
 ## growth
 
+- [Aesty simplifie l'onboarding en construisant le dressing depuis la pellicule photo](../sources/2026/2099502353208791428-onboarding-camera-roll-digital-closet.md) (@nestymee)
 - [Treg : recherche de personnes low-cost pour agents IA via Claude](../sources/2026/2094740336895840605-claude-people-search-treg.md) (@jasonzhou1993)
 - [Recommandation d'un outil ayant transformé une entreprise (détails non accessibles)](../sources/2026/2086844678486274106-outil-transforme-entreprise-vibemarketer.md) (@jacob_posel)
 - [Cours vidéo sur la progression Agents → Loops → Graphs → Systèmes auto-améliorants](../sources/2026/2086794133855703183-cours-graph-engineering-agents.md) (@LunarResearcher)
@@ -163,6 +166,7 @@
 
 ## llm
 
+- [Lancement de Jev : un modèle IA frontier optimisé pour les décisions via RLCD](../sources/2026/2099925682726002904-jev-nouveau-modele-ia-rlcd.md) (@CompleteSkeptic)
 - [Les scores pass/fail des benchmarks LLM sont trompeurs](../sources/2026/2098490139798655427-limites-benchmarks-eval-llm.md) (@trq212)
 - [Guide pratique des AI evals pour les équipes produit](../sources/2026/2095634825931866181-guide-evals-ia-product-teams.md) (@ttorres)
 - [Un manuel interactif pour construire son propre modèle de langage](../sources/2026/2079624265528475975-build-your-own-language-model.md) (@felixrieseberg)
@@ -237,6 +241,7 @@
 
 ## product
 
+- [Aesty simplifie l'onboarding en construisant le dressing depuis la pellicule photo](../sources/2026/2099502353208791428-onboarding-camera-roll-digital-closet.md) (@nestymee)
 - [Guide pratique des AI evals pour les équipes produit](../sources/2026/2095634825931866181-guide-evals-ia-product-teams.md) (@ttorres)
 - [Higgsfield Apps : génération d'applications complètes par IA](../sources/2026/2074564269207916984-higgsfield-apps-generation-ia.md) (@adilinthewild)
 - [Lancement du X MCP hébergé : accès à l'API X pour les outils IA compatibles MCP](../sources/2026/2071753251360502131-x-mcp-hosted-api-access.md) (@taycaldwell)
@@ -301,6 +306,7 @@
 
 ## startup
 
+- [Lancement de Jev : un modèle IA frontier optimisé pour les décisions via RLCD](../sources/2026/2099925682726002904-jev-nouveau-modele-ia-rlcd.md) (@CompleteSkeptic)
 - [QM : le harness multi-agent open source de YC pour Slack et le web](../sources/2026/2083353760701833546-qm-harness-multi-agent-open-source.md) (@garrytan)
 - [Thinking Machines : pour une IA décentralisée, façonnée par ceux qu'elle sert](../sources/2026/2075621073308311701-avenir-ia-decentralisee-thinking-machines.md) (@miramurati)
 - [La stratégie AI qui marche : embaucher un 'Sasha' plutôt qu'un mandat top-down](../sources/2026/2072048527996604900-embaucher-son-sasha-ai-ops.md) (@aakashgupta)

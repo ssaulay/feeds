@@ -1,5 +1,7 @@
 # Index par date
 
+- 2026-09-15 — [Lancement de Jev : un modèle IA frontier optimisé pour les décisions via RLCD](../sources/2026/2099925682726002904-jev-nouveau-modele-ia-rlcd.md) (@CompleteSkeptic)
+- 2026-09-14 — [Aesty simplifie l'onboarding en construisant le dressing depuis la pellicule photo](../sources/2026/2099502353208791428-onboarding-camera-roll-digital-closet.md) (@nestymee)
 - 2026-09-12 — [Alexandr Wang (Meta) : des essaims d'agents IA battent des équipes de 100 ingénieurs seniors](../sources/2026/2098777470040183030-meta-agentic-loop-swarm.md) (@AYi_AInotes)
 - 2026-09-11 — [Les scores pass/fail des benchmarks LLM sont trompeurs](../sources/2026/2098490139798655427-limites-benchmarks-eval-llm.md) (@trq212)
 - 2026-09-07 — [Retour d'expérience Uber sur l'optimisation des harness d'agents](../sources/2026/2096936920823861264-uber-engineering-harness-taches.md) (@seekjourney)
