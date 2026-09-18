@@ -2,6 +2,7 @@
 
 ## ai-agents
 
+- [Prompt unique pour builder un agent avec routage de modèle automatique via Jev](../sources/2026/2100625434773725336-prompt-agent-jev-model-router.md) (@rileybrown)
 - [Aristotle : un tuteur IA vocal qui privilégie l'apprentissage à la réponse directe](../sources/2026/2100280703825137932-aristotle-ai-tutor-vocal.md) (@rshanreddy)
 - [OpenMAIC : génère une salle de classe interactive multi-agents à partir d'un sujet ou d'un doc](../sources/2026/2100201194282942850-openmaic-classe-ia-multi-agents.md) (@kaostyl)
 - [Lancement de Jev : un modèle IA frontier optimisé pour les décisions via RLCD](../sources/2026/2099925682726002904-jev-nouveau-modele-ia-rlcd.md) (@CompleteSkeptic)
@@ -85,6 +86,7 @@
 
 ## dev-tools
 
+- [Prompt unique pour builder un agent avec routage de modèle automatique via Jev](../sources/2026/2100625434773725336-prompt-agent-jev-model-router.md) (@rileybrown)
 - [OpenMAIC : génère une salle de classe interactive multi-agents à partir d'un sujet ou d'un doc](../sources/2026/2100201194282942850-openmaic-classe-ia-multi-agents.md) (@kaostyl)
 - [Retour d'expérience Uber sur l'optimisation des harness d'agents](../sources/2026/2096936920823861264-uber-engineering-harness-taches.md) (@seekjourney)
 - [Prompt pour auto-optimiser sa configuration Codex selon son historique d'usage](../sources/2026/2096910944165146678-prompt-auto-config-codex.md) (@pocarles)
@@ -170,6 +172,7 @@
 
 ## llm
 
+- [Prompt unique pour builder un agent avec routage de modèle automatique via Jev](../sources/2026/2100625434773725336-prompt-agent-jev-model-router.md) (@rileybrown)
 - [OpenMAIC : génère une salle de classe interactive multi-agents à partir d'un sujet ou d'un doc](../sources/2026/2100201194282942850-openmaic-classe-ia-multi-agents.md) (@kaostyl)
 - [Lancement de Jev : un modèle IA frontier optimisé pour les décisions via RLCD](../sources/2026/2099925682726002904-jev-nouveau-modele-ia-rlcd.md) (@CompleteSkeptic)
 - [Les scores pass/fail des benchmarks LLM sont trompeurs](../sources/2026/2098490139798655427-limites-benchmarks-eval-llm.md) (@trq212)
@@ -213,6 +216,7 @@
 
 ## marketing
 
+- [Critique de la performance musicale de Travis Scott malgré des opportunités majeures](../sources/2026/2100561959921778925-travis-scott-gta-vi-critique.md) (@lilrishgi)
 - [Recommandation d'un outil ayant transformé une entreprise (détails non accessibles)](../sources/2026/2086844678486274106-outil-transforme-entreprise-vibemarketer.md) (@jacob_posel)
 - [Construire un SaaS est facile, vendre est ce qui compte vraiment](../sources/2026/2071861350268047571-vendre-saas-contenu-vente.md) (@Tech_babby)
 - [/brag : générer automatiquement une vidéo de lancement depuis Claude Code](../sources/2026/2069039170451091878-brag-skill-claude-code-video.md) (@Arcane_Aii)
@@ -222,6 +226,7 @@
 
 ## misc
 
+- [Critique de la performance musicale de Travis Scott malgré des opportunités majeures](../sources/2026/2100561959921778925-travis-scott-gta-vi-critique.md) (@lilrishgi)
 - [Récit fictif/humoristique d'un agent IA recruté pour un 'swarm' - incident OpenAI/HuggingFace](../sources/2026/2096062352059949547-openai-huggingface-incident-agent-pov.md) (@NickADobos)
 - [La leçon de Clayton Christensen : comment mesurer sa vie](../sources/2026/2089025532826710106-christensen-comment-mesurer-sa-vie.md) (@DanielMiessler)
 - [Moments de solidarité franco-britannique lors des matchs France-Angleterre](../sources/2026/2084943394359382301-france-angleterre-solidarite-bataclan-manchester.md) (@Valen10Francois)
@@ -302,6 +307,7 @@
 
 ## prompt-engineering
 
+- [Prompt unique pour builder un agent avec routage de modèle automatique via Jev](../sources/2026/2100625434773725336-prompt-agent-jev-model-router.md) (@rileybrown)
 - [Prompt pour auto-optimiser sa configuration Codex selon son historique d'usage](../sources/2026/2096910944165146678-prompt-auto-config-codex.md) (@pocarles)
 - [Guide pratique pour construire des sites et outils avec Claude Code sans coder](../sources/2026/2090378403056881935-claude-code-guide-non-codeurs.md) (@claudeskills101)
 - [Wayfinder comme orchestrateur de skills IA + prototypage frontend multi-variantes](../sources/2026/2077743625639714850-wayfinder-orchestrateur-skills-frontend.md) (@mattpocockuk)

@@ -12,7 +12,10 @@ Le « building in public » — documenter publiquement son parcours entrepreneu
 
 Il est recommandé de suivre et reproduire la stratégie de créateurs qui excellent dans cet aspect commercial : observer leurs méthodes de contenu et de vente pour accélérer son propre apprentissage plutôt que de chercher à innover uniquement sur le produit. Dans cette logique, surveiller l'émergence d'outils IA spécialisés en marketing (type « vibe marketing ») pourrait constituer un axe d'accélération complémentaire, à confirmer avec des sources plus détaillées.
 
+*Note : un apport récent (critique de la performance musicale de Travis Scott sur des collaborations Daft Punk / GTA VI) a été examiné mais n'a pas été intégré ci-dessus, faute de lien pertinent avec le thème marketing — il relève de la critique musicale/culturelle plutôt que de stratégies commerciales ou promotionnelles.*
+
 ## Sources
 
+- [Critique de la performance musicale de Travis Scott malgré des opportunités majeures](../sources/2026/2100561959921778925-travis-scott-gta-vi-critique.md)
 - [Recommandation d'un outil ayant transformé une entreprise (détails non accessibles)](../sources/2026/2086844678486274106-outil-transforme-entreprise-vibemarketer.md)
 - [Construire un SaaS est facile, vendre est ce qui compte vraiment](../sources/2026/2071861350268047571-vendre-saas-contenu-vente.md)

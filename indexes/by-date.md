@@ -1,5 +1,7 @@
 # Index par date
 
+- 2026-09-17 — [Prompt unique pour builder un agent avec routage de modèle automatique via Jev](../sources/2026/2100625434773725336-prompt-agent-jev-model-router.md) (@rileybrown)
+- 2026-09-17 — [Critique de la performance musicale de Travis Scott malgré des opportunités majeures](../sources/2026/2100561959921778925-travis-scott-gta-vi-critique.md) (@lilrishgi)
 - 2026-09-16 — [Aristotle : un tuteur IA vocal qui privilégie l'apprentissage à la réponse directe](../sources/2026/2100280703825137932-aristotle-ai-tutor-vocal.md) (@rshanreddy)
 - 2026-09-16 — [OpenMAIC : génère une salle de classe interactive multi-agents à partir d'un sujet ou d'un doc](../sources/2026/2100201194282942850-openmaic-classe-ia-multi-agents.md) (@kaostyl)
 - 2026-09-15 — [Lancement de Jev : un modèle IA frontier optimisé pour les décisions via RLCD](../sources/2026/2099925682726002904-jev-nouveau-modele-ia-rlcd.md) (@CompleteSkeptic)
