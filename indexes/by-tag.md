@@ -2,6 +2,7 @@
 
 ## ai-agents
 
+- [Prédictions sur la mort du code review, des tests unitaires et du terminal face aux LLM](../sources/2026/2101367298829271095-predictions-futur-dev-logiciel.md) (@mattshumer_)
 - [Prompt unique pour builder un agent avec routage de modèle automatique via Jev](../sources/2026/2100625434773725336-prompt-agent-jev-model-router.md) (@rileybrown)
 - [Aristotle : un tuteur IA vocal qui privilégie l'apprentissage à la réponse directe](../sources/2026/2100280703825137932-aristotle-ai-tutor-vocal.md) (@rshanreddy)
 - [OpenMAIC : génère une salle de classe interactive multi-agents à partir d'un sujet ou d'un doc](../sources/2026/2100201194282942850-openmaic-classe-ia-multi-agents.md) (@kaostyl)
@@ -86,6 +87,7 @@
 
 ## dev-tools
 
+- [Prédictions sur la mort du code review, des tests unitaires et du terminal face aux LLM](../sources/2026/2101367298829271095-predictions-futur-dev-logiciel.md) (@mattshumer_)
 - [Prompt unique pour builder un agent avec routage de modèle automatique via Jev](../sources/2026/2100625434773725336-prompt-agent-jev-model-router.md) (@rileybrown)
 - [OpenMAIC : génère une salle de classe interactive multi-agents à partir d'un sujet ou d'un doc](../sources/2026/2100201194282942850-openmaic-classe-ia-multi-agents.md) (@kaostyl)
 - [Retour d'expérience Uber sur l'optimisation des harness d'agents](../sources/2026/2096936920823861264-uber-engineering-harness-taches.md) (@seekjourney)
@@ -129,6 +131,7 @@
 
 ## engineering
 
+- [Prédictions sur la mort du code review, des tests unitaires et du terminal face aux LLM](../sources/2026/2101367298829271095-predictions-futur-dev-logiciel.md) (@mattshumer_)
 - [Alexandr Wang (Meta) : des essaims d'agents IA battent des équipes de 100 ingénieurs seniors](../sources/2026/2098777470040183030-meta-agentic-loop-swarm.md) (@AYi_AInotes)
 - [Les scores pass/fail des benchmarks LLM sont trompeurs](../sources/2026/2098490139798655427-limites-benchmarks-eval-llm.md) (@trq212)
 - [Retour d'expérience Uber sur l'optimisation des harness d'agents](../sources/2026/2096936920823861264-uber-engineering-harness-taches.md) (@seekjourney)
@@ -251,6 +254,7 @@
 
 ## product
 
+- [Prédictions sur la mort du code review, des tests unitaires et du terminal face aux LLM](../sources/2026/2101367298829271095-predictions-futur-dev-logiciel.md) (@mattshumer_)
 - [Aristotle : un tuteur IA vocal qui privilégie l'apprentissage à la réponse directe](../sources/2026/2100280703825137932-aristotle-ai-tutor-vocal.md) (@rshanreddy)
 - [OpenMAIC : génère une salle de classe interactive multi-agents à partir d'un sujet ou d'un doc](../sources/2026/2100201194282942850-openmaic-classe-ia-multi-agents.md) (@kaostyl)
 - [Aesty simplifie l'onboarding en construisant le dressing depuis la pellicule photo](../sources/2026/2099502353208791428-onboarding-camera-roll-digital-closet.md) (@nestymee)
