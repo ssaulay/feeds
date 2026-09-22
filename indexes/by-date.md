@@ -1,5 +1,6 @@
 # Index par date
 
+- 2026-09-20 — [Qwen Image 2.1 : un modèle de génération d'images peu censuré](../sources/2026/2101802086539329598-qwen-image-2-1-uncensored.md) (@aisearchio)
 - 2026-09-19 — [Prédictions sur la mort du code review, des tests unitaires et du terminal face aux LLM](../sources/2026/2101367298829271095-predictions-futur-dev-logiciel.md) (@mattshumer_)
 - 2026-09-17 — [Prompt unique pour builder un agent avec routage de modèle automatique via Jev](../sources/2026/2100625434773725336-prompt-agent-jev-model-router.md) (@rileybrown)
 - 2026-09-17 — [Critique de la performance musicale de Travis Scott malgré des opportunités majeures](../sources/2026/2100561959921778925-travis-scott-gta-vi-critique.md) (@lilrishgi)

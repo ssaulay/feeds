@@ -52,8 +52,20 @@ Enseignements :
   humaines communes — ces gestes se répètent dans le temps (2015, 2017),
   suggérant une dynamique récurrente plutôt qu'un épisode isolé.
 
+### Génération d'images IA : niveau de censure des modèles
+
+- **Qwen Image 2.1** est signalé comme relativement peu censuré parmi les
+  modèles de génération d'images, avec une bonne compréhension de l'anatomie
+  humaine permettant de générer diverses poses.
+- Observation empirique partagée sans lien externe ni benchmark détaillé —
+  à prendre comme un retour d'usage individuel plutôt qu'une évaluation
+  rigoureuse.
+- Ce type d'information est pertinent pour le choix d'un outil de génération
+  d'image selon le niveau de contrôle de contenu souhaité.
+
 ## Sources
 
+- [Qwen Image 2.1 : un modèle de génération d'images peu censuré](../sources/2026/2101802086539329598-qwen-image-2-1-uncensored.md)
 - [Moments de solidarité franco-britannique lors des matchs France-Angleterre](../sources/2026/2084943394359382301-france-angleterre-solidarite-bataclan-manchester.md)
 - [Le stade de Wembley chante la Marseillaise après les attentats du Bataclan](../sources/2026/2078514371966152895-wembley-marseillaise-2015-hommage.md)
 - [Article X non accessible (contenu non récupéré)](../sources/2026/2077650169265590727-article-x-non-accessible.md)

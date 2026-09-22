@@ -79,6 +79,7 @@
 
 ## design
 
+- [Qwen Image 2.1 : un modèle de génération d'images peu censuré](../sources/2026/2101802086539329598-qwen-image-2-1-uncensored.md) (@aisearchio)
 - [Aesty simplifie l'onboarding en construisant le dressing depuis la pellicule photo](../sources/2026/2099502353208791428-onboarding-camera-roll-digital-closet.md) (@nestymee)
 - [CleanShot 5.0 lance le Studio Mode pour des captures vidéo pro](../sources/2026/2094803447920967862-cleanshot-5-studio-mode.md) (@CleanShot)
 - [Wayfinder comme orchestrateur de skills IA + prototypage frontend multi-variantes](../sources/2026/2077743625639714850-wayfinder-orchestrateur-skills-frontend.md) (@mattpocockuk)
@@ -229,6 +230,7 @@
 
 ## misc
 
+- [Qwen Image 2.1 : un modèle de génération d'images peu censuré](../sources/2026/2101802086539329598-qwen-image-2-1-uncensored.md) (@aisearchio)
 - [Critique de la performance musicale de Travis Scott malgré des opportunités majeures](../sources/2026/2100561959921778925-travis-scott-gta-vi-critique.md) (@lilrishgi)
 - [Récit fictif/humoristique d'un agent IA recruté pour un 'swarm' - incident OpenAI/HuggingFace](../sources/2026/2096062352059949547-openai-huggingface-incident-agent-pov.md) (@NickADobos)
 - [La leçon de Clayton Christensen : comment mesurer sa vie](../sources/2026/2089025532826710106-christensen-comment-mesurer-sa-vie.md) (@DanielMiessler)
