@@ -2,7 +2,9 @@
 
 ## ai-agents
 
+- [10 skills IA pour améliorer instantanément le design d'une UI](../sources/2026/2102265246325047711-10-skills-ui-plus-belles.md) (@kail_designs)
 - [Prédictions sur la mort du code review, des tests unitaires et du terminal face aux LLM](../sources/2026/2101367298829271095-predictions-futur-dev-logiciel.md) (@mattshumer_)
+- [JEV : la promesse d'une ère post-RLHF pour les LLM sans humain dans la boucle](../sources/2026/2101294219633529030-jev-post-rlhf-llm-era.md) (@0xCodez)
 - [Prompt unique pour builder un agent avec routage de modèle automatique via Jev](../sources/2026/2100625434773725336-prompt-agent-jev-model-router.md) (@rileybrown)
 - [Aristotle : un tuteur IA vocal qui privilégie l'apprentissage à la réponse directe](../sources/2026/2100280703825137932-aristotle-ai-tutor-vocal.md) (@rshanreddy)
 - [OpenMAIC : génère une salle de classe interactive multi-agents à partir d'un sujet ou d'un doc](../sources/2026/2100201194282942850-openmaic-classe-ia-multi-agents.md) (@kaostyl)
@@ -79,6 +81,7 @@
 
 ## design
 
+- [10 skills IA pour améliorer instantanément le design d'une UI](../sources/2026/2102265246325047711-10-skills-ui-plus-belles.md) (@kail_designs)
 - [Qwen Image 2.1 : un modèle de génération d'images peu censuré](../sources/2026/2101802086539329598-qwen-image-2-1-uncensored.md) (@aisearchio)
 - [Aesty simplifie l'onboarding en construisant le dressing depuis la pellicule photo](../sources/2026/2099502353208791428-onboarding-camera-roll-digital-closet.md) (@nestymee)
 - [CleanShot 5.0 lance le Studio Mode pour des captures vidéo pro](../sources/2026/2094803447920967862-cleanshot-5-studio-mode.md) (@CleanShot)
@@ -88,6 +91,7 @@
 
 ## dev-tools
 
+- [10 skills IA pour améliorer instantanément le design d'une UI](../sources/2026/2102265246325047711-10-skills-ui-plus-belles.md) (@kail_designs)
 - [Prédictions sur la mort du code review, des tests unitaires et du terminal face aux LLM](../sources/2026/2101367298829271095-predictions-futur-dev-logiciel.md) (@mattshumer_)
 - [Prompt unique pour builder un agent avec routage de modèle automatique via Jev](../sources/2026/2100625434773725336-prompt-agent-jev-model-router.md) (@rileybrown)
 - [OpenMAIC : génère une salle de classe interactive multi-agents à partir d'un sujet ou d'un doc](../sources/2026/2100201194282942850-openmaic-classe-ia-multi-agents.md) (@kaostyl)
@@ -176,6 +180,7 @@
 
 ## llm
 
+- [JEV : la promesse d'une ère post-RLHF pour les LLM sans humain dans la boucle](../sources/2026/2101294219633529030-jev-post-rlhf-llm-era.md) (@0xCodez)
 - [Prompt unique pour builder un agent avec routage de modèle automatique via Jev](../sources/2026/2100625434773725336-prompt-agent-jev-model-router.md) (@rileybrown)
 - [OpenMAIC : génère une salle de classe interactive multi-agents à partir d'un sujet ou d'un doc](../sources/2026/2100201194282942850-openmaic-classe-ia-multi-agents.md) (@kaostyl)
 - [Lancement de Jev : un modèle IA frontier optimisé pour les décisions via RLCD](../sources/2026/2099925682726002904-jev-nouveau-modele-ia-rlcd.md) (@CompleteSkeptic)
@@ -325,6 +330,7 @@
 
 ## startup
 
+- [JEV : la promesse d'une ère post-RLHF pour les LLM sans humain dans la boucle](../sources/2026/2101294219633529030-jev-post-rlhf-llm-era.md) (@0xCodez)
 - [Aristotle : un tuteur IA vocal qui privilégie l'apprentissage à la réponse directe](../sources/2026/2100280703825137932-aristotle-ai-tutor-vocal.md) (@rshanreddy)
 - [Lancement de Jev : un modèle IA frontier optimisé pour les décisions via RLCD](../sources/2026/2099925682726002904-jev-nouveau-modele-ia-rlcd.md) (@CompleteSkeptic)
 - [QM : le harness multi-agent open source de YC pour Slack et le web](../sources/2026/2083353760701833546-qm-harness-multi-agent-open-source.md) (@garrytan)
