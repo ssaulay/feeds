@@ -2,6 +2,8 @@
 
 ## ai-agents
 
+- [Jev + Opus 5.5 : une couche de décision légère pour réduire coûts et latence](../sources/2026/2103190313624039620-jev-decision-layer-opus.md) (@Av1dlive)
+- [37 erreurs courantes dans la transformation IA des entreprises](../sources/2026/2102763567422251107-37-erreurs-transformation-ia.md) (@businessbarista)
 - [10 skills IA pour améliorer instantanément le design d'une UI](../sources/2026/2102265246325047711-10-skills-ui-plus-belles.md) (@kail_designs)
 - [Prédictions sur la mort du code review, des tests unitaires et du terminal face aux LLM](../sources/2026/2101367298829271095-predictions-futur-dev-logiciel.md) (@mattshumer_)
 - [JEV : la promesse d'une ère post-RLHF pour les LLM sans humain dans la boucle](../sources/2026/2101294219633529030-jev-post-rlhf-llm-era.md) (@0xCodez)
@@ -75,6 +77,7 @@
 
 ## data
 
+- [37 erreurs courantes dans la transformation IA des entreprises](../sources/2026/2102763567422251107-37-erreurs-transformation-ia.md) (@businessbarista)
 - [Treg : recherche de personnes low-cost pour agents IA via Claude](../sources/2026/2094740336895840605-claude-people-search-treg.md) (@jasonzhou1993)
 - [Cerebras Knowledge : système de context engineering pour agents en entreprise](../sources/2026/2077829577322426879-cerebras-knowledge-context-engineering.md) (@LinghuaJ)
 - [Gemini Embedding 2 : un seul espace vectoriel pour texte, image, audio, vidéo et PDF](../sources/2026/2047003304937332860-gemini-embedding-2-multimodal.md) (@brivael)
@@ -91,6 +94,7 @@
 
 ## dev-tools
 
+- [Jev + Opus 5.5 : une couche de décision légère pour réduire coûts et latence](../sources/2026/2103190313624039620-jev-decision-layer-opus.md) (@Av1dlive)
 - [10 skills IA pour améliorer instantanément le design d'une UI](../sources/2026/2102265246325047711-10-skills-ui-plus-belles.md) (@kail_designs)
 - [Prédictions sur la mort du code review, des tests unitaires et du terminal face aux LLM](../sources/2026/2101367298829271095-predictions-futur-dev-logiciel.md) (@mattshumer_)
 - [Prompt unique pour builder un agent avec routage de modèle automatique via Jev](../sources/2026/2100625434773725336-prompt-agent-jev-model-router.md) (@rileybrown)
@@ -136,6 +140,7 @@
 
 ## engineering
 
+- [Jev + Opus 5.5 : une couche de décision légère pour réduire coûts et latence](../sources/2026/2103190313624039620-jev-decision-layer-opus.md) (@Av1dlive)
 - [Prédictions sur la mort du code review, des tests unitaires et du terminal face aux LLM](../sources/2026/2101367298829271095-predictions-futur-dev-logiciel.md) (@mattshumer_)
 - [Alexandr Wang (Meta) : des essaims d'agents IA battent des équipes de 100 ingénieurs seniors](../sources/2026/2098777470040183030-meta-agentic-loop-swarm.md) (@AYi_AInotes)
 - [Les scores pass/fail des benchmarks LLM sont trompeurs](../sources/2026/2098490139798655427-limites-benchmarks-eval-llm.md) (@trq212)
@@ -207,6 +212,7 @@
 
 ## management
 
+- [37 erreurs courantes dans la transformation IA des entreprises](../sources/2026/2102763567422251107-37-erreurs-transformation-ia.md) (@businessbarista)
 - [Alexandr Wang (Meta) : des essaims d'agents IA battent des équipes de 100 ingénieurs seniors](../sources/2026/2098777470040183030-meta-agentic-loop-swarm.md) (@AYi_AInotes)
 - [La leçon de Clayton Christensen : comment mesurer sa vie](../sources/2026/2089025532826710106-christensen-comment-mesurer-sa-vie.md) (@DanielMiessler)
 - [Thinking Machines : pour une IA décentralisée, façonnée par ceux qu'elle sert](../sources/2026/2075621073308311701-avenir-ia-decentralisee-thinking-machines.md) (@miramurati)
@@ -261,6 +267,7 @@
 
 ## product
 
+- [37 erreurs courantes dans la transformation IA des entreprises](../sources/2026/2102763567422251107-37-erreurs-transformation-ia.md) (@businessbarista)
 - [Prédictions sur la mort du code review, des tests unitaires et du terminal face aux LLM](../sources/2026/2101367298829271095-predictions-futur-dev-logiciel.md) (@mattshumer_)
 - [Aristotle : un tuteur IA vocal qui privilégie l'apprentissage à la réponse directe](../sources/2026/2100280703825137932-aristotle-ai-tutor-vocal.md) (@rshanreddy)
 - [OpenMAIC : génère une salle de classe interactive multi-agents à partir d'un sujet ou d'un doc](../sources/2026/2100201194282942850-openmaic-classe-ia-multi-agents.md) (@kaostyl)
