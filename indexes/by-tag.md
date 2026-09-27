@@ -212,6 +212,7 @@
 
 ## management
 
+- [Un discours sur l'équilibre entre nostalgie, lucidité et optimisme](../sources/2026/2103401938058723765-discours-inspirant-souvenirs-realite-futur.md) (@scottstts)
 - [37 erreurs courantes dans la transformation IA des entreprises](../sources/2026/2102763567422251107-37-erreurs-transformation-ia.md) (@businessbarista)
 - [Alexandr Wang (Meta) : des essaims d'agents IA battent des équipes de 100 ingénieurs seniors](../sources/2026/2098777470040183030-meta-agentic-loop-swarm.md) (@AYi_AInotes)
 - [La leçon de Clayton Christensen : comment mesurer sa vie](../sources/2026/2089025532826710106-christensen-comment-mesurer-sa-vie.md) (@DanielMiessler)
@@ -241,6 +242,7 @@
 
 ## misc
 
+- [Un discours sur l'équilibre entre nostalgie, lucidité et optimisme](../sources/2026/2103401938058723765-discours-inspirant-souvenirs-realite-futur.md) (@scottstts)
 - [Qwen Image 2.1 : un modèle de génération d'images peu censuré](../sources/2026/2101802086539329598-qwen-image-2-1-uncensored.md) (@aisearchio)
 - [Critique de la performance musicale de Travis Scott malgré des opportunités majeures](../sources/2026/2100561959921778925-travis-scott-gta-vi-critique.md) (@lilrishgi)
 - [Récit fictif/humoristique d'un agent IA recruté pour un 'swarm' - incident OpenAI/HuggingFace](../sources/2026/2096062352059949547-openai-huggingface-incident-agent-pov.md) (@NickADobos)
@@ -292,6 +294,7 @@
 
 ## productivity
 
+- [Un discours sur l'équilibre entre nostalgie, lucidité et optimisme](../sources/2026/2103401938058723765-discours-inspirant-souvenirs-realite-futur.md) (@scottstts)
 - [Alexandr Wang (Meta) : des essaims d'agents IA battent des équipes de 100 ingénieurs seniors](../sources/2026/2098777470040183030-meta-agentic-loop-swarm.md) (@AYi_AInotes)
 - [Prompt pour auto-optimiser sa configuration Codex selon son historique d'usage](../sources/2026/2096910944165146678-prompt-auto-config-codex.md) (@pocarles)
 - [CleanShot 5.0 lance le Studio Mode pour des captures vidéo pro](../sources/2026/2094803447920967862-cleanshot-5-studio-mode.md) (@CleanShot)

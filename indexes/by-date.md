@@ -1,5 +1,6 @@
 # Index par date
 
+- 2026-09-25 — [Un discours sur l'équilibre entre nostalgie, lucidité et optimisme](../sources/2026/2103401938058723765-discours-inspirant-souvenirs-realite-futur.md) (@scottstts)
 - 2026-09-24 — [Jev + Opus 5.5 : une couche de décision légère pour réduire coûts et latence](../sources/2026/2103190313624039620-jev-decision-layer-opus.md) (@Av1dlive)
 - 2026-09-23 — [37 erreurs courantes dans la transformation IA des entreprises](../sources/2026/2102763567422251107-37-erreurs-transformation-ia.md) (@businessbarista)
 - 2026-09-22 — [10 skills IA pour améliorer instantanément le design d'une UI](../sources/2026/2102265246325047711-10-skills-ui-plus-belles.md) (@kail_designs)
