@@ -7,12 +7,15 @@
 ### Limites techniques du pipeline
 
 Plusieurs posts du corpus sont inexploitables par le pipeline en raison de
-limites techniques d'accès au contenu :
+limites techniques d'accès au contenu, ou parce qu'ils ne portent aucune
+information pertinente :
 
 - **Contenu porté uniquement par un média** (image/vidéo, pas d'OCR/vision) :
   une anticipation d'un « changement majeur imminent » par @ian_dot_so dont
-  l'information est dans le média référencé, et un meme sur la réaction des
-  employés Meta en début d'appel, sans texte ni lien exploitable.
+  l'information est dans le média référencé, un meme sur la réaction des
+  employés Meta en début d'appel sans texte ni lien exploitable, et un post
+  contenant une image/vidéo à caractère personnel sans lien avec les
+  thématiques professionnelles couvertes (tech, produit, marketing, etc.).
 - **Contenu nécessitant JavaScript** : plusieurs posts renvoient vers des
   articles X (x.com/i/article) ou des pages dont le contenu n'a pas pu être
   chargé, la page affichant uniquement un message générique demandant
@@ -25,7 +28,10 @@ limites techniques d'accès au contenu :
 
 Limite connue du pipeline : ni le contenu porté uniquement par un média, ni
 les pages nécessitant un rendu JavaScript côté client, ni les liens raccourcis
-non résolus ne sont captés.
+non résolus ne sont captés. À cela s'ajoutent des posts dénués de toute valeur
+informationnelle (contenu personnel hors thématiques couvertes), qui ne
+relèvent pas d'une limite technique mais d'une absence de pertinence pour la
+bibliothèque.
 
 ### Sport et solidarité face au terrorisme
 
@@ -65,6 +71,7 @@ Enseignements :
 
 ## Sources
 
+- [Post sans contenu exploitable pour la bibliothèque](../sources/2026/2104713168496791982-post-sans-valeur-informative.md)
 - [Qwen Image 2.1 : un modèle de génération d'images peu censuré](../sources/2026/2101802086539329598-qwen-image-2-1-uncensored.md)
 - [Moments de solidarité franco-britannique lors des matchs France-Angleterre](../sources/2026/2084943394359382301-france-angleterre-solidarite-bataclan-manchester.md)
 - [Le stade de Wembley chante la Marseillaise après les attentats du Bataclan](../sources/2026/2078514371966152895-wembley-marseillaise-2015-hommage.md)
