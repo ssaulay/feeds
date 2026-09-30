@@ -249,6 +249,8 @@
 ## misc
 
 - [Post sans contenu exploitable pour la bibliothèque](../sources/2026/2104713168496791982-post-sans-valeur-informative.md) (@CaudilloXIV)
+- [Ressource virale bookmarkée massivement - à tester ce weekend](../sources/2026/2104689764326863024-guide-populaire-10k-bookmarks.md) (@smbluespace)
+- [Recommandation de série : Your Friends & Neighbors sur Apple TV](../sources/2026/2104595184969568537-your-friends-neighbors-apple-tv.md) (@JackDevero)
 - [Un discours sur l'équilibre entre nostalgie, lucidité et optimisme](../sources/2026/2103401938058723765-discours-inspirant-souvenirs-realite-futur.md) (@scottstts)
 - [Qwen Image 2.1 : un modèle de génération d'images peu censuré](../sources/2026/2101802086539329598-qwen-image-2-1-uncensored.md) (@aisearchio)
 - [Critique de la performance musicale de Travis Scott malgré des opportunités majeures](../sources/2026/2100561959921778925-travis-scott-gta-vi-critique.md) (@lilrishgi)
@@ -301,6 +303,7 @@
 
 ## productivity
 
+- [Ressource virale bookmarkée massivement - à tester ce weekend](../sources/2026/2104689764326863024-guide-populaire-10k-bookmarks.md) (@smbluespace)
 - [Politique officielle d'écriture avec l'IA chez Clay](../sources/2026/2104576879415988453-politique-ecriture-ia-clay.md) (@vxanand)
 - [Un discours sur l'équilibre entre nostalgie, lucidité et optimisme](../sources/2026/2103401938058723765-discours-inspirant-souvenirs-realite-futur.md) (@scottstts)
 - [Alexandr Wang (Meta) : des essaims d'agents IA battent des équipes de 100 ingénieurs seniors](../sources/2026/2098777470040183030-meta-agentic-loop-swarm.md) (@AYi_AInotes)

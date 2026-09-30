@@ -69,9 +69,21 @@ Enseignements :
 - Ce type d'information est pertinent pour le choix d'un outil de génération
   d'image selon le niveau de contrôle de contenu souhaité.
 
+### Recommandations de séries Apple TV
+
+- Un thread recommande plusieurs séries Apple TV, débutant par **Your Friends
+  & Neighbors** (2025, TV-MA), avec Jon Hamm dans le rôle principal.
+- Prémisse : un gestionnaire de fonds spéculatif (hedge fund manager) perd
+  son emploi et se tourne vers le cambriolage de ses voisins fortunés pour
+  maintenir le train de vie de sa famille.
+- Information à caractère de recommandation culturelle individuelle, sans
+  critique ou évaluation qualitative détaillée dans le post ; les autres
+  séries du thread ne sont pas précisées dans cet apport.
+
 ## Sources
 
 - [Post sans contenu exploitable pour la bibliothèque](../sources/2026/2104713168496791982-post-sans-valeur-informative.md)
+- [Recommandation de série : Your Friends & Neighbors sur Apple TV](../sources/2026/2104595184969568537-your-friends-neighbors-apple-tv.md)
 - [Qwen Image 2.1 : un modèle de génération d'images peu censuré](../sources/2026/2101802086539329598-qwen-image-2-1-uncensored.md)
 - [Moments de solidarité franco-britannique lors des matchs France-Angleterre](../sources/2026/2084943394359382301-france-angleterre-solidarite-bataclan-manchester.md)
 - [Le stade de Wembley chante la Marseillaise après les attentats du Bataclan](../sources/2026/2078514371966152895-wembley-marseillaise-2015-hommage.md)

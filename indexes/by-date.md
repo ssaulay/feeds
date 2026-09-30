@@ -1,7 +1,9 @@
 # Index par date
 
 - 2026-09-28 — [Post sans contenu exploitable pour la bibliothèque](../sources/2026/2104713168496791982-post-sans-valeur-informative.md) (@CaudilloXIV)
+- 2026-09-28 — [Ressource virale bookmarkée massivement - à tester ce weekend](../sources/2026/2104689764326863024-guide-populaire-10k-bookmarks.md) (@smbluespace)
 - 2026-09-28 — [Claude Code automatise la conception d'évaluations et le hillclimbing](../sources/2026/2104676099083190435-claude-code-eval-design-hillclimbing.md) (@ClaudeDevs)
+- 2026-09-28 — [Recommandation de série : Your Friends & Neighbors sur Apple TV](../sources/2026/2104595184969568537-your-friends-neighbors-apple-tv.md) (@JackDevero)
 - 2026-09-28 — [Politique officielle d'écriture avec l'IA chez Clay](../sources/2026/2104576879415988453-politique-ecriture-ia-clay.md) (@vxanand)
 - 2026-09-25 — [Un discours sur l'équilibre entre nostalgie, lucidité et optimisme](../sources/2026/2103401938058723765-discours-inspirant-souvenirs-realite-futur.md) (@scottstts)
 - 2026-09-24 — [Jev + Opus 5.5 : une couche de décision légère pour réduire coûts et latence](../sources/2026/2103190313624039620-jev-decision-layer-opus.md) (@Av1dlive)
