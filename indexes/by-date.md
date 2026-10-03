@@ -1,5 +1,6 @@
 # Index par date
 
+- 2026-10-02 — [Stratégies de formats pour mieux comprendre les outputs des LLM](../sources/2026/2105819303471976479-comprendre-outputs-llm-formats.md) (@karpathy)
 - 2026-10-01 — [Application de lip reading pour dicter du texte silencieusement](../sources/2026/2105496934672965669-app-lecture-labiale-dictee.md) (@amypretzel)
 - 2026-09-28 — [Post sans contenu exploitable pour la bibliothèque](../sources/2026/2104713168496791982-post-sans-valeur-informative.md) (@CaudilloXIV)
 - 2026-09-28 — [Ressource virale bookmarkée massivement - à tester ce weekend](../sources/2026/2104689764326863024-guide-populaire-10k-bookmarks.md) (@smbluespace)

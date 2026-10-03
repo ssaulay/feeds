@@ -190,6 +190,7 @@
 
 ## llm
 
+- [Stratégies de formats pour mieux comprendre les outputs des LLM](../sources/2026/2105819303471976479-comprendre-outputs-llm-formats.md) (@karpathy)
 - [Claude Code automatise la conception d'évaluations et le hillclimbing](../sources/2026/2104676099083190435-claude-code-eval-design-hillclimbing.md) (@ClaudeDevs)
 - [Politique officielle d'écriture avec l'IA chez Clay](../sources/2026/2104576879415988453-politique-ecriture-ia-clay.md) (@vxanand)
 - [JEV : la promesse d'une ère post-RLHF pour les LLM sans humain dans la boucle](../sources/2026/2101294219633529030-jev-post-rlhf-llm-era.md) (@0xCodez)
@@ -306,6 +307,7 @@
 
 ## productivity
 
+- [Stratégies de formats pour mieux comprendre les outputs des LLM](../sources/2026/2105819303471976479-comprendre-outputs-llm-formats.md) (@karpathy)
 - [Ressource virale bookmarkée massivement - à tester ce weekend](../sources/2026/2104689764326863024-guide-populaire-10k-bookmarks.md) (@smbluespace)
 - [Politique officielle d'écriture avec l'IA chez Clay](../sources/2026/2104576879415988453-politique-ecriture-ia-clay.md) (@vxanand)
 - [Un discours sur l'équilibre entre nostalgie, lucidité et optimisme](../sources/2026/2103401938058723765-discours-inspirant-souvenirs-realite-futur.md) (@scottstts)
@@ -342,6 +344,7 @@
 
 ## prompt-engineering
 
+- [Stratégies de formats pour mieux comprendre les outputs des LLM](../sources/2026/2105819303471976479-comprendre-outputs-llm-formats.md) (@karpathy)
 - [Prompt unique pour builder un agent avec routage de modèle automatique via Jev](../sources/2026/2100625434773725336-prompt-agent-jev-model-router.md) (@rileybrown)
 - [Prompt pour auto-optimiser sa configuration Codex selon son historique d'usage](../sources/2026/2096910944165146678-prompt-auto-config-codex.md) (@pocarles)
 - [Guide pratique pour construire des sites et outils avec Claude Code sans coder](../sources/2026/2090378403056881935-claude-code-guide-non-codeurs.md) (@claudeskills101)
