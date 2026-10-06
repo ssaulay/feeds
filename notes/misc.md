@@ -80,8 +80,26 @@ Enseignements :
   critique ou évaluation qualitative détaillée dans le post ; les autres
   séries du thread ne sont pas précisées dans cet apport.
 
+### Cinéphilie : bibliothèque de films rares sur Archive.org
+
+- @vilibazmiooo a compilé une liste Google Sheets recensant plus de 1300
+  films rares, épuisés ou introuvables, tous hébergés sur Archive.org, dont
+  près de 800 en qualité BluRay REMUX.
+- La collection couvre notamment des films d'auteur (Kurosawa, Tarkovski,
+  Varda, Sokurov, etc.), avec sous-titres traduits par le curateur.
+- Pour chaque film, la feuille indique réalisateur, année, taille du fichier
+  et lien direct, facilitant la recherche dans ce catalogue étendu.
+- Avertissement du curateur : Archive.org n'étant pas une plateforme de
+  streaming, il est recommandé de **télécharger** les fichiers plutôt que de
+  les lire en streaming, afin de bénéficier des sous-titres et de la
+  meilleure qualité d'image.
+- Les liens Archive.org sont présentés comme permanents, ce qui en ferait une
+  ressource durable pour la cinéphilie — affirmation du curateur, non
+  vérifiée de manière indépendante.
+
 ## Sources
 
+- [Bibliothèque de 1300+ films rares et épuisés sur Archive.org avec sous-titres](../sources/2026/2106916016123170890-archive-org-films-rares-liste.md)
 - [Post sans contenu exploitable pour la bibliothèque](../sources/2026/2104713168496791982-post-sans-valeur-informative.md)
 - [Recommandation de série : Your Friends & Neighbors sur Apple TV](../sources/2026/2104595184969568537-your-friends-neighbors-apple-tv.md)
 - [Qwen Image 2.1 : un modèle de génération d'images peu censuré](../sources/2026/2101802086539329598-qwen-image-2-1-uncensored.md)

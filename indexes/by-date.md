@@ -1,5 +1,7 @@
 # Index par date
 
+- 2026-10-05 — [Bibliothèque de 1300+ films rares et épuisés sur Archive.org avec sous-titres](../sources/2026/2106916016123170890-archive-org-films-rares-liste.md) (@denziideng)
+- 2026-10-04 — [Astuce avec une serviette pour soulager tensions au cou et aux épaules](../sources/2026/2106610618321277221-etirement-serviette-cou-epaules.md) (@Fred7948)
 - 2026-10-02 — [Stratégies de formats pour mieux comprendre les outputs des LLM](../sources/2026/2105819303471976479-comprendre-outputs-llm-formats.md) (@karpathy)
 - 2026-10-01 — [Application de lip reading pour dicter du texte silencieusement](../sources/2026/2105496934672965669-app-lecture-labiale-dictee.md) (@amypretzel)
 - 2026-09-28 — [Post sans contenu exploitable pour la bibliothèque](../sources/2026/2104713168496791982-post-sans-valeur-informative.md) (@CaudilloXIV)

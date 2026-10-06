@@ -251,6 +251,8 @@
 
 ## misc
 
+- [Bibliothèque de 1300+ films rares et épuisés sur Archive.org avec sous-titres](../sources/2026/2106916016123170890-archive-org-films-rares-liste.md) (@denziideng)
+- [Astuce avec une serviette pour soulager tensions au cou et aux épaules](../sources/2026/2106610618321277221-etirement-serviette-cou-epaules.md) (@Fred7948)
 - [Post sans contenu exploitable pour la bibliothèque](../sources/2026/2104713168496791982-post-sans-valeur-informative.md) (@CaudilloXIV)
 - [Ressource virale bookmarkée massivement - à tester ce weekend](../sources/2026/2104689764326863024-guide-populaire-10k-bookmarks.md) (@smbluespace)
 - [Recommandation de série : Your Friends & Neighbors sur Apple TV](../sources/2026/2104595184969568537-your-friends-neighbors-apple-tv.md) (@JackDevero)
@@ -307,6 +309,8 @@
 
 ## productivity
 
+- [Bibliothèque de 1300+ films rares et épuisés sur Archive.org avec sous-titres](../sources/2026/2106916016123170890-archive-org-films-rares-liste.md) (@denziideng)
+- [Astuce avec une serviette pour soulager tensions au cou et aux épaules](../sources/2026/2106610618321277221-etirement-serviette-cou-epaules.md) (@Fred7948)
 - [Stratégies de formats pour mieux comprendre les outputs des LLM](../sources/2026/2105819303471976479-comprendre-outputs-llm-formats.md) (@karpathy)
 - [Ressource virale bookmarkée massivement - à tester ce weekend](../sources/2026/2104689764326863024-guide-populaire-10k-bookmarks.md) (@smbluespace)
 - [Politique officielle d'écriture avec l'IA chez Clay](../sources/2026/2104576879415988453-politique-ecriture-ia-clay.md) (@vxanand)
