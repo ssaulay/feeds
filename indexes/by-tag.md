@@ -2,6 +2,7 @@
 
 ## ai-agents
 
+- [Construire des équipes d'agents GrokBot auto-apprenants](../sources/2026/2107812183702659449-equipes-agents-grokbot-autonomes.md) (@LunarResearcher)
 - [Application de lip reading pour dicter du texte silencieusement](../sources/2026/2105496934672965669-app-lecture-labiale-dictee.md) (@amypretzel)
 - [Claude Code automatise la conception d'évaluations et le hillclimbing](../sources/2026/2104676099083190435-claude-code-eval-design-hillclimbing.md) (@ClaudeDevs)
 - [Jev + Opus 5.5 : une couche de décision légère pour réduire coûts et latence](../sources/2026/2103190313624039620-jev-decision-layer-opus.md) (@Av1dlive)
@@ -86,6 +87,7 @@
 
 ## design
 
+- [Galerie de motion graphics générés par Claude Opus 5.5 avec prompts associés](../sources/2026/2107175720086589633-galerie-motion-graphics-claude-opus.md) (@p4nthera_)
 - [10 skills IA pour améliorer instantanément le design d'une UI](../sources/2026/2102265246325047711-10-skills-ui-plus-belles.md) (@kail_designs)
 - [Qwen Image 2.1 : un modèle de génération d'images peu censuré](../sources/2026/2101802086539329598-qwen-image-2-1-uncensored.md) (@aisearchio)
 - [Aesty simplifie l'onboarding en construisant le dressing depuis la pellicule photo](../sources/2026/2099502353208791428-onboarding-camera-roll-digital-closet.md) (@nestymee)
@@ -96,6 +98,7 @@
 
 ## dev-tools
 
+- [Construire des équipes d'agents GrokBot auto-apprenants](../sources/2026/2107812183702659449-equipes-agents-grokbot-autonomes.md) (@LunarResearcher)
 - [Application de lip reading pour dicter du texte silencieusement](../sources/2026/2105496934672965669-app-lecture-labiale-dictee.md) (@amypretzel)
 - [Claude Code automatise la conception d'évaluations et le hillclimbing](../sources/2026/2104676099083190435-claude-code-eval-design-hillclimbing.md) (@ClaudeDevs)
 - [Jev + Opus 5.5 : une couche de décision légère pour réduire coûts et latence](../sources/2026/2103190313624039620-jev-decision-layer-opus.md) (@Av1dlive)
@@ -190,6 +193,7 @@
 
 ## llm
 
+- [Galerie de motion graphics générés par Claude Opus 5.5 avec prompts associés](../sources/2026/2107175720086589633-galerie-motion-graphics-claude-opus.md) (@p4nthera_)
 - [Stratégies de formats pour mieux comprendre les outputs des LLM](../sources/2026/2105819303471976479-comprendre-outputs-llm-formats.md) (@karpathy)
 - [Claude Code automatise la conception d'évaluations et le hillclimbing](../sources/2026/2104676099083190435-claude-code-eval-design-hillclimbing.md) (@ClaudeDevs)
 - [Politique officielle d'écriture avec l'IA chez Clay](../sources/2026/2104576879415988453-politique-ecriture-ia-clay.md) (@vxanand)
@@ -220,6 +224,7 @@
 
 ## management
 
+- [Construire des équipes d'agents GrokBot auto-apprenants](../sources/2026/2107812183702659449-equipes-agents-grokbot-autonomes.md) (@LunarResearcher)
 - [Politique officielle d'écriture avec l'IA chez Clay](../sources/2026/2104576879415988453-politique-ecriture-ia-clay.md) (@vxanand)
 - [Un discours sur l'équilibre entre nostalgie, lucidité et optimisme](../sources/2026/2103401938058723765-discours-inspirant-souvenirs-realite-futur.md) (@scottstts)
 - [37 erreurs courantes dans la transformation IA des entreprises](../sources/2026/2102763567422251107-37-erreurs-transformation-ia.md) (@businessbarista)
@@ -309,6 +314,7 @@
 
 ## productivity
 
+- [Construire des équipes d'agents GrokBot auto-apprenants](../sources/2026/2107812183702659449-equipes-agents-grokbot-autonomes.md) (@LunarResearcher)
 - [Bibliothèque de 1300+ films rares et épuisés sur Archive.org avec sous-titres](../sources/2026/2106916016123170890-archive-org-films-rares-liste.md) (@denziideng)
 - [Astuce avec une serviette pour soulager tensions au cou et aux épaules](../sources/2026/2106610618321277221-etirement-serviette-cou-epaules.md) (@Fred7948)
 - [Stratégies de formats pour mieux comprendre les outputs des LLM](../sources/2026/2105819303471976479-comprendre-outputs-llm-formats.md) (@karpathy)
@@ -348,6 +354,7 @@
 
 ## prompt-engineering
 
+- [Galerie de motion graphics générés par Claude Opus 5.5 avec prompts associés](../sources/2026/2107175720086589633-galerie-motion-graphics-claude-opus.md) (@p4nthera_)
 - [Stratégies de formats pour mieux comprendre les outputs des LLM](../sources/2026/2105819303471976479-comprendre-outputs-llm-formats.md) (@karpathy)
 - [Prompt unique pour builder un agent avec routage de modèle automatique via Jev](../sources/2026/2100625434773725336-prompt-agent-jev-model-router.md) (@rileybrown)
 - [Prompt pour auto-optimiser sa configuration Codex selon son historique d'usage](../sources/2026/2096910944165146678-prompt-auto-config-codex.md) (@pocarles)

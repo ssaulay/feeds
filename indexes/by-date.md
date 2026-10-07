@@ -1,5 +1,7 @@
 # Index par date
 
+- 2026-10-07 — [Construire des équipes d'agents GrokBot auto-apprenants](../sources/2026/2107812183702659449-equipes-agents-grokbot-autonomes.md) (@LunarResearcher)
+- 2026-10-05 — [Galerie de motion graphics générés par Claude Opus 5.5 avec prompts associés](../sources/2026/2107175720086589633-galerie-motion-graphics-claude-opus.md) (@p4nthera_)
 - 2026-10-05 — [Bibliothèque de 1300+ films rares et épuisés sur Archive.org avec sous-titres](../sources/2026/2106916016123170890-archive-org-films-rares-liste.md) (@denziideng)
 - 2026-10-04 — [Astuce avec une serviette pour soulager tensions au cou et aux épaules](../sources/2026/2106610618321277221-etirement-serviette-cou-epaules.md) (@Fred7948)
 - 2026-10-02 — [Stratégies de formats pour mieux comprendre les outputs des LLM](../sources/2026/2105819303471976479-comprendre-outputs-llm-formats.md) (@karpathy)
