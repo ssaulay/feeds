@@ -3,6 +3,7 @@
 ## ai-agents
 
 - [Construire des équipes d'agents GrokBot auto-apprenants](../sources/2026/2107812183702659449-equipes-agents-grokbot-autonomes.md) (@LunarResearcher)
+- [Cat Wu (Anthropic) : du prompting aux graphes d'agents auto-améliorants](../sources/2026/2107546605721174178-claude-code-agentic-graphs-hype.md) (@ZoriaHartson)
 - [Application de lip reading pour dicter du texte silencieusement](../sources/2026/2105496934672965669-app-lecture-labiale-dictee.md) (@amypretzel)
 - [Claude Code automatise la conception d'évaluations et le hillclimbing](../sources/2026/2104676099083190435-claude-code-eval-design-hillclimbing.md) (@ClaudeDevs)
 - [Jev + Opus 5.5 : une couche de décision légère pour réduire coûts et latence](../sources/2026/2103190313624039620-jev-decision-layer-opus.md) (@Av1dlive)
@@ -99,6 +100,8 @@
 ## dev-tools
 
 - [Construire des équipes d'agents GrokBot auto-apprenants](../sources/2026/2107812183702659449-equipes-agents-grokbot-autonomes.md) (@LunarResearcher)
+- [Build et déploiement d'apps iOS sur l'App Store sans Mac, depuis Linux (Omarchy)](../sources/2026/2107570814036111783-ios-dev-sans-mac-linux.md) (@JoshuaSWarren)
+- [Cat Wu (Anthropic) : du prompting aux graphes d'agents auto-améliorants](../sources/2026/2107546605721174178-claude-code-agentic-graphs-hype.md) (@ZoriaHartson)
 - [Application de lip reading pour dicter du texte silencieusement](../sources/2026/2105496934672965669-app-lecture-labiale-dictee.md) (@amypretzel)
 - [Claude Code automatise la conception d'évaluations et le hillclimbing](../sources/2026/2104676099083190435-claude-code-eval-design-hillclimbing.md) (@ClaudeDevs)
 - [Jev + Opus 5.5 : une couche de décision légère pour réduire coûts et latence](../sources/2026/2103190313624039620-jev-decision-layer-opus.md) (@Av1dlive)
@@ -147,6 +150,7 @@
 
 ## engineering
 
+- [Build et déploiement d'apps iOS sur l'App Store sans Mac, depuis Linux (Omarchy)](../sources/2026/2107570814036111783-ios-dev-sans-mac-linux.md) (@JoshuaSWarren)
 - [Claude Code automatise la conception d'évaluations et le hillclimbing](../sources/2026/2104676099083190435-claude-code-eval-design-hillclimbing.md) (@ClaudeDevs)
 - [Jev + Opus 5.5 : une couche de décision légère pour réduire coûts et latence](../sources/2026/2103190313624039620-jev-decision-layer-opus.md) (@Av1dlive)
 - [Prédictions sur la mort du code review, des tests unitaires et du terminal face aux LLM](../sources/2026/2101367298829271095-predictions-futur-dev-logiciel.md) (@mattshumer_)
@@ -193,6 +197,7 @@
 
 ## llm
 
+- [Cat Wu (Anthropic) : du prompting aux graphes d'agents auto-améliorants](../sources/2026/2107546605721174178-claude-code-agentic-graphs-hype.md) (@ZoriaHartson)
 - [Galerie de motion graphics générés par Claude Opus 5.5 avec prompts associés](../sources/2026/2107175720086589633-galerie-motion-graphics-claude-opus.md) (@p4nthera_)
 - [Stratégies de formats pour mieux comprendre les outputs des LLM](../sources/2026/2105819303471976479-comprendre-outputs-llm-formats.md) (@karpathy)
 - [Claude Code automatise la conception d'évaluations et le hillclimbing](../sources/2026/2104676099083190435-claude-code-eval-design-hillclimbing.md) (@ClaudeDevs)
@@ -246,6 +251,7 @@
 
 ## marketing
 
+- [Cat Wu (Anthropic) : du prompting aux graphes d'agents auto-améliorants](../sources/2026/2107546605721174178-claude-code-agentic-graphs-hype.md) (@ZoriaHartson)
 - [Critique de la performance musicale de Travis Scott malgré des opportunités majeures](../sources/2026/2100561959921778925-travis-scott-gta-vi-critique.md) (@lilrishgi)
 - [Recommandation d'un outil ayant transformé une entreprise (détails non accessibles)](../sources/2026/2086844678486274106-outil-transforme-entreprise-vibemarketer.md) (@jacob_posel)
 - [Construire un SaaS est facile, vendre est ce qui compte vraiment](../sources/2026/2071861350268047571-vendre-saas-contenu-vente.md) (@Tech_babby)
@@ -315,6 +321,7 @@
 ## productivity
 
 - [Construire des équipes d'agents GrokBot auto-apprenants](../sources/2026/2107812183702659449-equipes-agents-grokbot-autonomes.md) (@LunarResearcher)
+- [Build et déploiement d'apps iOS sur l'App Store sans Mac, depuis Linux (Omarchy)](../sources/2026/2107570814036111783-ios-dev-sans-mac-linux.md) (@JoshuaSWarren)
 - [Bibliothèque de 1300+ films rares et épuisés sur Archive.org avec sous-titres](../sources/2026/2106916016123170890-archive-org-films-rares-liste.md) (@denziideng)
 - [Astuce avec une serviette pour soulager tensions au cou et aux épaules](../sources/2026/2106610618321277221-etirement-serviette-cou-epaules.md) (@Fred7948)
 - [Stratégies de formats pour mieux comprendre les outputs des LLM](../sources/2026/2105819303471976479-comprendre-outputs-llm-formats.md) (@karpathy)
