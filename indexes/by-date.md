@@ -1,5 +1,7 @@
 # Index par date
 
+- 2026-10-10 — [Un prompt-harness pour transformer Opus 5.5 en agent qui termine vraiment ses tâches](../sources/2026/2109035317684834669-harness-prompt-claude-opus.md) (@hanakoxbt)
+- 2026-10-09 — [Transformer des cadres photo Amazon à $50 en écrans d'affichage intelligents](../sources/2026/2108550413599265045-hacker-cadres-photo-amazon.md) (@wesbos)
 - 2026-10-07 — [Construire des équipes d'agents GrokBot auto-apprenants](../sources/2026/2107812183702659449-equipes-agents-grokbot-autonomes.md) (@LunarResearcher)
 - 2026-10-06 — [Build et déploiement d'apps iOS sur l'App Store sans Mac, depuis Linux (Omarchy)](../sources/2026/2107570814036111783-ios-dev-sans-mac-linux.md) (@JoshuaSWarren)
 - 2026-10-06 — [Cat Wu (Anthropic) : du prompting aux graphes d'agents auto-améliorants](../sources/2026/2107546605721174178-claude-code-agentic-graphs-hype.md) (@ZoriaHartson)

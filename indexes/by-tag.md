@@ -2,6 +2,8 @@
 
 ## ai-agents
 
+- [Un prompt-harness pour transformer Opus 5.5 en agent qui termine vraiment ses tâches](../sources/2026/2109035317684834669-harness-prompt-claude-opus.md) (@hanakoxbt)
+- [Transformer des cadres photo Amazon à $50 en écrans d'affichage intelligents](../sources/2026/2108550413599265045-hacker-cadres-photo-amazon.md) (@wesbos)
 - [Construire des équipes d'agents GrokBot auto-apprenants](../sources/2026/2107812183702659449-equipes-agents-grokbot-autonomes.md) (@LunarResearcher)
 - [Cat Wu (Anthropic) : du prompting aux graphes d'agents auto-améliorants](../sources/2026/2107546605721174178-claude-code-agentic-graphs-hype.md) (@ZoriaHartson)
 - [Application de lip reading pour dicter du texte silencieusement](../sources/2026/2105496934672965669-app-lecture-labiale-dictee.md) (@amypretzel)
@@ -99,6 +101,8 @@
 
 ## dev-tools
 
+- [Un prompt-harness pour transformer Opus 5.5 en agent qui termine vraiment ses tâches](../sources/2026/2109035317684834669-harness-prompt-claude-opus.md) (@hanakoxbt)
+- [Transformer des cadres photo Amazon à $50 en écrans d'affichage intelligents](../sources/2026/2108550413599265045-hacker-cadres-photo-amazon.md) (@wesbos)
 - [Construire des équipes d'agents GrokBot auto-apprenants](../sources/2026/2107812183702659449-equipes-agents-grokbot-autonomes.md) (@LunarResearcher)
 - [Build et déploiement d'apps iOS sur l'App Store sans Mac, depuis Linux (Omarchy)](../sources/2026/2107570814036111783-ios-dev-sans-mac-linux.md) (@JoshuaSWarren)
 - [Cat Wu (Anthropic) : du prompting aux graphes d'agents auto-améliorants](../sources/2026/2107546605721174178-claude-code-agentic-graphs-hype.md) (@ZoriaHartson)
@@ -150,6 +154,8 @@
 
 ## engineering
 
+- [Un prompt-harness pour transformer Opus 5.5 en agent qui termine vraiment ses tâches](../sources/2026/2109035317684834669-harness-prompt-claude-opus.md) (@hanakoxbt)
+- [Transformer des cadres photo Amazon à $50 en écrans d'affichage intelligents](../sources/2026/2108550413599265045-hacker-cadres-photo-amazon.md) (@wesbos)
 - [Build et déploiement d'apps iOS sur l'App Store sans Mac, depuis Linux (Omarchy)](../sources/2026/2107570814036111783-ios-dev-sans-mac-linux.md) (@JoshuaSWarren)
 - [Claude Code automatise la conception d'évaluations et le hillclimbing](../sources/2026/2104676099083190435-claude-code-eval-design-hillclimbing.md) (@ClaudeDevs)
 - [Jev + Opus 5.5 : une couche de décision légère pour réduire coûts et latence](../sources/2026/2103190313624039620-jev-decision-layer-opus.md) (@Av1dlive)
@@ -361,6 +367,7 @@
 
 ## prompt-engineering
 
+- [Un prompt-harness pour transformer Opus 5.5 en agent qui termine vraiment ses tâches](../sources/2026/2109035317684834669-harness-prompt-claude-opus.md) (@hanakoxbt)
 - [Galerie de motion graphics générés par Claude Opus 5.5 avec prompts associés](../sources/2026/2107175720086589633-galerie-motion-graphics-claude-opus.md) (@p4nthera_)
 - [Stratégies de formats pour mieux comprendre les outputs des LLM](../sources/2026/2105819303471976479-comprendre-outputs-llm-formats.md) (@karpathy)
 - [Prompt unique pour builder un agent avec routage de modèle automatique via Jev](../sources/2026/2100625434773725336-prompt-agent-jev-model-router.md) (@rileybrown)
