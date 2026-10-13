@@ -2,6 +2,7 @@
 
 ## ai-agents
 
+- [Demis Hassabis sur l'IA comme accélérateur de la découverte scientifique](../sources/2026/2109711120441229627-ia-accelerateur-decouverte-scientifique.md) (@BetterCallMedhi)
 - [Un prompt-harness pour transformer Opus 5.5 en agent qui termine vraiment ses tâches](../sources/2026/2109035317684834669-harness-prompt-claude-opus.md) (@hanakoxbt)
 - [Transformer des cadres photo Amazon à $50 en écrans d'affichage intelligents](../sources/2026/2108550413599265045-hacker-cadres-photo-amazon.md) (@wesbos)
 - [Construire des équipes d'agents GrokBot auto-apprenants](../sources/2026/2107812183702659449-equipes-agents-grokbot-autonomes.md) (@LunarResearcher)
@@ -154,6 +155,7 @@
 
 ## engineering
 
+- [Demis Hassabis sur l'IA comme accélérateur de la découverte scientifique](../sources/2026/2109711120441229627-ia-accelerateur-decouverte-scientifique.md) (@BetterCallMedhi)
 - [Un prompt-harness pour transformer Opus 5.5 en agent qui termine vraiment ses tâches](../sources/2026/2109035317684834669-harness-prompt-claude-opus.md) (@hanakoxbt)
 - [Transformer des cadres photo Amazon à $50 en écrans d'affichage intelligents](../sources/2026/2108550413599265045-hacker-cadres-photo-amazon.md) (@wesbos)
 - [Build et déploiement d'apps iOS sur l'App Store sans Mac, depuis Linux (Omarchy)](../sources/2026/2107570814036111783-ios-dev-sans-mac-linux.md) (@JoshuaSWarren)
@@ -382,6 +384,7 @@
 
 ## startup
 
+- [Demis Hassabis sur l'IA comme accélérateur de la découverte scientifique](../sources/2026/2109711120441229627-ia-accelerateur-decouverte-scientifique.md) (@BetterCallMedhi)
 - [JEV : la promesse d'une ère post-RLHF pour les LLM sans humain dans la boucle](../sources/2026/2101294219633529030-jev-post-rlhf-llm-era.md) (@0xCodez)
 - [Aristotle : un tuteur IA vocal qui privilégie l'apprentissage à la réponse directe](../sources/2026/2100280703825137932-aristotle-ai-tutor-vocal.md) (@rshanreddy)
 - [Lancement de Jev : un modèle IA frontier optimisé pour les décisions via RLCD](../sources/2026/2099925682726002904-jev-nouveau-modele-ia-rlcd.md) (@CompleteSkeptic)
