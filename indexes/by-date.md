@@ -1,5 +1,8 @@
 # Index par date
 
+- 2026-10-14 — [Le Petit Prince en 3D généré par IA (Opus 5.5, Tripo, Blender) bientôt open source](../sources/2026/2110229958333493522-petit-prince-3d-ai-oss.md) (@studio_yebisu)
+- 2026-10-14 — [Démo d'un outil/projet à la qualité surprenante (contenu visuel non détaillé)](../sources/2026/2110193585006240201-demo-qualite-impressionnante-studio-yebisu.md) (@mi_fits)
+- 2026-10-13 — [mkdir.directory - Annuaire curé de sites d'inspiration design](../sources/2026/2110122317384687749-annuaire-inspiration-design-web.md) (@edo_lunardi)
 - 2026-10-12 — [Demis Hassabis sur l'IA comme accélérateur de la découverte scientifique](../sources/2026/2109711120441229627-ia-accelerateur-decouverte-scientifique.md) (@BetterCallMedhi)
 - 2026-10-10 — [Un prompt-harness pour transformer Opus 5.5 en agent qui termine vraiment ses tâches](../sources/2026/2109035317684834669-harness-prompt-claude-opus.md) (@hanakoxbt)
 - 2026-10-09 — [Transformer des cadres photo Amazon à $50 en écrans d'affichage intelligents](../sources/2026/2108550413599265045-hacker-cadres-photo-amazon.md) (@wesbos)

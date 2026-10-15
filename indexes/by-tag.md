@@ -2,6 +2,8 @@
 
 ## ai-agents
 
+- [Le Petit Prince en 3D généré par IA (Opus 5.5, Tripo, Blender) bientôt open source](../sources/2026/2110229958333493522-petit-prince-3d-ai-oss.md) (@studio_yebisu)
+- [Démo d'un outil/projet à la qualité surprenante (contenu visuel non détaillé)](../sources/2026/2110193585006240201-demo-qualite-impressionnante-studio-yebisu.md) (@mi_fits)
 - [Demis Hassabis sur l'IA comme accélérateur de la découverte scientifique](../sources/2026/2109711120441229627-ia-accelerateur-decouverte-scientifique.md) (@BetterCallMedhi)
 - [Un prompt-harness pour transformer Opus 5.5 en agent qui termine vraiment ses tâches](../sources/2026/2109035317684834669-harness-prompt-claude-opus.md) (@hanakoxbt)
 - [Transformer des cadres photo Amazon à $50 en écrans d'affichage intelligents](../sources/2026/2108550413599265045-hacker-cadres-photo-amazon.md) (@wesbos)
@@ -91,6 +93,8 @@
 
 ## design
 
+- [Le Petit Prince en 3D généré par IA (Opus 5.5, Tripo, Blender) bientôt open source](../sources/2026/2110229958333493522-petit-prince-3d-ai-oss.md) (@studio_yebisu)
+- [mkdir.directory - Annuaire curé de sites d'inspiration design](../sources/2026/2110122317384687749-annuaire-inspiration-design-web.md) (@edo_lunardi)
 - [Galerie de motion graphics générés par Claude Opus 5.5 avec prompts associés](../sources/2026/2107175720086589633-galerie-motion-graphics-claude-opus.md) (@p4nthera_)
 - [10 skills IA pour améliorer instantanément le design d'une UI](../sources/2026/2102265246325047711-10-skills-ui-plus-belles.md) (@kail_designs)
 - [Qwen Image 2.1 : un modèle de génération d'images peu censuré](../sources/2026/2101802086539329598-qwen-image-2-1-uncensored.md) (@aisearchio)
@@ -102,6 +106,7 @@
 
 ## dev-tools
 
+- [Le Petit Prince en 3D généré par IA (Opus 5.5, Tripo, Blender) bientôt open source](../sources/2026/2110229958333493522-petit-prince-3d-ai-oss.md) (@studio_yebisu)
 - [Un prompt-harness pour transformer Opus 5.5 en agent qui termine vraiment ses tâches](../sources/2026/2109035317684834669-harness-prompt-claude-opus.md) (@hanakoxbt)
 - [Transformer des cadres photo Amazon à $50 en écrans d'affichage intelligents](../sources/2026/2108550413599265045-hacker-cadres-photo-amazon.md) (@wesbos)
 - [Construire des équipes d'agents GrokBot auto-apprenants](../sources/2026/2107812183702659449-equipes-agents-grokbot-autonomes.md) (@LunarResearcher)
@@ -270,6 +275,7 @@
 
 ## misc
 
+- [Démo d'un outil/projet à la qualité surprenante (contenu visuel non détaillé)](../sources/2026/2110193585006240201-demo-qualite-impressionnante-studio-yebisu.md) (@mi_fits)
 - [Bibliothèque de 1300+ films rares et épuisés sur Archive.org avec sous-titres](../sources/2026/2106916016123170890-archive-org-films-rares-liste.md) (@denziideng)
 - [Astuce avec une serviette pour soulager tensions au cou et aux épaules](../sources/2026/2106610618321277221-etirement-serviette-cou-epaules.md) (@Fred7948)
 - [Post sans contenu exploitable pour la bibliothèque](../sources/2026/2104713168496791982-post-sans-valeur-informative.md) (@CaudilloXIV)
@@ -302,6 +308,7 @@
 
 ## product
 
+- [Démo d'un outil/projet à la qualité surprenante (contenu visuel non détaillé)](../sources/2026/2110193585006240201-demo-qualite-impressionnante-studio-yebisu.md) (@mi_fits)
 - [Application de lip reading pour dicter du texte silencieusement](../sources/2026/2105496934672965669-app-lecture-labiale-dictee.md) (@amypretzel)
 - [37 erreurs courantes dans la transformation IA des entreprises](../sources/2026/2102763567422251107-37-erreurs-transformation-ia.md) (@businessbarista)
 - [Prédictions sur la mort du code review, des tests unitaires et du terminal face aux LLM](../sources/2026/2101367298829271095-predictions-futur-dev-logiciel.md) (@mattshumer_)
@@ -328,6 +335,7 @@
 
 ## productivity
 
+- [mkdir.directory - Annuaire curé de sites d'inspiration design](../sources/2026/2110122317384687749-annuaire-inspiration-design-web.md) (@edo_lunardi)
 - [Construire des équipes d'agents GrokBot auto-apprenants](../sources/2026/2107812183702659449-equipes-agents-grokbot-autonomes.md) (@LunarResearcher)
 - [Build et déploiement d'apps iOS sur l'App Store sans Mac, depuis Linux (Omarchy)](../sources/2026/2107570814036111783-ios-dev-sans-mac-linux.md) (@JoshuaSWarren)
 - [Bibliothèque de 1300+ films rares et épuisés sur Archive.org avec sous-titres](../sources/2026/2106916016123170890-archive-org-films-rares-liste.md) (@denziideng)
