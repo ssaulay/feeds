@@ -25,12 +25,17 @@ information pertinente :
 - **Lien raccourci non résolu** : un post ne contenant qu'un lien t.co dont
   le contenu n'a pas pu être récupéré, sans texte ni contexte associé (auteur
   non identifié).
+- **Annonce sans contenu substantiel** : un post annonçant une diffusion en
+  direct d'une manifestation à Paris le 17 octobre, servant uniquement de
+  signal pour un live stream, sans information sur le contexte ou les
+  revendications de l'événement (auteur non identifié).
 
 Limite connue du pipeline : ni le contenu porté uniquement par un média, ni
 les pages nécessitant un rendu JavaScript côté client, ni les liens raccourcis
 non résolus ne sont captés. À cela s'ajoutent des posts dénués de toute valeur
-informationnelle (contenu personnel hors thématiques couvertes), qui ne
-relèvent pas d'une limite technique mais d'une absence de pertinence pour la
+informationnelle (contenu personnel hors thématiques couvertes, simples
+annonces d'événement sans détails), qui ne relèvent pas d'une limite
+technique mais d'une absence de pertinence ou de substance pour la
 bibliothèque.
 
 ### Sport et solidarité face au terrorisme
@@ -99,6 +104,7 @@ Enseignements :
 
 ## Sources
 
+- [Annonce de couverture en direct d'une manifestation à Paris](../sources/2026/2111539814109721068-manifestation-paris-17-octobre.md)
 - [Bibliothèque de 1300+ films rares et épuisés sur Archive.org avec sous-titres](../sources/2026/2106916016123170890-archive-org-films-rares-liste.md)
 - [Post sans contenu exploitable pour la bibliothèque](../sources/2026/2104713168496791982-post-sans-valeur-informative.md)
 - [Recommandation de série : Your Friends & Neighbors sur Apple TV](../sources/2026/2104595184969568537-your-friends-neighbors-apple-tv.md)

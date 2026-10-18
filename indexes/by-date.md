@@ -1,5 +1,6 @@
 # Index par date
 
+- 2026-10-17 — [Annonce de couverture en direct d'une manifestation à Paris](../sources/2026/2111539814109721068-manifestation-paris-17-octobre.md) (@BGOnTheScene)
 - 2026-10-14 — [Le Petit Prince en 3D généré par IA (Opus 5.5, Tripo, Blender) bientôt open source](../sources/2026/2110229958333493522-petit-prince-3d-ai-oss.md) (@studio_yebisu)
 - 2026-10-14 — [Démo d'un outil/projet à la qualité surprenante (contenu visuel non détaillé)](../sources/2026/2110193585006240201-demo-qualite-impressionnante-studio-yebisu.md) (@mi_fits)
 - 2026-10-13 — [mkdir.directory - Annuaire curé de sites d'inspiration design](../sources/2026/2110122317384687749-annuaire-inspiration-design-web.md) (@edo_lunardi)

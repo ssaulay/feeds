@@ -275,6 +275,7 @@
 
 ## misc
 
+- [Annonce de couverture en direct d'une manifestation à Paris](../sources/2026/2111539814109721068-manifestation-paris-17-octobre.md) (@BGOnTheScene)
 - [Démo d'un outil/projet à la qualité surprenante (contenu visuel non détaillé)](../sources/2026/2110193585006240201-demo-qualite-impressionnante-studio-yebisu.md) (@mi_fits)
 - [Bibliothèque de 1300+ films rares et épuisés sur Archive.org avec sous-titres](../sources/2026/2106916016123170890-archive-org-films-rares-liste.md) (@denziideng)
 - [Astuce avec une serviette pour soulager tensions au cou et aux épaules](../sources/2026/2106610618321277221-etirement-serviette-cou-epaules.md) (@Fred7948)
